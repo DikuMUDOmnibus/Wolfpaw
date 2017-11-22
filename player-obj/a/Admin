@@ -1,0 +1,74 @@
+#OBJECT
+Immortal	YES!~
+Vnum         25511
+Values       50 50 0 0 0 0
+End
+
+#OBJECT
+Immortal	YES!~
+Vnum         25510
+Values       50 50 50 50 0 0
+End
+
+#OBJECT
+Immortal	YES!~
+Vnum         25512
+Values       50 50 0 0 0 0
+End
+
+#OBJECT
+Immortal	YES!~
+Vnum         25513
+Values       50 50 0 0 0 0
+End
+
+#OBJECT
+Immortal	YES!~
+Vnum         25514
+Values       50 50 0 0 0 0
+End
+
+#OBJECT
+Immortal	YES!~
+Vnum         25515
+Values       50 50 0 0 0 0
+End
+
+#OBJECT
+Immortal	YES!~
+Vnum         25516
+Values       10 10 0 0 0 0
+End
+
+#OBJECT
+Immortal	YES!~
+Vnum         25518
+Values       50 50 0 0 0 0
+End
+
+#OBJECT
+Immortal	YES!~
+Vnum         25519
+Values       50 50 0 0 0 0
+End
+
+#OBJECT
+Immortal	YES!~
+Count        2
+Vnum         25520
+Values       50 50 0 0 0 0
+End
+
+#OBJECT
+Immortal	YES!~
+Vnum         25505
+Values       0 0 -1 0 0 0
+End
+
+#OBJECT
+Immortal	YES!~
+Vnum         25508
+Values       12 10 400 11 0 0
+End
+
+#END

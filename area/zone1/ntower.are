@@ -1,0 +1,1444 @@
+#AREA   Newbie Training Tower~
+
+
+
+#VERSION 2 AV-2-TXT-ZC~
+
+#MAPFILE None~
+
+#AUTHOR Dhamon~
+
+#RANGES
+0 67 0 67
+$
+
+#FLAGS
+32 1 0 0
+
+#CLUB None~
+
+#ECONOMY 0 54242114
+
+#MOBILES
+#30001
+giant worm~
+the giant worm~
+A giant worm is here writhing and squirming.
+~
+This vile creature is pale white and about 3 feet long. You look at it and
+nearly vomit. Kill it now!
+~
+Gayle~
+Fri Dec  3 03:47:48 1999~
+3 0 0 C 0 0
+3 0 0 2d2+10 3d3+0
+0 0
+8 8 1
+12 13 13 13 13 13 13
+0 0 0 0 0
+89 3 0 0 1 1 1
+2 0 70657 0 0 0 4 0
+#30002
+small goblin~
+A goblin~
+A small goblin is here chewing on his toe nails.
+~
+A short green-skinned creature with beady black eyes and tattered unwashed
+clothes. He meets you gaze menacingly and prepares to attack.
+~
+Gayle~
+Fri Dec  3 03:48:22 1999~
+3 0 0 C 0 0
+4 0 6 1d12+35 1d5+0
+100 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 1
+3 0 1268 0 0 0 0 0
+#30003
+imp~
+An imp~
+An imp is here giggling at you.
+~
+A tiny, skinny little fellow with a pointy ears and nose. He's covered in 
+mud and dirt. Right now he's making a rather obscene gesture at you with his
+fingers.
+~
+Gayle~
+Fri Dec  3 03:49:18 1999~
+3 0 0 C 0 0
+5 0 2 5d5+50 2d4+0
+200 0
+8 8 0
+13 13 13 15 13 13 13
+0 0 0 0 0
+89 3 0 0 1 1 1
+3 1 574 0 0 0 0 0
+#30004
+gnoll~
+A gnoll~
+A gnoll is here growling at you.
+~
+It's about six and a half feet tall, well muscled and covered in mangy fur.
+He's pointing a small spear menacingly at you.
+~
+Gayle~
+Fri Dec  3 03:50:11 1999~
+3 0 0 C 0 0
+6 0 -1 6d5+55 1d5+1
+179 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+37 3 0 0 1 1 1
+0 1 33621047 0 0 0 0 0
+#30005
+orc~
+An orc~
+An orc is here trying to sleep.
+~
+An overweight green-skinned killer, orc like him have used superior numbers
+to crush many humanoid empires. Time to even the score and take out a few of
+these slimey guys.
+~
+Gayle~
+Fri Dec  3 03:50:56 1999~
+3 0 0 C 0 0
+7 0 0 7d7+65 2d3+1
+315 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 3 0 0 1 1 1
+0 2 1266 0 0 0 0 0
+#30006
+bugbear~
+A bugbear~
+A bugbear is here looking menacing.
+~
+It looks like a huge bear with an almost orcish face. Whatever it is it 
+doesn't smell to good and by the way it's staring at you it seems to be 
+hungry.
+~
+Gayle~
+Fri Dec  3 03:52:43 1999~
+3 0 0 C 0 0
+8 0 0 8d8+75 2d4+0
+341 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+28 3 0 0 1 1 1
+0 0 1060 0 0 0 0 0
+#30007
+gargoyle~
+A gargoyle~
+A gargoyle is standing here completely still.
+~
+Carved into black stone this golem is truly a work of art. It sits 
+completely still and you could not tell that it is alive if it's eyes
+did not continualy scan the room in such of it's prey.
+~
+Gayle~
+Fri Dec  3 03:53:42 1999~
+3 0 0 C 0 0
+9 0 0 9d8+85 3d2+2
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 363526 0 0 0 2 0
+#30008
+lizard man lizardman~
+The lizard~
+An enormous lizard lies here attempting to keep warm.
+~
+It's almost 10 feet long and at least three feet wide. It's skin is a dull 
+grey color and it has huge teeth which are currently being brought alarmingly
+close to your head.
+~
+Gayle~
+Fri Dec  3 03:54:51 1999~
+1 0 0 C 0 0
+10 0 0 2d5+100 5d0+2
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1 1 1
+0 2 268501046 0 0 0 1 0
+#30009
+troll~
+a troll~
+A green troll is here picking his nose.
+~
+An ugly fellow with a horribly scarred face and a pair of big fists.
+Trolls are well known for their nasty habit of capturing their enemys and
+consuming them while they are still alive.
+~
+Gayle~
+Fri Dec  3 03:55:33 1999~
+3 0 0 C 0 0
+11 0 0 10d11+105 3d3+2
+428 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 3 1057 0 0 0 0 0
+#30010
+draconian~
+the draconian~
+A blue scaled draconian is here.
+~
+He's a cross between a dragon and a man. He stands six feet tall and his
+leathery wings poke out of his armor. His eyes gleam as he prepares to cast
+a fatal spell upon you.
+~
+Gayle~
+Fri Dec  3 03:56:23 1999~
+3 0 0 C 0 0
+12 0 0 12d12+120 4d2+4
+530 0
+8 8 0
+13 13 13 18 13 13 13
+0 0 0 0 0
+31 3 0 0 1 1 1
+0 3 459839 0 0 0 268435458 0
+#30011
+wilheim~
+Wilheim~
+Wilheim, master of this tower, is here to teach you.
+~
+Wilheim is long retired from adventuring himself but has built this tower so
+young adventurers can come and sharpen their skills.
+~
+Unknown~
+Unknown~
+1027 0 0 C 0 0
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 5
+50 50 0 0 0 0 0 256
+#30012
+george steelforge~
+Steelforge~
+Steelforge is here working some iron.
+~
+He is a tall well muscled man with no hair on his head and one eye covered
+by a patch. His life's work is repairing the weapons and armor that happen
+to break during adventures.
+~
+Unknown~
+Unknown~
+3 0 0 S 0 0
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#0
+
+
+#OBJECTS
+#30001
+creation board~
+the creation board~
+The Creation Board hovers here.~
+~
+Unknown~
+Unknown~
+13 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30002
+slice of bread~
+a slice of bread~
+A piece of stale bread lies here.~
+~
+Unknown~
+Unknown~
+19 0 1 2 0 0 0 0 0 0 0
+30 0 0 0
+1 10 1
+#30003
+small spear~
+a small spear~
+A small spear lies here.~
+~
+Unknown~
+Unknown~
+5 0 8193 2 0 0 0 0 0 0 0
+12 19 51 2
+5 33 3
+A
+18 1
+#30004
+leather jacket~
+a leather jacket~
+A black leather jecket has been left here.~
+~
+Unknown~
+Unknown~
+9 0 9 2 0 0 0 0 0 0 0
+7 7 0 0
+9 0 0
+A
+19 1
+#30005
+lizard skin boots~
+a pair of lizard skin boots~
+A pair of lizard hide boots sit here.~
+~
+Unknown~
+Unknown~
+9 64 65 0 0 0 0 0 0 0 0
+7 8 0 0
+2 0 0
+A
+1 1
+A
+18 2
+#30006
+key~
+a small iron key~
+A small iron key lies on the ground here.~
+~
+Unknown~
+Unknown~
+18 0 1 2 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30007
+grey mold~
+some grey mold~
+A grey mold is growing here.~
+~
+Unknown~
+Unknown~
+26 64 1 2 0 0 0 0 0 0 0
+20 16 -1 -1
+1 0 0
+#30008
+fridge~
+the fridge~
+A small fridge sits here keeping Dhamon's drinks cold.~
+~
+Unknown~
+Unknown~
+15 0 1 0 0 0 0 0 0 0 0
+200 0 0 0
+1 0 0
+#30009
+dr dr. pepper can~
+a can of Dr Pepper~
+A cool, refreshing can of Doctor P lies here.~
+~
+Unknown~
+Unknown~
+10 0 16385 2 0 0 0 0 0 0 0
+55 28 36 -1
+1 0 0
+A
+2 1
+#30010
+lizard skin belt~
+a lizard skin belt~
+A coil of lizard skin lies here.~
+~
+Unknown~
+Unknown~
+9 64 2049 2 0 0 0 0 0 0 0
+4 4 0 0
+4 400 40
+A
+1 1
+#30011
+boots of striding~
+boots of striding~
+A pair of magical boots rest here.~
+~
+Unknown~
+Unknown~
+9 0 65 2 0 0 0 0 0 0 0
+2 2 0 0
+5 0 0
+A
+26 32768
+#30012
+tree~
+a tree~
+~
+~
+Unknown~
+Unknown~
+15 0 0 0 0 0 0 0 0 0 0
+2 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#30001
+On A Path Through The Forest~
+You stand on an old and well worn path cut throught the thick forrests 
+surrounding town. To the north lies the city of Midgaard and to the west the
+trail continues as far as you can see.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D3
+~
+~
+0 -1 30002
+D5
+~
+~
+0 -1 7841
+S
+#30002
+On A Well Used Path Through The Forest~
+You  stand on and old and frequently traveled path the cuts through the thick
+forrests surrounding you. You can see all manner of footprints dug into the
+ground you're walking on and thick foilage prevents you from leaving the
+path. To the east you here the sounds of a busy town and to the west the
+silence of nature.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 30001
+D3
+~
+~
+0 -1 30003
+S
+#30003
+On A Well Used Path Through The Forest~
+You stand on and old and frequently traveled path the cuts through the thick
+forrests surrounding you. You can see all manner of footprints dug into the
+ground you're walking on. The path continues to the east and west while to 
+the south is the home and workshop of George Steelforge.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 30002
+D2
+~
+~
+0 -1 30052
+D3
+~
+~
+0 -1 30004
+S
+#30004
+On A Well Used Path Through The Forest~
+You stand on and old and frequently traveled path the cuts through the thick
+forrests surrounding you. You can see all manner of footprints dug into the
+ground you're walking on and thick foilage prevents you from leaving the
+trail. You hear the calling of an exotic bird and look up to try and locate
+it's source. The path continues east and west as far as the eye can see.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 30003
+D3
+~
+~
+0 -1 30005
+S
+#30005
+On A Well Used Path Through The Forest~
+You stand on and old and frequently traveled path the cuts through the thick
+trees surrounding you. Aside from the interesting molds growing here this is
+just like the rest of the path which branches off to the south here and heads
+towards a tall tower. To the north, you see another forest off in the distance.
+~
+~
+Winter~
+Sun Apr 16 22:04:20 2000~
+0 0 1 0
+D0
+~
+~
+0 -1 5610
+D1
+~
+~
+0 -1 30004
+D2
+~
+~
+0 -1 30006
+S
+#30006
+On A Path Leading To The Training Tower~
+You stand on a path that breaks away from the main trail to your north and
+leads towards a massive grey tower that points out over the trees.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 30005
+D2
+~
+~
+0 -1 30007
+S
+#30007
+At The Entrance To The Training Tower~
+You stand before a wooden door that enters into Wilheims Traingin Tower a
+place for inexperienced adventurers to come and sharpen their skills with 
+sword and spell.
+~
+~
+Unknown~
+Unknown~
+0 4 1 0
+D0
+~
+~
+0 -1 30006
+D2
+~
+~
+1 -1 30008
+S
+#30008
+The Base Of Wilheim's Tower~
+You stand at the base of an eleven floor tower filled with creatures summoned
+by great magics that exist only to meet death at the hand of a brave 
+adventurer such as yourself. A stair case to the south will lead you to the
+first level of monstrosities and you can exit the tower to the north.
+A large sign demands your attention.
+~
+~
+Unknown~
+Unknown~
+0 1024 1 0
+D0
+~
+~
+1 -1 30007
+D2
+~
+~
+0 -1 30009
+E
+sign~
+The mobs of this area are intended for players of levels 1 to 10.
+ 
+Higher level players however, maybe interested in the rumour that Wilheim
+keeps a portal to Mega-City One at the top of his tower.
+~
+S
+#30009
+The Base Of The Staircase.~
+You are at the bottom of the stone stairs leading up into the first level
+of Wilheim's Training Tower.
+~
+~
+Unknown~
+Unknown~
+0 3146752 1 0
+D0
+~
+~
+0 -1 30008
+D4
+~
+~
+0 -1 30010
+D5
+~
+~
+3 -1 30034
+S
+#30010
+The Staircase On The Second Floor~
+You stand on the stone steps of the second floor staircase. The stairs 
+continue upward and downward and to the north is a large room filled with
+weak monsters.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 30011
+D4
+~
+~
+0 -1 30012
+D5
+~
+~
+0 -1 30009
+S
+#30011
+The Second Floor Arena~
+You stand in a large unfurnished stone room with what appears to be a portal
+near the ceiling through which monsters periodicaly fall and fill up the
+arena.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 30045
+D2
+~
+~
+0 -1 30010
+D3
+~
+~
+0 -1 30044
+S
+#30012
+The Staircase On The Third Floor~
+You stand upon the stairs on the third floor of the tower. The stairway 
+continues above and below you and to the north is the third flrr's arena.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 30013
+D4
+~
+~
+0 -1 30014
+D5
+~
+~
+0 -1 30010
+S
+#30013
+Third Floor Arena~
+You stand in a large unfurnished stone room with what appears to be a portal
+near the ceiling through which monsters periodicaly fall and fill up the
+arena.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 30046
+D2
+~
+~
+0 -1 30012
+D3
+~
+~
+0 -1 30037
+S
+#30014
+The Staircase On The Fourth Floor~
+You stand upon the stairs of the fourth floor of Wilheim's Training Tower.
+The stone steps lead up and down and a doorway to the north opens into the
+fourth floor arena.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 30015
+D4
+~
+~
+0 -1 30016
+D5
+~
+~
+0 -1 30012
+S
+#30015
+Fourth Floor Arena~
+You stand in a large unfurnished stone room with what appears to be a portal
+near the ceiling through which monsters periodicaly fall and fill up the
+room.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 30048
+D2
+~
+~
+0 -1 30014
+D3
+~
+~
+1 -1 30038
+S
+#30016
+The Fifth Floor~
+You stand upon the stairway on the fifth floor of this colossal tower. The 
+stairway continues up and down and a doorway leads north into the arena.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+1 -1 30017
+D1
+~
+~
+3 -1 30015
+D4
+~
+~
+0 -1 30018
+D5
+~
+~
+0 -1 30014
+S
+#30017
+The Arena On The Fifth Floor~
+You stand in a large unfurnished stone room with what appears to be a portal
+hovering by the ceiling through which creatures periodicaly fall and fill
+this room.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 30049
+D2
+~
+~
+0 -1 30016
+D3
+~
+~
+0 -1 30039
+S
+#30018
+The Sixth Floor~
+You stand upon the stairway on the sixth elevation of this giant building
+of Wilheim's. The stone stairs continue upwards and below you while an open
+doorway leads to the sixth arena.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 30019
+D4
+~
+~
+0 -1 30020
+D5
+~
+~
+0 -1 30016
+S
+#30019
+The Arena Of The Sixth Floor~
+You are in an unferbished room with fresh blood stains marking the floor and
+windowless walls. Strange monstrosities drop from a blue portal hovering 
+above your head.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 30050
+D2
+~
+~
+0 -1 30018
+D3
+~
+~
+0 -1 30040
+S
+#30020
+The Seventh Floor~
+You stand upon the stairway on the seventh floor of this monstrous tower.
+The steps continue above and below you and a doorway to the north leads into
+the seventh floor's arena.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+1 -1 30021
+D4
+~
+~
+0 -1 30022
+D5
+~
+~
+0 -1 30018
+S
+#30021
+Arena Seven~
+You are in an unferbished room with fresh blood stains marking the floor and
+windowless walls. Strange monstrosities drop from a blue portal hovering
+above your head.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 30041
+D2
+~
+~
+0 -1 30020
+D3
+~
+~
+0 -1 30051
+S
+#30022
+The 8th Floor~
+You stand on a set of stone stairs leading what seems like forever upward
+along the height of Wilheim's Training Tower. To the north is this floor's
+battle arena while the stairs continue in both directions.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+1 -1 30023
+D4
+~
+~
+0 -1 30024
+D5
+~
+~
+0 -1 30020
+S
+#30023
+The Arena Of The 8th Floor~
+You are in an unferbished room with fresh blood stains marking the floor and
+windowless walls. Strange monstrosities drop from a blue portal hovering
+above your head.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 30042
+D2
+~
+~
+1 -1 30022
+S
+#30024
+The Ninth Floor~
+You stand upon a set of stone stairs leading what seems like forever upward
+towards the top of the Training Tower. To the north is the ninth arena and
+above and below you are more stairs.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 30025
+D4
+~
+~
+0 -1 30026
+D5
+~
+~
+0 -1 30022
+S
+#30025
+Ninth Arena~
+You are in an unferbished room with fresh blood stains marking the floor and
+windowless walls. Strange monstrosities drop from a blue portal hovering
+above your head.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 30043
+D2
+~
+~
+0 -1 30024
+S
+#30026
+The Tenth Floor~
+You are standing on a flight of stone steps that run up and down Wilheim's
+Tower. To your north is the tenth arena, below you are more stairs and above
+your head is the end of the stairway.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 30027
+D4
+~
+~
+0 -1 30028
+D5
+~
+~
+0 -1 30024
+S
+#30027
+The Tenth Floor's Arena~
+You are in an unferbished room with fresh blood stains marking the floor and
+windowless walls. Strange monstrosities drop from a blue portal hovering
+above your head.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D2
+~
+~
+1 -1 30026
+S
+#30028
+The End Of The Staircase~
+You are standing on the eleventh floor of Wilheim's Training Tower a massive
+fortification created my Wilheim to be a starting point for young 
+adventurers. To the north is a large caged room from which harsh growling 
+sounds are eminating and below you the stairs lead back to the base of the
+tower.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 30029
+D5
+~
+~
+0 -1 30026
+S
+#30029
+The Eleventh Arena~
+You are in an unferbished room with fresh blood stains marking the floor and
+windowless walls. Strange monstrosities drop from a blue portal hovering
+above your head. To your south is the staircase and to your north is the
+locked door to the teleportation room.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+door~
+7 30006 30032
+D2
+~
+~
+0 -1 30028
+S
+#30030
+A Secret Passageway~
+You are in a hall secreted in Wilheim's Tower. To the west is Dhamon's office
+and to the east is the builders' meeting hall.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 30033
+D3
+~
+~
+1 -1 30031
+S
+#30031
+Dhamon's Office~
+You are in the small but comfertable room that is Dhamon's office. The walls
+are entirely made of windows and because of the rooms location at the top of
+the tower you can see the whole MUD from here.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+1 -1 30030
+S
+#30032
+The Teleporter~
+You stand in the blackness of space. The only thing you can see is a portal
+below you that leads into Mega-City One.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D2
+~
+door~
+6 30006 30029
+D5
+~
+~
+0 -1 8006
+S
+#30033
+The Builders' Hall~
+You stand in a huge hall where all the builders of Age of the Ancients can
+come to check out the builders board or just hang out and relax.
+~
+~
+Unknown~
+Unknown~
+0 4 1 0
+S
+#30034
+The Cellar~
+You stand in a dark room hidden beneath the floor boards of the tower.
+You were hoping it would be full of unimaginable riches and magical items
+but it's empty. Sigh, ain't life a drag.
+~
+~
+Unknown~
+Unknown~
+0 1 1 0
+D4
+~
+~
+3 -1 30009
+S
+#30035
+Near The Entrance To The City~
+You  stand on and old and frequently traveled path the cuts through the thick
+forrests surrounding you. You can see all manner of footprints dug into the
+ground you're walking on and thick foilage prevents you from leaving the
+path.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D2
+~
+~
+0 -1 30001
+S
+#30036
+The Second Floor Arena~
+You stand in a large unfurnished stone room with what appears to be a portal
+to another dimension hovering near the ceiling. You can smell blood and 
+decaying bodies.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D2
+~
+~
+0 -1 30011
+S
+#30037
+Third Floor Arena~
+You stand in an a room empty except for a small nexus above you heard through
+which monsters fall and fill up the area.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 30013
+S
+#30038
+The Fourth Floor Arena~
+You are in a room whose walls a spekelled with blood both fresh and old. The
+monster transporter hovers above your head and ocasionaly belches forth
+another imp or two.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 30015
+S
+#30039
+The Fifth Floor's Arena~
+You have entered a barren room filled only with a monster transporter and the
+creatures it spews forth.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 30017
+S
+#30040
+The Sixth Floor Arena~
+You are in a room in Wilheim's newbie tower where orcs drop from a portal that
+is hovering and humming above you.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 30019
+S
+#30041
+The Seventh Floor's Arena~
+You are in an unfurnished room with no occupants except bugbears and the 
+scent of death.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D3
+~
+~
+0 -1 30021
+S
+#30042
+The Eigth Floor Arena~
+You are in an empty room that would be completely boring if it wasn't for it's
+deadly resident.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D2
+~
+~
+0 -1 30023
+S
+#30043
+Ninth Floor's Arena~
+You are in a large room with a fire burning in the center of it. Green blood
+hangs on the wall in decorative patterns.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D3
+~
+~
+0 -1 30025
+S
+#30044
+The Second Floor Arena~
+You stand in a large unfurnished stone room with what appears to be a portal
+near the ceiling through which monsters periodicaly fall and fill up the
+imediate area.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 30011
+S
+#30045
+The Second Floor Arena~
+You stand in a large unfurnished stone room with what appears to be a portal
+near the ceiling through which monsters periodicaly fall and fill up the
+surrounding area.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D3
+~
+~
+0 -1 30011
+S
+#30046
+Third Floor Arena~
+You stand in an a room empty except for a small nexus above you heard through
+which monsters fall and fill up the area.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D3
+~
+~
+0 -1 30013
+S
+#30047
+The Third Floor Arena~
+~
+~
+Unknown~
+Unknown~
+0 4 1 0
+S
+#30048
+The Fourth Floor Arena~
+You are in a room whose walls a spekelled with blood both fresh and old. The
+monster transporter hovers above your head and ocasionaly belches forth
+another imp or two.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D3
+~
+~
+0 -1 30015
+S
+#30049
+Fifth Floor Arena~
+You have entered a barren room filled only with a monster transporter and the
+creatures it spews forth.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D3
+~
+~
+0 -1 30017
+S
+#30050
+The Sixth Floor's Arena~
+You are in an unferbished room with fresh blood stains marking the floor and
+windowless walls. Strange monstrosities drop from a blue portal hovering
+above your head.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D3
+~
+~
+0 -1 30019
+S
+#30051
+The Seventh Floor's Arena~
+You are in an unferbished room with fresh blood stains marking the floor and
+windowless walls. Strange monstrosities drop from a blue portal hovering
+above your head.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 30021
+S
+#30052
+Steelforge's Workshop~
+You are in a room filled with the smell of smoke and the sounds of metal
+pounding on metal. A huge anvil rests in the center of the room and pieces
+of unworked metal line the walls. The only exit is to the north.
+~
+~
+Unknown~
+Unknown~
+0 1024 1 0
+D0
+~
+~
+0 -1 30003
+S
+#0
+
+
+#RESETS
+O 1 30012 1 30005
+P 0 30007 1 0
+D 0 30007 2 0
+M 1 30011 1 30008
+D 0 30008 0 0
+D 0 30009 5 1
+M 1 30001 7 30011
+M 1 30001 7 30011
+M 1 30002 5 30013
+M 1 30002 5 30013
+M 1 30003 6 30015
+G 1 30002 1
+M 1 30003 6 30015
+D 0 30015 3 0
+D 0 30016 0 0
+D 0 30016 1 1
+M 1 30004 5 30017
+E 1 30003 1 16
+M 1 30004 5 30017
+M 1 30005 5 30019
+M 1 30005 5 30019
+D 0 30020 0 0
+M 1 30006 3 30021
+E 1 30004 1 5
+D 0 30022 0 0
+M 1 30007 2 30023
+D 0 30023 2 0
+M 1 30008 2 30025
+G 1 30005 1
+M 1 30009 1 30027
+E 1 30011 1 8
+D 0 30027 2 0
+M 1 30010 1 30029
+G 1 30006 1
+D 0 30029 0 2
+D 0 30030 3 0
+O 1 30008 1 30031
+P 0 30009 1 0
+P 1 30009 1 0
+D 0 30031 1 0
+D 0 30034 4 1
+M 1 30001 7 30036
+M 1 30001 7 30036
+M 1 30002 5 30037
+M 1 30002 5 30037
+M 1 30003 6 30038
+M 1 30003 6 30038
+M 1 30003 6 30038
+M 1 30004 5 30039
+E 1 30003 1 16
+M 1 30005 5 30040
+M 1 30006 3 30041
+G 1 30004 1
+M 1 30007 2 30042
+M 1 30008 2 30043
+G 1 30010 1
+M 1 30001 7 30044
+M 1 30001 7 30045
+M 1 30001 7 30045
+M 1 30002 5 30046
+M 1 30003 6 30048
+M 1 30004 5 30049
+M 1 30004 5 30049
+M 1 30005 5 30050
+M 1 30005 5 30050
+M 1 30006 3 30051
+M 1 30012 1 30052
+S
+
+
+#SHOPS
+ 30002    9  0  0  0  0   120  95         0 23    ; A goblin
+0
+
+
+#REPAIRS
+ 30001    4  9  5  0         100   1         0 23    ; the giant worm
+ 30012    5  9  0  0         100   1         0 23    ; Steelforge
+0
+
+
+#SPECIALS
+M  30011 spec_cast_adept
+S
+
+
+#$

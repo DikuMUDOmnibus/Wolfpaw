@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo -n "Who are you? [Greywolf]: "
+read CODER
+
+if [ -z "$CODER" ] 
+then CODER="Greywolf"
+fi
+
+echo $CODER > ../system/boot_who
+exit
+

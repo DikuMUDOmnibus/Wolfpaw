@@ -1,0 +1,3795 @@
+#AREA   The City of Mithras~
+
+
+
+#AUTHOR Dhamon~
+
+#RANGES
+0 67 0 67
+$
+
+#RESETMSG The winds of change howl all around you.~
+
+#FLAGS
+80 67 0
+
+#CLUB None~
+
+#ECONOMY 0 120190998
+
+#MOBILES
+#30601
+amy armorer~
+Amy~
+Amy the armorer is here polishing a helm.
+~
+She is a short but strong woman of about thirty five years. 
+She enjoys executing shoplifters personaly.
+~
+3 0 0 C 0 0
+55 0 0 55d55+550 50d10+1000
+10000 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 20
+85 65 0 0 0 0 0 0
+#30602
+carl~
+Carl~
+Carl the container guy is here.
+~
+Carl is a rather boring guy but he does great work.
+He can make everything from an ale barrel to a hidden belt pouch.
+~
+1073741827 4194304 0 C 0 0
+55 0 0 60d60+600 50d50+0
+20000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 8
+50 50 0 0 0 0 0 0
+#30603
+candle man~
+the man~
+The candle man is here watching a flame.
+~
+He is a small weedy man who enjoys producing new ways to make and play 
+with fire. He has so far succeeded in burning off all the hairs on his arms
+and face.
+~
+3 0 0 C 0 0
+55 0 0 60d60+600 40d30+70
+9000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 7
+30 65 0 0 0 0 0 0
+#30604
+johan the baker~
+Johan~
+Johan the baker is here slaving over an oven.
+~
+He is a old, balded and overwight man but a great cook. He used to cook in the
+kitchens of kings before deciding to open up his own buisness here in Mithras.
+~
+3 4194304 0 C 0 0
+55 0 0 60d100+600 50d50+1000
+2000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 20
+40 40 0 0 0 0 0 0
+#30605
+guard  wizard~
+the wizard~
+A powerful wizard is here guarding the mages' guild.
+~
+He is the guard of the guild of mages selected by the guild for his long
+service and amazing magical talent. His task is to keep all intruders out
+of the mages library by any means necessary.
+~
+3 0 0 C 0 0
+55 0 0 60d60+600 20d20+20
+4000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 4
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+if isimmort($n)
+worship $n
+say Lord $n, dont let humble me stop you!!!
+bow $n
+break
+endif
+if class ($n) == ma
+say Welcome Master $n!, Please Enter!
+bow $n
+break
+endif
+say You cannot enter here $n!!!
+peer $n
+mptransfer $n 30616
+break
+endif
+~
+|
+#30606
+harry the barkeep~
+Harry~
+Harry the barkeep is here mixing drinks.
+~
+He is a tall attractive man in a fancy suit. He is obviously well skilled as
+a bartender as he is constantly pouring multiple drinks without spilling
+a drop.
+~
+3 0 0 C 0 0
+55 0 0 30d40+400 10d20+60
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+70 65 0 0 0 0 0 0
+#30607
+Chris the blacksmith~
+Chris~
+Chris the blacksmith is here working a piece of broken armor.
+~
+Chris is a tall, red haired fellow with a talent for fixing things broken
+by the foolishness of others. He will repair your armor and weapons but for a
+rather high price.
+~
+3 4194304 0 C 0 0
+55 0 0 50d100+500 20d30+1000
+0 0
+8 8 1
+20 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 20
+50 50 0 0 0 0 0 0
+#30608
+will~
+Will~
+Will is here polishing a long sword.
+~
+Will is a small dwarf with a long beard and a thrist for blood.
+He delights in supplying  weapons as long as the item's users
+promises to use it on something or someone.
+~
+3 4194304 0 C 0 0
+55 0 0 0d0+0 100d100+1000
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 20
+50 40 0 0 0 0 0 0
+#30609
+jeweller~
+The jeweller is here tinkering with a bracelet~
+The jeweller is standing here tinkering with a bracelet
+~
+He is a skinny man with a bald head and long, thin fingers that work well in
+his trade.
+~
+3 4194304 0 C 0 0
+55 0 0 0d0+0 0d0+0
+90000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+60 60 0 0 0 0 0 0
+#30610
+pulsar wizard~
+Pulsar~
+Pulsar the wizard is here selling his wares.
+~
+Pulsar is one of the three mage brothers that have opened stores in this
+city. He wears thick glasses as a result of reading and writing far too
+many scrolls.
+~
+1073741827 4194304 0 C 0 0
+55 0 0 50d50+700 50d40+1000
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 20
+50 50 0 0 0 0 0 0
+#30611
+brightwater~
+Brightwater~
+Brightwater is here working on the rudder of a boat.
+~
+A typical sailor with a short white beard and a pipe always hanging out of
+his mouth.
+~
+3 0 0 C 0 0
+55 0 0 60d55+550 40d10+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 4
+60 50 0 0 0 0 0 0
+#30612
+photon~
+Photon~
+Photon the store keeper is here.
+~
+One of the three mage brothers who have set up shops in this town Photon is
+into edible substances that produce "magical" affects upon
+consumption.
+~
+3 4194304 0 C 0 0
+55 0 0 55d55+55 15d10+20
+40000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+50 50 0 0 0 0 0 0
+#30613
+phaser~
+Phaser~
+Phaser is here pointing a wand in your direction.
+~
+Phaser is one of the three brother who have set up magic stores in this city.
+His specialtiy is the creation of wands and staffs.
+~
+3 4194304 0 C 0 0
+55 0 0 55d55+550 12d10+0
+40000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 4
+50 50 0 0 0 0 0 0
+#30614
+cleric master~
+the cleric~
+The master cleric is here meditating.
+~
+The master cleric is an ageless, pale man who has taken it on as his duty
+to train all the news servants of the gods.
+~
+1027 0 0 S 0 0
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#30615
+mage master~
+the Master~
+The Master Mage is here ready to teach you.
+~
+He is the oldest man you have ever seen. His weather beaten face contrasts
+with his eyes which still dance with energy. He wears only a blue robe and
+always carries his stack of spell-books with him.
+~
+1027 0 0 C 0 0
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 1
+0 0 0 0 0 0 0 0
+#30616
+Cleo~
+Cleo~
+Cleo the helpful ranger is here.
+~
+Cleo is a wise and experienced ranger who takes in wild animals and raises
+them for uses as pets and mounts. He is no pansy though, and will defend the
+store and the Rangers' Guild with the massive sword that hangs by his side.
+~
+3 0 0 S 0 0
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+> all_greet_prog 100~
+if ispc($n)
+if isimmort($n)
+worship $n
+say Lord $n, dont let humble me stop you!!!
+bow $n
+break
+endif
+if class ($n) == ra
+say Welcome Master $n!, Please Enter!
+bow $n
+break
+endif
+say You cannot enter here $n!!!
+peer $n
+mptransfer $n 30616
+break
+endif
+ 
+~
+|
+#30617
+lizard giant~
+a giant lizard~
+Someone's giant pet lizard is here.
+~
+A huge chameleon stands six feet tall and is saddled for a rider.
+~
+262403 0 0 C 0 0
+35 0 0 30d20+200 2d10+10
+300 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+89 3 0 0 1634683905 1634683904 1
+4 4 1046 0 0 0 1 0
+#30618
+wolf greywolf~
+a wolf~
+A lumbering greywolf is here.
+~
+A huge northern tundra wolf who is famed for being ridden into battle by
+nomadic barbarians.
+~
+262147 0 0 C 0 0
+46 0 -48 40d10+200 3d5+10
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+7 7 1047 0 0 0 1 0
+#30619
+hawk~
+a hawk~
+A hunting hawk is perched here.
+~
+A hunting bird used by the nobles and aristocrats of the area.
+~
+3 524288 0 C 0 0
+10 0 0 10d9+60 1d8+4
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+33 3 0 0 135721237 135721236 1
+4 2 0 0 0 0 1 0
+#30620
+ferret~
+a ferret~
+A brown ferret is here scurrying around underfoot.
+~
+It is a thin brown rodent that is kept around some households for the express
+purpose of keeping the floors clean.
+~
+3 0 0 C 0 0
+2 0 0 4d4+40 3d3+0
+0 0
+8 8 0
+13 13 13 18 13 13 13
+0 0 0 0 0
+54 3 0 0 1998615661 1998615660 1
+0 0 262199 0 0 0 1 0
+#30621
+paladin~
+the paladin~
+A mighty paladin is here gaurding the master cleric.
+~
+He is clad in glowing armor that seems to be formed from pure light. This is
+the most holy and pure person you have ever encountered.
+~
+3 128 0 C 0 0
+55 0 0 50d50+500 20d20+0
+0 0
+8 8 0
+20 13 13 20 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+12 12 0 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+if isimmort($n)
+worship $n
+say Lord $n, dont let humble me stop you!!!
+bow $n
+break
+endif
+if class ($n) == cl
+say Welcome Master $n!, Please Enter!
+bow $n
+break
+endif
+say You cannot enter here $n!!!
+peer $n
+mptransfer $n 30602
+break
+endif
+ 
+~
+|
+#30622
+vampire guard~
+the guard~
+The vampire guarding the entrance to stronghold is here.
+~
+~
+3 0 -1000 C 0 0
+55 0 -90 50d50+500 20d20+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 13 0 0 0 0 1 0
+> all_greet_prog 100~
+if ispc($n)
+if isimmort($n)
+worship $n
+say Lord $n, dont let humble me stop you!!!
+bow $n
+break
+endif
+if class ($n) == va
+say Welcome Master $n!, Please Enter!
+bow $n
+break
+endif
+say You cannot enter here $n!!!
+peer $n
+mptransfer $n 30682
+break
+endif
+ 
+~
+|
+#30623
+assassin~
+the assassin~
+A sleak assassin is here guarding the Rogue Guild.
+~
+He is a tall and slender man dressed in all black. He moves silently and
+seems to blend in with the shadows cast around him.
+~
+3 0 -900 C 0 0
+55 0 0 50d50+400 0d0+0
+0 0
+8 8 1
+18 13 13 18 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+14 15 0 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+if isimmort($n)
+worship $n
+say Lord $n, dont let humble me stop you!!!
+bow $n
+break
+endif
+if class ($n) == th
+say Welcome Master $n!, Please Enter!
+bow $n
+break
+endif
+say You cannot enter here $n!!!
+peer $n
+mptransfer $n 30682
+break
+endif
+ 
+~
+|
+#30624
+boss~
+the boss~
+The Boss is here contemplating his next scheme.
+~
+No one know exactly who he is all they know is that he is a man to be 
+respected and feared. He is behind every organized crime in the city and
+because of this no one has felt brave enough to search for his true identity.
+~
+1027 0 0 S 0 0
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#30625
+banker~
+the banker~
+A banker is here counting some money.
+~
+He is a tall, skinny man with short hair and thick glasses.
+~
+-2147483645 0 0 C 0 0
+20 0 0 20d5+200 5d5+15
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+8 8 0 0 0 0 16 0
+#30633
+legion dark prince~
+Legion~
+Legion, the Dark Prince, is here eyeing your neck.
+~
+Legion is the master of those who prey on the living. legion was cast out of 
+the heavens and has since roamed earth recruiting for his undieing army.
+~
+1027 0 -1000 C 0 0
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 1 1 1
+0 0 0 0 0 0 0 0
+#30644
+master warrior~
+the master~
+The Master is here training a crossbow on you.
+~
+Standing before you is an ageless man who is a veteran of countless wars.
+His first and only love is battle and he will instruct others of what he
+has learned of the art of fighting.
+~
+1027 0 0 S 0 0
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#30645
+guardian~
+The guardian~
+The guardian is here protecting his guild.
+~
+He is a tall broad shouldered man with a nose so crooked it must have been
+broken a dozen times.
+~
+3 128 0 C 0 0
+55 0 0 50d50+500 20d5+20
+1000000 0
+8 8 1
+20 13 13 19 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+12 12 0 0 0 0 16 0
+> all_greet_prog 100~
+if ispc($n)
+if isimmort($n)
+worship $n
+say Lord $n, dont let humble me stop you!!!
+bow $n
+break
+endif
+if class ($n) == wa
+say Welcome Master $n!, Please Enter!
+bow $n
+break
+endif
+say You cannot enter here $n!!!
+peer $n
+mptransfer $n 30640
+break
+endif
+ 
+~
+|
+#30646
+master tracker~
+the master~
+The master tracker is here ready to teach aspiring rangers.
+~
+He is a hairy, feral man who appears more like an animal than a man. Despite
+his strange looks he is one of the most powerful and influential people in 
+all of Mithras.
+~
+1027 0 0 S 0 0
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#30647
+grand hierophant~
+the Hierophant~
+The Grand Hierophant is here tending to his plants.
+~
+He is the oldest elf you have ever seen and probably the wisest.
+The Hierophant will teach young adventurers such as yourself as long as
+you follow the path of the druid.
+~
+1027 0 0 S 0 0
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#30648
+druid guard~
+the druid~
+A druid guard has been posted here.
+~
+The guard will only let those who are at peace with nature in to see the Grand
+Hierophant.
+~
+3 0 0 C 0 0
+54 0 0 50d40+200 5d6+20
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+15 20 0 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+if isimmort($n)
+worship $n
+say Lord $n, dont let humble me stop you!!!
+bow $n
+break
+endif
+if class ($n) == dr
+say Welcome Master $n!, Please Enter!
+bow $n
+break
+endif
+say You cannot enter here $n!!!
+peer $n
+mptransfer $n 30648
+break
+endif
+ 
+~
+|
+#30649
+augurer guard~
+the guard~
+The guard to the Augurer Guild is here staring you down.
+~
+This guard is a master of magic and weapons and will use both to keep
+the unworthy out of his guild.
+~
+3 0 0 C 0 0
+54 0 0 50d50+300 20d15+10
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+15 20 0 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+if isimmort($n)
+worship $n
+say Lord $n, dont let humble me stop you!!!
+bow $n
+break
+endif
+if class ($n) == au
+say Welcome Master $n!, Please Enter!
+bow /$n
+break
+endif
+say You cannot enter helre 
+$n!!!
+peer $n
+mptransfer $n 30657
+break
+endif
+~
+|
+#30650
+augurer master leader~
+the leader~
+The leader of the Augurer is here resting.
+~
+He is a true renaisance man, a master of both the mental and the physical
+paths the leader is one of the most influential and powerful men in the
+known world.
+~
+1027 0 0 S 0 0
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#30651
+city guard cityguard head~
+The head cityguard~
+The Head of the Cityguards is here searching out scum and villany.
+~
+The Cityguard Head is a huge man who enjoys snaping the spines of the most
+wanted. He scans the crowd looking for any sign of trouble and you do not
+feel worthy to meet his stare.
+~
+65 0 1000 C 0 0
+52 0 -120 40d30+300 10d8+10
+1000000 0
+8 8 1
+20 13 13 20 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+14 25 0 0 0 0 32784 0
+#30652
+guard silver talon member~
+The guard~
+A member of the Silver Talon Guard has been posted here.
+~
+He has sworn to uphold the laws of the city of Mithras and protect it's
+citizens with his life.
+~
+3 0 0 C 0 0
+14 0 0 14d14+120 2d3+6
+450 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+5 2 1054 0 0 0 16 0
+#30653
+silver talon guard man~
+the guard~
+A member of the Silver Talon Guard is on patrol here.
+~
+He has sworn to uphold the laws of the city of Mithras and protect it's
+citizens with his life.
+~
+65 0 0 C 0 0
+13 0 0 2d3+120 2d3+6
+400 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+8 3 31 0 0 0 16 0
+#30654
+sanitation worker janitor~
+A worker~
+A Mithras Sanitation worker is here keeping the city clean.
+~
+He doesn't have the most glorious job in the city but someone has to do it.
+~
+65 0 0 C 0 0
+3 0 0 3d3+35 0d2+1
+32 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+2 1 1055 0 0 0 16 0
+> act_prog drops~
+emote mutters something about punks with no respect for his town.
+get all
+mpechoat $n The janitor flips you the bird.
+~
+|
+#30655
+keeper storekeeper ranger~
+the storekeeper~
+The storekeeper is here tending to the animals.
+~
+He is a kindly young fellow who raises animals for mounts and pets.
+~
+3 0 0 S 0 0
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#30656
+healer mithras~
+The Healer~
+The Healer of Mithras stands here.
+~
+Although retired from adventuring, the healer still lends a hand.
+~
+67 4194440 1000 S 0 0
+55 -10 -20 1d1+29999 2d4+30
+0 0
+8 8 1
+> all_greet_prog 1~
+say One day I'm gonna start charging for this...
+~
+|
+#30657
+man dealer herbalist~
+the herbalist~
+The town herbalist is selling his wares.
+~
+~
+1073741889 0 0 C 0 0
+53 0 0 550d500+0 20d24+20
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+20 45 0 0 0 0 16 0
+#30661
+trainer Joran~
+The Master Trainer~
+A master is here doing pushups with one finger.
+~
+Wow. What a amazing feat! Such demonstration of strength and control.
+Don't you wish you can do that.
+~
+1223 8320 500 S 0 0
+26 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#30662
+newbie guide~
+Newbie~
+The Ancients Newbie Guide stands here.
+~
+~
+3 4194440 0 S 0 0
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+> all_greet_prog 100~
+if ispc($n)
+mea $n Newbie says 'Hi Im the Ancient Newbie Guide, tell me help for help!'
+endif
+~
+> speech_prog help~
+mea $n I can Guide you to places to get EXP! Places available are:
+mea $n Newbie Tower, Mud School, Mob Factory, and Lawns of Mithras
+mea $n Tell me only the name of the place you want to go, ill take you there!
+mea $n remember, you MUST be level 5 or lower!
+mea $n Also, if your stuck tell me summon and ill bring you here!
+mea $n Or, tell me 'guide' for the newbie guide.
+~
+> speech_prog p newbie tower~
+if level($n) < 6
+mea $n Ok.
+mptransfer $n 30009
+tell $n There you go :)
+endif
+~
+> speech_prog p mud school~
+if level($n) < 6
+mea $n Ok.
+mptransfer $n 25503
+tell $n There you go :)
+endif
+~
+> speech_prog p mob factory~
+if level($n) < 6
+mea $n Ok.
+mptransfer $n 9400
+tell $n There you go :)
+endif
+~
+> speech_prog p lawns of mithras~
+if level($n) < 6
+a $n Ok.
+mptransfer $n 7801
+tell $n There you go :)
+endif
+~
+> speech_prog summon~
+tell $n Ok.
+mptransfer $n 30602
+smile $n
+say There you are :)
+~
+> fight_prog 100~
+mpslay $n
+~
+> speech_prog guide~
+mpoload 25521
+give guide $n
+say enjoy :)
+~
+> speech_prog 'light please'~
+mpoload 21 1
+emote clicks his fingers in a COOL way and makes a ball of light!
+give ball $n
+say There you go, young Adventurer
+smile $n
+~
+|
+#30663
+Judge DREDD~
+JUDGE DREDD~
+JUDGE DREDD the LAW of Mithras stands here.
+~
+~
+65 4194432 0 C 0 0
+55 0 -300 1d1+30000 100d100+1000
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 20
+0 0 0 0 3155968 0 2147483647 540615
+#30664
+shopkeeper quill parchment~
+The shopkeeper~
+A man is standing here.. uh.. immersed in his work
+~
+~
+3 4194816 0 S 0 0
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#30665
+assassin figure~
+The assassin~
+A cloaked figure stands here, hiding in the shadows
+~
+It's hard to make out this figure.. it looks like it could be a man
+but he's cloaked in a dark cowl and he's impossible to totally make
+out.. He does have one eye focused squarely on you.. The eye which sees
+you is blue with black, instead of white, all around it.  Ominous indeed
+~
+67 5243392 0 C 0 0
+55 0 -10 1d1+2999 50d50+200
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 9
+42 40 0 0 0 0 0 0
+#30666
+dealer figure man~
+The dark figure~
+A shadowy figure creeps in the shadows here
+~
+~
+193 5341184 -1000 C 0 0
+57 0 -200 1d1+2999 50d55+300
+10000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 135721235 135721234 9
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+if isimmort($n)
+emote quickly packs up his things so $n doesn't see
+else
+emote approaches you.
+emote whispers to you 'would you be interested in some more exotic
+mpechoat $n _whi stuff, you can smoke this'
+emote shows you his collection of herbs and a fine array of pipes
+emote quickly closes his coat and whispers 'you interested?'
+endif
+endif
+~
+> speech_prog yes~
+if isimmort($n)
+say yes?? yes what?? I'm not doing anything requiring a yes!
+else
+emote whispers to you 'you won't be dissappointed'
+mpforce $n list
+endif
+~
+|
+#30667
+locker attendant mithras~
+The Locker Attendant~
+The Mithras locker Attendant stands here, handing out keys.
+~
+~
+16385 128 0 S 0 0
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#30668
+mithras postmaster~
+The Postmaster~
+The Mithras Postmaster stands here.
+~
+~
+515 128 0 C 0 0
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+#30669
+nagg the trouble maker~
+Bugger, Nagg~
+Aw hell, Nagg is in here with you.
+~
+~
+65 4194304 -1000 C 0 0
+65 0 0 50d30+30000 30d20+50
+10000000 0
+8 8 0
+12 8 7 13 18 5 3
+0 0 0 0 0
+0 3 0 0 1 1 15
+0 0 1540 32 2048 256 134480673 16131
+#30670
+questmaster~
+The Questmaster~
+A Man Surrounded in Holy Light stands here, watching you..
+~
+~
+3 128 0 C 0 2
+67 0 -300 1d1+30000 100d100+100
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 20
+85 65 0 0 1056864 0 0 0
+#30671
+blood doll citizen~
+The citizen~
+A dying citizen of Mithras lies here
+~
+~
+1 0 0 S 0 0
+1 0 0 0d0+20000 0d0+0
+0 0
+8 8 0
+> death_prog 100~
+say Thankyou for saving me from this cursed life, here, please accept...
+,slumps to the ground, offerring you his neck
+mpmset $n blood 30
+~
+|
+#30672
+clan salesman sales man~
+Clan Salesman~
+The Clan Salesman Stands here.
+~
+~
+1073741825 0 0 S 0 0
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#0
+
+
+#OBJECTS
+#30601
+fountain~
+the fountain~
+A huge fountain is here pumping out fresh water.~
+It's a beautiful fountain carved out of pure white marble.~
+25 0 0 0 0 0 0 0 0 0 0
+1000 1000 0 0
+16960 0 0
+#30602
+loaf sourdough bread~
+a loaf of sourdough bread~
+A loaf of sourdough bread lies here.~
+~
+19 0 16385 0 0 0 0 0 0 0 0
+30 0 0 0
+1 20 2
+#30603
+chunky chicken pie~
+a chunky chicken pot pie~
+A chunky chicken pot pie lies here smelling good.~
+~
+19 0 16385 0 0 0 0 0 0 0 0
+45 0 0 0
+3 50 5
+#30604
+mail board private~
+the mail board~
+The private mail board is nailed to the wall here.~
+~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30605
+emerald stud~
+an emerald stud~
+An emerald stud lise here hidden amongst the dirt.~
+~
+8 0 65537 0 0 0 0 0 0 0 0
+0 0 0 0
+1 9000 900
+A
+3 2
+A
+17 -7
+#30606
+golden bracelet~
+a golden bracelet~
+A golden bracelet lies here.~
+~
+8 0 4097 0 0 0 0 0 0 0 0
+0 0 0 0
+1 320 32
+A
+17 -4
+A
+19 1
+#30607
+silver ring~
+a silver ring~
+A band of silver lies here.~
+~
+8 0 3 0 0 0 0 0 0 0 0
+0 0 0 0
+1 500 50
+A
+17 -5
+#30608
+dirk~
+a dirk~
+A small dirk lies here.~
+~
+5 64 8193 0 0 0 0 0 0 0 0
+12 17 45 11
+2 400 40
+#30609
+mace~
+a large mace~
+A huge mace rests on the ground here.~
+~
+5 64 8193 0 0 0 0 0 0 0 0
+12 16 3 7
+12 1200 120
+A
+18 2
+A
+19 1
+#30610
+two handed sword~
+a two handed sword~
+A giant two handed sword rests here.~
+~
+5 64 8193 0 0 0 0 0 0 0 0
+12 20 50 1
+1 1900 190
+A
+18 3
+A
+19 3
+#30611
+leather whip~
+a leather whip~
+A leather whip lies in a coil here.~
+~
+5 0 8193 0 0 0 0 0 0 0 0
+12 15 48 4
+5 450 45
+#30612
+potion cire blind~
+a potion of cure blind~
+A green potion lies here.~
+~
+10 0 16385 0 0 0 0 0 0 0 0
+50 14 -1 -1
+1 1100 110
+#30613
+potion bottle remove curse yellow~
+a yellow potion labled "uncurse"~
+A bottle of strange yellow liquid lies here.~
+~
+10 65 16385 0 0 0 0 0 0 0 0
+50 35 -1 -1
+1 1100 110
+#30614
+potion detect invis~
+a bottle of detect invis~
+A purple potion lies on the ground here.~
+~
+10 0 16385 0 0 0 0 0 0 0 0
+50 19 -1 -1
+1 800 80
+#30615
+potion cure poison bottle~
+a potion labled "Cures poisons"~
+A small ornate bottle lies here.~
+~
+10 8256 16385 0 0 0 0 0 0 0 0
+50 43 -1 -1
+1 5000 105
+#30616
+potion detect magic~
+a potion of detect the magical~
+A potion of grey swirling liquid lies here.~
+~
+10 8256 16385 0 0 0 0 0 0 0 0
+50 20 -1 -1
+1 5000 30
+#30617
+scroll invisibility~
+a scroll of invisibility~
+A rolled up scroll rests neatly here.~
+~
+2 0 16385 0 0 0 0 0 0 0 0
+50 29 -1 -1
+1 2000 200
+#30619
+mana potion~
+a mana restore potion~
+A glowing potion floats here~
+~
+10 8192 16385 50 0 0 0 0 0 0 0
+50 84 84 84
+1 5000 30
+#30620
+scroll blindness~
+a scroll of blindness~
+A scroll lies here.~
+~
+2 0 16385 0 0 0 0 0 0 0 0
+30 4 -1 -1
+1 400 40
+#30621
+staff of sanctuary~
+a staff of sanctuary~
+A wooden staff leans on a wall here.~
+~
+4 64 16385 0 0 0 0 0 0 0 0
+50 1 1 36
+1 1300 130
+#30622
+wand fireball~
+a fireball wand~
+A thin wand lies here.~
+~
+3 64 16385 0 0 0 0 0 0 0 0
+37 2 2 26
+1 600 60
+#30623
+water jug~
+a water jug~
+A clay jug lies here.~
+~
+17 0 16385 0 0 0 0 0 0 0 0
+10 10 10 0
+3 30 3
+#30625
+black hole~
+a black hole~
+A hole in space and time is ripped open here.~
+~
+15 32 16385 0 0 0 0 0 0 0 0
+1000 0 0 12
+1 10378 1037
+#30626
+small tin box~
+a small tin box~
+A small tin box lies on the ground here.~
+~
+31 0 16385 0 0 0 0 0 0 0 0
+9 0 0 0
+1 40 4
+#30627
+barrel~
+a large barrel~
+A large barrel stands here.~
+~
+17 0 16385 0 0 0 0 0 0 0 0
+20 20 0 0
+30 101 10
+#30638
+a torch~
+a torch~
+A simple torch lies here.~
+~
+1 0 16385 0 0 0 0 0 0 0 0
+0 0 30 0
+1 20 2
+#30639
+candle scented~
+a sweet smelling candle~
+A scented candle burns here.~
+~
+13 64 16385 0 0 0 0 0 0 0 0
+0 0 90 0
+1 99 9
+A
+3 1
+A
+4 1
+#30640
+ball faerie fire~
+a ball of faerie fire~
+A glowing ball of shifting fire hovers here.~
+~
+1 1073741891 16385 0 0 0 0 0 0 0 0
+0 0 99999 0
+2 6148 614
+A
+18 4
+A
+19 4
+A
+31 -2
+#30641
+book pedastle~
+the book~
+An old leather bound book lies on a marble pedastle.~
+~
+12 1 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30642
+general board~
+the general board~
+Messages are pinned to the general board here.~
+~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+16959 0 0
+#30643
+imc board~
+the board~
+The IMC board is here awaiting your messages.~
+~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30644
+raft~
+a raft~
+A raft constructed from barrels and trees lies here.~
+~
+22 0 1 0 0 0 0 0 0 0 0
+0 0 0 0
+50 110 11
+#30645
+canoe~
+a one man canoe~
+A light one man canoe lies here.~
+~
+22 0 1 0 0 0 0 0 0 0 0
+0 0 0 0
+12 630 63
+#30646
+mug of ale~
+a mug of ale~
+A mug of ale is on a table here.~
+~
+17 0 16385 0 0 0 0 0 0 0 0
+2 2 4 0
+1 35 3
+#30647
+a shot of whiskey~
+a short of whiskey~
+A shot of whiskey lies here.~
+~
+17 0 16385 0 0 0 0 0 0 0 0
+1 1 5 0
+1 25 2
+#30648
+glass brain washer~
+a glass of brain washer~
+A glass of fire read liquid lies here.~
+~
+17 0 16385 0 0 0 0 0 0 0 0
+3 3 7 0
+1 76 7
+#30649
+desk~
+the desk~
+An empty desk stands here.~
+~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30650
+couch~
+the couch~
+A comfertable couch tempts you to sit a while.~
+~
+15 0 0 0 0 0 0 0 0 0 0
+2 0 0 0
+1 0 0
+#30651
+cooler~
+the cooler~
+A large cooler lies here.~
+~
+15 0 0 0 0 0 0 0 0 0 0
+100 1 30652 0
+1 0 0
+#30652
+key~
+a key~
+The key to the cooler.~
+~
+18 0 16385 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30653
+ice~
+some ice cubes~
+Some ice cubes are melting here.~
+~
+1 65 16385 0 0 0 0 0 0 0 0
+0 0 999999 0
+1 0 0
+A
+56 12
+#30654
+silver dragonscale jacketr~
+a silver dragonscale jacket~
+A glittering silver jacket lies here.~
+~
+9 66 9 0 0 0 0 0 0 0 0
+100 100 0 0
+10 10000000 1000000
+A
+12 50
+A
+13 50
+A
+1 1
+A
+2 2
+#30655
+shield~
+a standard regulation shield~
+A large wooden shield rests here.~
+~
+9 64 513 0 0 0 0 0 0 0 0
+7 7 0 0
+8 200 20
+#30656
+a suit of plate mail~
+a suit of plate armor~
+A heavy suit of plate armor lies here.~
+~
+9 0 9 0 0 0 0 0 0 0 0
+7 7 0 0
+30 300 30
+A
+13 5
+#30657
+long sword~
+a long sword~
+A long sword rests here.~
+~
+5 64 8193 0 0 0 0 0 0 0 0
+12 5 17 3
+6 150 15
+A
+19 1
+A
+18 1
+#30658
+breast plate iron~
+an iron breast plate~
+A huge and heavy breast plate lies here.~
+~
+9 0 9 0 0 0 0 0 0 0 0
+12 12 0 0
+55 300 30
+#30659
+steel leggings~
+a pair of steel leggings~
+A pair of heavy steel leggings rest here.~
+~
+9 64 33 0 0 0 0 0 0 0 0
+14 14 0 0
+10 900 90
+A
+13 10
+#30660
+statue altrag~
+Altrag~
+A Pure Gold Statue of Altrag sits here.~
+~
+13 65 0 0 0 0 0 0 0 0 0
+0 0 0 0
+100 0 0
+#30661
+short pipe~
+a small pipe~
+A small herb pipe lies here.~
+~
+30 0 16385 0 0 0 0 0 0 0 0
+1 0 0 0
+1 0 0
+#30662
+herb~
+some green herbs~
+Some god dropped a newly created herb here.~
+~
+32 0 0 0 0 0 0 0 0 0 0
+0 8 1 0
+1 0 0
+#30663
+mithras shrine~
+The Shrine~
+A huge shrine to the greatest gods and deities stands as the prominant point in this chamber~
+~
+61 1 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30664
+quill pen~
+a quill~
+A small quill sits here dripping with ink~
+~
+21 8192 16385 2 0 0 0 0 0 0 0
+100 100 100 100 100 100
+1 100 10
+#30665
+blank note parchment~
+a note~
+A blank piece of parchment is here~
+~
+47 1073741824 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30666
+herb pipeweed~
+Pipeweed~
+Some pipeweed lies here.~
+~
+32 270336 1 1 0 0 0 0 0 0 0
+0 5 0 0
+1 1200 120
+#30667
+herb vermeir~
+Vermeir~
+Some vermeir lies here forgotten.~
+~
+32 270336 1 1 0 0 0 0 0 0 0
+0 5 2 0
+1 6000 600
+#30672
+final herb~
+a newly created final herb~
+Some god dropped a newly created final herb here.~
+~
+13 1073741824 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30673
+oak pipe~
+a pipe~
+A small pipe made from oak lies here~
+~
+30 0 1 1 0 0 0 0 0 0 0
+35 0 0 0
+3 5000 500
+#30695
+donation pit Mithras~
+The Mithras Donation Pit~
+The Mithras Donation Pit is dug in to the floor here.~
+~
+15 1 0 0 0 0 0 0 0 0 0
+5000 0 0 0
+1 0 0
+#30696
+scroll of identify~
+A Scroll of Identify~
+A Scroll if Identify lies here.~
+~
+2 8193 16385 0 0 0 0 0 0 0 0
+50 53 -1 -1 -1 -1
+2 1500 150
+#30697
+vial of minor healing~
+A Vial of Minor Healing~
+A Vial of Minor Healing lies here~
+~
+10 0 1 0 0 0 0 0 0 0 0
+50 15 -1 -1
+2 5000 500
+#30698
+vial of major healing~
+A Vial of Major Healing~
+A vial of Major Healing lies here..~
+~
+10 1 1 0 0 0 0 0 0 0 0
+15 28 -1 -1
+1 40000 4000
+#30699
+book player kill~
+The Book of Blood.~
+&WA Large book, on a pedistal. marked '&RThe Book of Blood&W' sits here~
+~
+63 1 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#30601
+The Mithras Sanctuary~
+You are in a white marble room that is the sanctuary of Mithras. Here you
+are safe from the dangers of the outside world. Above you is a temple 
+dedicated to the gods of this world and to the west is the General Hall where
+adventurers from all over the world gather.
+~
+~
+0 1036 1 0
+D0
+~
+~
+0 -1 30695
+D1
+~
+~
+0 -1 30693
+D2
+~
+~
+0 -1 30692
+D3
+You see the general hall.
+~
+~
+0 -1 30603
+D4
+A white marble staircase leads to the temple.
+~
+~
+0 -1 30602
+> entry_prog 100~
+if isnpc($n)
+mppurge $n
+endif
+~
+|
+S
+#30602
+The Place of Worship~
+As you enter this room a feeling of peace and serenity washes over you.
+To your west is the temple and below you is the Mithras Sanctuary.
+~
+~
+0 1032 1 0
+D1
+~
+~
+0 -1 30700
+D2
+~
+~
+0 -1 30691
+D3
+You see the temple of the pious.
+~
+~
+0 -1 30674
+D4
+~
+~
+0 -1 1017
+D5
+A white marble staircase leads down to the sanctuary.
+~
+~
+0 -1 30601
+E
+book~
+This timeless book's yellowed pages hold an account of ever significant
+event in the history of the realms.
+~
+S
+#30603
+The General Meeting Hall~
+You are in a massive hall filled with enough tables cnd chairs to accomodate
+at least a hundred adventurers in great comfert. This is a place where all
+inhabitants can gather and exchange stories. To your east is the recall point
+and to the south the hall exits into Centaur Street.
+~
+~
+0 12 1 0
+D0
+~
+~
+0 -1 30696
+D1
+You see Mirthas' Sanctuary
+~
+~
+0 -1 30601
+D2
+You see a busy street.
+~
+~
+0 -1 30604
+D5
+~
+~
+0 -1 30697
+E
+board~
+Players have attatched notes of all types to a cork board on the wall here.
+~
+S
+#30604
+Centaur Street~
+You stand on a wide cobble stone road that leads from the west gate to the
+east through Commoners Square. To your north is the Mithras Temple that
+houses the sanctuary and meeting hall while to the south is the donation 
+room.
+~
+~
+0 3145728 1 0
+D0
+You see the general hall.
+~
+~
+0 -1 30603
+D1
+Centaur Street continues.
+~
+~
+0 -1 30606
+D2
+You see the donation room.
+~
+~
+1 -1 30609
+D3
+You see the Commoner's Square.
+~
+~
+0 -1 30605
+S
+#30605
+Commoners Square~
+This is the center of Mithras and consequently the center of this world.
+To the east and west Centaur Street run towards two of the cities gates and
+to the north and south Emerald Avenue run to the other two gates.
+~
+~
+0 3145728 1 0
+D0
+You see Emerald Avenue
+~
+~
+0 -1 30618
+D1
+You see a busy Centaur Street.
+~
+~
+0 -1 30604
+D2
+You see the southern half of Emerald Avenue.
+~
+~
+0 -1 30622
+D3
+You see the main street of Mithras.
+~
+~
+0 -1 30614
+D4
+~
+~
+0 -1 30678
+D5
+~
+~
+0 -1 27400
+E
+fountain~
+A large marble statue of a pheonix spurts out water.
+~
+E
+statue altrag~
+For all his help in weaving the magics that hold this world together
+a statue of Altrag has been placed here.
+~
+S
+#30606
+Centaur Street~
+You are on a wide and bust coble stone street that leads from west gate to
+east. The wonderful smell of freshly baked bread drifts in from the north and
+to the south is the town blacksmith.
+~
+~
+0 3145728 1 0
+D0
+You see a small bakery.
+~
+door~
+1 -1 30610
+D1
+Centaur Street continues.
+~
+~
+0 -1 30607
+D2
+You see a blacksmiths shop.
+~
+door~
+1 -1 30611
+D3
+Centaur Street continues.
+~
+~
+0 -1 30604
+S
+#30607
+Centaur Street~
+You are on a busy street in Mithras. To your east lies the eastern gate, 
+Centaur Street continues to the west, to your north is the town jewlers and
+a weapon store lies to your south.
+~
+~
+0 3145728 1 0
+D0
+You see a jewler's store.
+~
+door~
+1 -1 30612
+D1
+You see a large iron gate.
+~
+~
+0 -1 30608
+D2
+You see a weaponry store.
+~
+door~
+1 -1 30613
+D3
+Centaur Street continues.
+~
+~
+0 -1 30606
+S
+#30608
+Inside The East Gate~
+You are on the city side of a huge iron gate in the thirty foot walls that
+surround Mithras. To your west Centaur Street leads into the Commoners Square.
+~
+~
+0 3145728 1 0
+D1
+~
+~
+0 -1 7810
+D3
+You see the bustling main street of Mithras.
+~
+~
+0 -1 30607
+D4
+You see the city walls.
+~
+~
+0 -1 30650
+S
+#30609
+The Donation Room~
+You are in a room that fills with unneeded items donated by wealthy players
+to those less fortunate.
+~
+~
+0 16396 1 0
+D0
+~
+~
+1 -1 30604
+S
+#30610
+Johan's Bakery~
+You are in a small building filled with the wondeful smell of freshly baked
+foods. There is a counter in the middle of the room and a door to your
+south will take you back out on to Centaur Street.
+~
+~
+0 1049608 1 0
+D2
+~
+door~
+1 -1 30606
+S
+#30611
+The Blacksmith's~
+You are in a small room at the front of the blacksmith's workshop. A large
+metal anvil is fastened to the center of the floor here and your ears are
+bombarded by the constant ringing sound of metal clashing upon metal.
+~
+~
+0 1049608 1 0
+D0
+~
+door~
+1 -1 30606
+S
+#30612
+The Mithras Jewler's~
+You are in a small but fancy building decorated with posh paintings and 
+tapestries. Tables covered with every kind of jewlry fill this room to over
+flowing and you have to be careful not to bump into one and nock it over.
+~
+~
+0 1049608 1 0
+D2
+~
+door~
+1 -1 30607
+S
+#30613
+Will's Weaponry~
+You are in a large stone building whose stone walls are lined with display
+cases that are filled with weapons of every type imaginable. This is more of
+a showcase for Will's collection than a shop.
+~
+~
+0 1049608 1 0
+D0
+~
+door~
+1 -1 30607
+S
+#30614
+Centaur Street~
+You are on the the main street of Mithras. To your east is the bustling
+Commoners Square. To the north is the entrance to the Sleeping Dragon and 
+south is the Chandler's shop.
+~
+~
+0 3145728 1 0
+D0
+You see the entrance to a local inn.
+~
+door~
+1 -1 30626
+D1
+You see the center of Mithras.
+~
+~
+0 -1 30605
+D2
+You see the Chandler's store.
+~
+door~
+1 -1 30625
+D3
+You Centaur Street continues.
+~
+~
+0 -1 30615
+S
+#30615
+Centaur Street~
+You are on the main street of Mithras which continues to your west and
+east. To your north a door leads into the armor store and to your south the
+container store.
+~
+~
+0 3145728 1 0
+D0
+You see the armorer's store.
+~
+door~
+0 -1 30627
+D1
+You Centaur Street continues.
+~
+~
+0 -1 30614
+D2
+You see the cooper's residence.
+~
+door~
+1 -1 30628
+D3
+You Centaur Street continues.
+~
+~
+0 -1 30616
+S
+#30616
+Centaur Street~
+You are at the end of the main street of Mithras. To your west is the western
+entrance gate and to your north lies the Mithras pet store while the great
+library lies to the south.
+~
+~
+0 0 1 0
+D0
+You see the pet store.
+~
+door~
+1 -1 30670
+D1
+You Centaur Street continues.
+~
+~
+0 -1 30615
+D2
+~
+door~
+1 -1 30630
+D3
+You see a heavy iron gate.
+~
+~
+0 -1 30617
+S
+#30617
+Inside The West Gate~
+You are on the city side of a huge opening in the thirty foot stone walls
+surrounding Mithras. Towards the east Centaur Street leads into town and above
+you the walls run around the perimiter of the city.
+~
+~
+0 0 1 0
+D1
+You see the main street of Mithras.
+~
+~
+0 -1 30616
+D3
+~
+~
+0 -1 7819
+D4
+You see the city walls.
+~
+~
+0 -1 30642
+S
+#30618
+Emerald Avenue~
+You are on a wide and busy street bistecting Mithras through it's north
+and south gates. On your west and east are the Magic Plaza and the post
+office and to your south is Commoners Square.
+~
+~
+0 0 1 0
+D0
+Emerald Avenue continues.
+~
+~
+0 -1 30619
+D1
+You see the post office.
+~
+door~
+1 -1 30632
+D2
+You see the center of Mithras.
+~
+~
+0 -1 30605
+D3
+You see the Scroll Source.
+~
+door~
+1 -1 30657
+S
+#30619
+Emerald Avenue~
+You are on a wide and busy street bisecting Mithras through the north and
+south gates. To your east is the boat shop while Emerald Avenue continues
+to the north and south.
+~
+~
+0 0 1 0
+D0
+Emerald Avenue continues.
+~
+~
+0 -1 30620
+D1
+You see a boat store.
+~
+~
+0 -1 30634
+D2
+Emerald Avenue continues.
+~
+~
+0 -1 30618
+S
+#30620
+Emerald Avenue~
+You are on a wide pathed street running from northern gate to southern.
+Emerald Avenue continues to the south and ends to your north at the gate. The
+financial buildings of Mithras are located to you east.
+~
+~
+0 0 1 0
+D0
+You see a heavy iron gate.
+~
+~
+0 -1 30621
+D1
+~
+door~
+1 -1 30659
+D2
+Emerald Avenue continues.
+~
+~
+0 -1 30619
+S
+#30621
+The Northen Gate~
+You are at the northern exit to the city of Mithras. The portcullis is an
+opening in the thirty foot high wall protecting the city and it's inhabitants.
+To your south is Emerald Avenue and above you are the city walls.
+~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 7824
+D2
+You see Emerald Avenue in all it's splendor.
+~
+~
+0 -1 30620
+D4
+You see the city walls.
+~
+~
+0 -1 30638
+S
+#30622
+Emerald Avenue~
+You are on a wide street running north and south through Mithras. To your
+north is the Common Square and to you south is the Servant Square.
+~
+~
+0 0 1 0
+D0
+You see the Commoners Square.
+~
+~
+0 -1 30605
+D2
+You see the Servants Square.
+~
+Emerald Avenue.~
+0 -1 30623
+S
+#30623
+Servants Square~
+You are in a smaller and less crowded verion of The Common Square. To 
+your west is the town dump and located to your east is the residential area
+of Mithras.
+~
+~
+0 1024 1 0
+D0
+You see Emerald Avenue.
+~
+~
+0 -1 30622
+D2
+You see Emerald Avenue.
+~
+~
+0 -1 30654
+D3
+You see the dump.
+~
+~
+0 -1 30624
+S
+#30624
+The Town Dump~
+You are up to your knees in the unwanted items and waste of the good citizens
+of Mithras. This area is frequently visted by the poorer people of Mithras
+as a hotel and a restaurant. A grate below you leads into the sewer system
+below the city.
+~
+~
+0 0 1 0
+D1
+You see Servants Square.
+~
+~
+0 -1 30623
+D5
+You see the sewers.
+~
+grate~
+1 -1 30682
+S
+#30625
+The Chandler's Shop~
+You are in a cozy building that is store and home to the town chandler. All
+maner of lamps, candles and torches are affixed to the walls and roof. The 
+sounds of the main street of Mithras filter in from the north.
+~
+~
+0 1032 1 0
+D0
+You see Centaur Street.
+~
+door~
+1 -1 30614
+S
+#30626
+The Sleeping Dragon Inn~
+You are in the entrance to the Sleeping Dragon inn. It is a comfertable, well
+furnished place with oak walls and plenty of windows. A staircase leads up
+to the rooms and to your east is the bar.
+~
+~
+0 3145736 1 0
+D1
+You see the bar.
+~
+~
+0 -1 30636
+D2
+You see Centair Street.
+~
+door~
+1 -1 30614
+D4
+You see a narrow hallway.
+~
+~
+0 -1 30637
+S
+#30627
+The Armorer's~
+You are in a room that is a showcase for the wonderful armors created by Amy.
+Although it saddens her to part with them she will sell them for the right 
+price. A door to your south will take you back out onto Centaur Street.
+~
+~
+0 1049608 1 0
+D2
+You see Centaur Street.
+~
+door~
+0 -1 30615
+S
+#30628
+Carl's Containers~
+You are in a large warehouse filled with barrels and every other type of
+container imaginable. The owner of this store used to only sell barrels to
+breweries but has since realized the large market in selling containers to
+aventurers like yourself.
+~
+~
+0 1049608 1 0
+D0
+You see Centaur Street in all it's glory.
+~
+door~
+1 -1 30615
+S
+#30629
+The Pet Store~
+You are in a room that smells a little too much like animals for your liking.
+Cages line the room in which pets available for sale are kept. The animals 
+call to you in the hoping that you will purchase them.
+~
+~
+0 1049608 1 0
+D2
+You see Centaur Street.
+~
+door~
+1 -1 30616
+S
+#30630
+The Great Library~
+You are in the largest building in the city. Every book ever written 
+is housed within these giant walls. An almost deathly silence 
+silence occupies this room and as you look around you see several scholars
+writing the ongoing history of these lands.
+~
+~
+0 1049608 1 0
+D0
+~
+door~
+1 -1 30616
+D3
+You see the training place of mages.
+~
+door~
+1 -1 30660
+S
+#30631
+The Scroll Source~
+You are in one of the three main magic stores in Mithras. This particular
+shop specializes in the production and sale of prewritten spells. As you 
+enter the owners asks you to extinguish all open flames so no harm may come
+to the merchandise.
+~
+~
+0 1049608 1 0
+D1
+You see Magic Plaza.
+~
+door~
+1 -1 30657
+S
+#30632
+Mithras Mail~
+No, it's not another armor store it's the post office. Here you can send
+private messages to other players on the mud without the fear of other
+players being able to read them.
+A helpful sign requests your attention.
+~
+~
+0 1049608 1 0
+D1
+You see the inter MUD mail department.
+~
+~
+0 -1 30658
+D3
+You see Emerald Avenue.
+~
+door~
+1 -1 30618
+E
+sign~
+For information on how to send private mail to other players please look at
+"help mail"
+ 
+To send mail to players on other muds please use the Inter-MUD Mailing 
+Company to your east.
+~
+E
+board~
+Messages addressed to the players of AotA are pinned up here.
+~
+S
+#30633
+The Potion Place~
+You are in the second of the large Mothras magic stores. This one serves
+as the town apocethary selling potions of a clerical nature as wells of those
+of mage nature.
+~
+~
+0 1049608 1 0
+D2
+You see Magic Plaza.
+~
+~
+0 -1 30657
+S
+#30634
+Brightwater Boats~
+Allthough there are no rivers or ports near the city the owner of this store
+still makes a fairly good living selling one man rafts and canoes to travelers
+and explorers.
+~
+~
+0 1049608 1 0
+D3
+You see Emerald Avenue.
+~
+~
+0 -1 30619
+S
+#30635
+The Staff Supply~
+You are in the thrid of the magor magical item sources of Mithras. While
+claiming to specialize in staves this store also contains a good supply of 
+wands. The staves are stacked nicely against the walls of this room.
+~
+~
+0 1049608 1 0
+D0
+You see Magic Plaza.
+~
+~
+0 -1 30657
+S
+#30636
+The Bar of the Sleeping Dragon~
+You are in a well lit and comfortably furnished bar that caters to the
+adventurers and explorers of Mithras. A row of stools are pulled up to the bar
+and booths line the walls.
+~
+~
+0 3145736 1 0
+D3
+You see the entrance to the inn.
+~
+~
+0 -1 30626
+S
+#30637
+A Hallway~
+You are in a hallway on the second floor of the Sleeping Dragon inn. Private
+rooms are located to your east and west while a staircase leads back
+down to the entrance of the inn.
+~
+~
+0 12 15 0
+D0
+~
+~
+0 -1 30683
+D1
+You see a private room.
+~
+door~
+1 -1 30690
+D2
+The hallway ends.
+~
+~
+0 -1 30686
+D3
+You see a private room.
+~
+door~
+1 -1 30689
+D5
+You see the entrance to the Sleeping Dragon.
+~
+~
+0 -1 30626
+S
+#30638
+Above The North Gate~
+You stand on a path atop the thirty foot defensive wall of Mithras. Below you
+people enter and exit throught one of the fourth gates in the city walls.
+From up here you can see all the land around as well as the busy streets
+inside of the city.
+~
+~
+0 3145728 1 0
+D1
+The wall continues.
+~
+~
+0 -1 30653
+D3
+The wall continues.
+~
+~
+0 -1 30639
+D5
+You see the northern gate.
+~
+~
+0 -1 30621
+S
+#30639
+On The Walls~
+You stand on top of the thirty foot defensive walls that are built around
+the perimiter of Mithras. From up here you can see all of the surrounding
+lands and most of the inner city.
+~
+~
+0 0 1 0
+D1
+The wall continues.
+~
+~
+0 -1 30638
+D3
+The wall continues.
+~
+~
+0 -1 30640
+S
+#30640
+At The Base Of The Guard Tower~
+You stand on top of the thirty foot defensive walls that are built around
+the perimiter of Mithras. Above you a heavily fortified guard tower which
+also serves as the guild of warriors.
+~
+~
+0 0 1 0
+D1
+The wall continues.
+~
+~
+0 -1 30639
+D2
+The wall continues.
+~
+~
+0 -1 30641
+D4
+You see the entrance to the Guild of Warriors.
+~
+~
+0 -1 30664
+S
+#30641
+On The City Walls~
+You stand on top of the thirty foot defensive walls that are built around
+the perimiter of Mithras. From up here you can see all of the surrounding
+lands and most of the inner city.
+~
+~
+0 0 1 0
+D0
+The wall continues.
+~
+~
+0 -1 30640
+D2
+The wall continues.
+~
+~
+0 -1 30642
+S
+#30642
+Above The West Gate~
+You stand on a path atop the thirty foot defensive wall of Mithras. Below you
+people enter and exit throught one of the fourth gates in the city walls.
+From up here you can see all the land around as well as the busy streets
+inside of the city.
+~
+~
+0 3145728 1 0
+D0
+The wall continues.
+~
+~
+0 -1 30641
+D2
+The wall continues.
+~
+~
+0 -1 30643
+D5
+You see the west gate.
+~
+~
+0 -1 30617
+S
+#30643
+On The City Walls~
+You stand on top of the thirty foot defensive walls that are built around
+the perimiter of Mithras. From up here you can see all of the surrounding
+lands and most of the inner city.
+~
+~
+0 0 1 0
+D0
+The wall continues.
+~
+~
+0 -1 30642
+D2
+The wall continues.
+~
+~
+0 -1 30644
+S
+#30644
+On The City Walls~
+You stand on top of the thirty foot defensive walls that are built around
+the perimiter of Mithras. From up here you can see all of the surrounding
+lands and most of the inner city.
+~
+~
+0 0 1 0
+D0
+The wall continues.
+~
+~
+0 -1 30643
+D1
+The wall continues.
+~
+~
+0 -1 30645
+S
+#30645
+On The City Walls~
+You stand on top of the thirty foot defensive walls that are built around
+the perimiter of Mithras. From up here you can see all of the surrounding
+lands and most of the inner city.
+~
+~
+0 3145728 1 0
+D1
+The wall continues.
+~
+~
+0 -1 30646
+D3
+The wall continues.
+~
+~
+0 -1 30644
+S
+#30646
+Above The South Gate~
+You stand on a path atop the thirty foot defensive wall of Mithras. Below you
+people enter and exit throught one of the fourth gates in the city walls.
+From up here you can see all the land around as well as the busy streets
+inside of the city.
+~
+~
+0 0 1 0
+D1
+The wall continues.
+~
+~
+0 -1 30647
+D3
+The wall continues.
+~
+~
+0 -1 30645
+D5
+You see the southern gate.
+~
+~
+0 -1 30655
+S
+#30647
+On The City Walls~
+You stand on top of the thirty foot defensive walls that are built around
+the perimiter of Mithras. From up here you can see all of the surrounding
+lands and most of the inner city.
+~
+~
+0 0 1 0
+D1
+The wall continues.
+~
+~
+0 -1 30648
+D3
+The wall continues.
+~
+~
+0 -1 30646
+S
+#30648
+At The Base Of The Druid Tower~
+You stand on top of the thirty foot defensive walls that are built around
+the perimiter of Mithras. From up here you can see all of the surrounding
+lands and most of the inner city. Above you is the entrance to the Druid
+Tower.
+~
+~
+0 0 1 0
+D0
+The wall continues.
+~
+~
+0 -1 30649
+D3
+The wall continues.
+~
+~
+0 -1 30647
+D4
+You see the Druid Tower.
+~
+~
+0 -1 30680
+S
+#30649
+On The City Walls~
+You stand on top of the thirty foot defensive walls that are built around
+the perimiter of Mithras. From up here you can see all of the surrounding
+lands and most of the inner city.
+~
+~
+0 0 1 0
+D0
+The wall continues.
+~
+~
+0 -1 30650
+D2
+The wall continues.
+~
+~
+0 -1 30648
+S
+#30650
+Above The East Gate~
+You stand on a path atop the thirty foot defensive wall of Mithras. Below you
+people enter and exit throught one of the fourth gates in the city walls.
+From up here you can see all the land around as well as the busy streets
+inside of the city.
+~
+~
+0 3145728 1 0
+D0
+The wall continues.
+~
+~
+0 -1 30651
+D2
+The wall continues.
+~
+~
+0 -1 30649
+D5
+You see the eastern gate.
+~
+~
+0 -1 30608
+S
+#30651
+On The City Walls~
+You stand on top of the thirty foot defensive walls that are built around
+the perimiter of Mithras. From up here you can see all of the surrounding
+lands and most of the inner city.
+~
+~
+0 0 1 0
+D0
+The wall continues.
+~
+~
+0 -1 30652
+D2
+The wall continues.s
+~
+~
+0 -1 30650
+S
+#30652
+On The City Walls~
+You stand on top of the thirty foot defensive walls that are built around
+the perimiter of Mithras. From up here you can see all of the surrounding
+lands and most of the inner city.
+~
+~
+0 3145728 1 0
+D2
+The wall continues.
+~
+~
+0 -1 30651
+D3
+The wall continues.
+~
+~
+0 -1 30653
+S
+#30653
+On The City Walls~
+You stand on top of the thirty foot defensive walls that are built around
+the perimiter of Mithras. From up here you can see all of the surrounding
+lands and most of the inner city.
+~
+~
+0 0 1 0
+D1
+The wall continues.
+~
+~
+0 -1 30652
+D3
+The wall continues.
+~
+~
+0 -1 30638
+S
+#30654
+Emerald Avenue~
+You are on a wide street running north and south through Mithras. To
+your north is Servant Square and to your south is one of the towns four
+gates.
+~
+~
+0 0 1 0
+D0
+You see Servants Square.
+~
+~
+0 -1 30623
+D1
+~
+~
+0 -1 9400
+D2
+You see the south gate.
+~
+~
+0 -1 30655
+S
+#30655
+The South Gate~
+You are on the city side of a huge opening in the thirty foot stone walls
+surrounding Mithras. To your north Emerald Avenue runs all the way to the 
+northern gate and above you are the city walls.
+~
+~
+0 0 1 0
+D0
+You see Emerald Avenue.
+~
+~
+0 -1 30654
+D2
+~
+~
+0 -1 7813
+D4
+You see the city walls.
+~
+~
+0 -1 30646
+S
+#30656
+The Temple of The Pious~
+You are in the private temple of the Master Cleric that also serves as the
+training grounds for priests wishing to further there mystical skills. All
+the floors and walls are carved from huge blocks of the purest white
+marble.
+~
+~
+0 1049624 1 0
+D0
+You see the temple.
+~
+~
+0 -1 30674
+S
+#30657
+Magic Plaza~
+You stand in a small plaza that houses the magical item stores of this city.
+To your east is the scroll store, your north the potion store and to your 
+south is the staff store.
+~
+~
+0 0 1 0
+D0
+You see the potion place.
+~
+~
+0 -1 30633
+D1
+You see Emerald Avenue.
+~
+~
+0 -1 30618
+D2
+You see the Staff Supply.
+~
+~
+0 -1 30635
+D3
+You see the scroll source.
+~
+~
+0 -1 30631
+D4
+You see the entrance to the Augurers' Guild.
+~
+~
+0 -1 30668
+S
+#30658
+Inter-MUD Mailing Company~
+You are in a small room in which you can send mail to players of others 
+worlds and dimensionds. Behind the main desk a team of wizards are constantly
+working the powerful magics that transport messages from world to world.
+~
+~
+0 8 1 0
+D3
+You see the mail office.
+~
+~
+0 -1 30632
+S
+#30659
+The First Bank Of Mithras~
+You are in a large clean building with plenty of windows and lots of large
+comfertable furniture. Bankers stand here greedly eyeing your gold purse while
+talking to you about the benifits of opening an account with their bank. To
+your east is Emerald Avenue and to your north and south are the realtor's
+and the stockbroker's offices.
+~
+~
+0 -2146434040 1 0
+D0
+You see the realtor's office.
+~
+door~
+3 -1 30675
+D2
+~
+door~
+3 -1 30676
+D3
+You see the streets of Mithras.
+~
+door~
+1 -1 30620
+S
+#30660
+The Mages' Guild~
+You are in a remote corner of the Great Library of Mithras. Here wizards come
+to research spells in the massive tomes kept here. A helpful note pinned to
+the walls kindly asks you to refrain from the use of combustion magics while
+inside the library.
+~
+~
+0 1049608 1 0
+D1
+You see the great library.
+~
+door~
+1 -1 30630
+S
+#30661
+The Clerics' Guild~
+~
+~
+0 4 1 0
+S
+#30662
+Floating in a void~
+~
+~
+0 1073741828 1 0
+S
+#30663
+The Thieves' Guild~
+You are in a dark room hidden in the sewer system below Mithras. Here thieves
+come to hone there skills with help from the Master of the Shadows who runs
+the largest organized crime operation in the known world. An exit to the
+south will take you back into the sewers.
+~
+~
+0 1049612 1 0
+D2
+You see the sewers.
+~
+~
+0 -1 30669
+S
+#30664
+The Entrance To The Guild Of Warriors~
+You stand in the guard tower and lobby for the fighter's guild. A small
+stairway will take you up into the warrior's guild and down onto the city
+walls.
+~
+~
+0 3145740 1 0
+D4
+You see the hall of the Master Warrior.
+~
+~
+0 -1 30677
+D5
+You see the city walls.
+~
+~
+0 -1 30640
+S
+#30665
+The Guild Of The Rangers~
+You are in a room that is more like an animal sanctuary than a guild. The 
+Great Ranger takes in lost and hurt animals found in and around the city.
+Green vines cover all of the walls that are not taken up by the vast number
+of bookcases that line the perimiter of the room.
+~
+~
+0 1049612 1 0
+D3
+~
+door~
+1 -1 30681
+S
+#30666
+The Druid Tower~
+You stand in a huge greenhouse with glass replacing every wall and nearly
+every kind of plant in existance growing on the floor. Since the Hierophant
+had to move into town this room has become a replacement for his grove and
+he devotes much of his time to the garden's upkeep.
+~
+~
+0 1049612 1 0
+D5
+You see the entrance to the tower.
+~
+the top of the tower.~
+0 -1 30680
+S
+#30667
+The Stronghold Of The Vampires~
+You are in an underground crypt that is home to the Dark Prince, undisputed
+ruler of the vampires. He will teach those who please and serve him by 
+joining the leagues of the walking dead.
+~
+~
+0 1049612 1 0
+D3
+~
+~
+0 -1 30672
+S
+#30668
+The Entrance To The Augurer Guild~
+You stand in the entry way to the Guild of the Well Rounded Adventurer.
+The Augurers are a combintion of mage and warrior and their guild reflects
+that with it's librarys and training yards. The leader's office is to the
+west.
+~
+~
+0 3145868 1 0
+D3
+You see the guild.
+~
+~
+0 -1 30673
+D5
+You see the Magic Plaza.
+~
+~
+0 -1 30657
+S
+#30669
+Beneath The City~
+You are in the sewer system that runs below the city of Mithras. Actualy, the
+sewers used to be the dwarven city of Dran'Korr until it was destroyed by the
+forces of chaos in war that encompassed the entire world. The city of Mithras
+was built upon the ruins of the abandoned Dran'Korr.
+~
+~
+0 3145736 1 0
+D0
+You see the Theives' Guild.
+~
+~
+0 -1 30663
+D2
+~
+~
+0 -1 30682
+S
+#30670
+The Pet and Mount Store~
+You are in a large stable that is home to the many animals on sale to the good
+people of Mithras. Both pets and mounts are available here as long a you
+promise to take good care of the creatures. The door leads out onto Centaur
+Street to your south and the Guild of the Rangers is located to your east.
+~
+~
+0 1053704 1 0
+D1
+~
+door~
+1 -1 30681
+D2
+You see Centaur Street
+~
+door~
+1 -1 30616
+S
+#30671
+*****Pet store storage room*****~
+Dhamon kindly requests that people do not fuck with this room or the animals
+contained within it.
+~
+~
+0 4 1 0
+S
+#30672
+Beneath The City~
+You are stepping the used water and refuse of the city of Mithras. To your
+west the sewers exit upwards and to you east is the Stronghold of the
+Vampires.
+~
+~
+0 3145736 1 0
+D1
+~
+~
+0 -1 30667
+D2
+~
+~
+0 -1 30698
+D3
+~
+~
+0 -1 30682
+S
+#30673
+The Augurer Guild~
+You are in the chamber of the Augurer Leader. It's sparse interior contains 
+only a bookshelf and a mat on the ground upon which the leader and his
+trainies sit.
+~
+~
+0 1049608 1 0
+D1
+You see the entrance to the guild.
+~
+the guild.~
+0 -1 30668
+S
+#30674
+The Temple~
+You are in a room in the sacred Temple of Mithras. The only sounds you can
+hear are the quiet mumbling of prayers. The temple continues to your east
+and to your south is the chamber of the Master Cleric.
+~
+~
+0 3145736 1 0
+D1
+You see the temple.
+~
+~
+0 -1 30602
+D2
+You see the Master Cleric's private chamber.
+~
+~
+0 -1 30656
+S
+#30675
+The Realtor's Office~
+You are in a large room covered with paintings depicting the various
+establishments available for purchase in the residential are of Mithras. The
+realtor is away on important buisiness so you'll have to talk to a god about
+purchasing player houses.
+~
+~
+0 1048584 1 0
+D2
+You see the main room of the bank.
+~
+door~
+3 -1 30659
+S
+#30676
+The Stockbroker's~
+You are in a small crowded room filled with telepaths who are ingrossed in
+mental links with people on the actual stock market floor miles away. The
+telepaths communicate messages to buy and sell for their customers who are
+usualy the most wealthy men and women of the world.
+~
+~
+0 8 1 0
+D0
+~
+door~
+3 -1 30659
+S
+#30677
+The Guild Of The Warriors~
+You stand in the highest level of a guard tower in the city of Mithras.
+This room serves as the practicing arena where aspiring warriors come to
+better themselves physicaly.
+~
+~
+0 1049608 1 0
+D5
+You see the entrance.
+~
+~
+0 -1 30664
+S
+#30678
+The Hall Of The Dragons~
+You are in a hall built in honor of the honored and reviered race of dragons.
+Only those who are of this species or of great courage may enter the lounge
+to your south.
+~
+~
+0 8 1 0
+D2
+You see the lounge.
+~
+door~
+1 -1 30679
+D5
+You see the common square.
+~
+~
+0 -1 30605
+S
+#30679
+The Dragon Lounge~
+You are in a comfertable, warm room well furnished and cleaned often by
+a team of servants who cater to the dragons' needs. In this room dragons, the
+ruling class of Mithras,  meet to discuss buisiness and to just hang out.
+~
+~
+0 1049612 1 0
+D0
+You see the hall.
+~
+door~
+1 -1 30678
+S
+#30680
+The Entrance To The Druid Tower~
+You are in a small hallway that ends in stairs that lead up to the Master
+Hierophant's graden. Below you are the city walls which run all the way
+around Mithras.
+~
+~
+0 3145736 1 0
+D4
+You see the top of the tower.
+~
+~
+0 -1 30666
+D5
+You see the city walls.
+~
+~
+0 -1 30648
+S
+#30681
+The Entrance To The Ranger Guild~
+You are in the entrance to the guild of the forestmen. To your west is the
+animal store run by the rangers and the actual guild is located to the
+east.
+~
+~
+0 3146760 1 0
+D1
+~
+~
+0 -1 30665
+D3
+~
+~
+0 -1 30670
+S
+#30682
+Beneath The City~
+You are standing in the sewers beneath the city of Mithras. A grate above 
+you leads up to the city dump and to your north and east are a pair of
+large rooms.
+~
+~
+0 1076887565 1 0
+D0
+~
+~
+0 -1 30669
+D1
+~
+~
+0 -1 30672
+D4
+~
+grate~
+1 -1 30624
+S
+#30683
+The Hallway~
+You are in a hallway on the second floor of the Sleeping Dragon inn. Private
+rooms line the walls to your west and east and the hallway continues to
+your north.
+~
+~
+0 1073741832 1 0
+D1
+You see a private room.
+~
+door~
+1 -1 30684
+D2
+The hallway continues.
+~
+~
+0 -1 30637
+D3
+You see a private room for rent.
+~
+door~
+1 -1 30685
+S
+#30684
+A Private Room~
+You are in a small room above the bar of the Sleeping Dragon Inn. A window
+looks out into the streets of Mithras and a door leads out into the hallway.
+Against the wall is large comfertable bed which along with mirror on the
+wall are the only furnishings in the room.
+~
+~
+0 1073744904 14 0
+D3
+You see the hallway.
+~
+door~
+1 -1 30683
+S
+#30685
+A Private Room~
+You are in a small room above the bar of the Sleeping Dragon Inn. A window
+looks out into the streets of Mithras and a door leads out into the hallway.
+Against the wall is large comfertable bed which along with mirror on the
+wall are the only furnishings in the room.
+~
+~
+0 1073744904 14 0
+D1
+~
+door~
+1 -1 30683
+S
+#30686
+The Hallway~
+You are in a hallway on the second floor of the Sleeping Dragon inn. Private
+rooms line the walls to your west and east and the hallway continues to
+your north.
+~
+~
+0 1073741832 1 0
+D0
+The hallway continues.
+~
+~
+0 -1 30637
+D1
+You see a private room.
+~
+door~
+1 -1 30687
+D3
+You see a private room.
+~
+door~
+1 -1 30688
+S
+#30687
+A Private Room~
+You are in a small room above the bar of the Sleeping Dragon Inn. A window
+looks out into the streets of Mithras and a door leads out into the hallway.
+Against the wall is large comfertable bed which along with mirror on the
+wall are the only furnishings in the room.
+~
+~
+0 1073744904 14 0
+D3
+You see the hallway.
+~
+door~
+1 -1 30686
+S
+#30688
+A Private Room~
+You are in a small room above the bar of the Sleeping Dragon Inn. A window 
+looks out into the streets of Mithras and a door leads out into the hallway.
+Against the wall is large comfertable bed which along with mirror on the
+wall are the only furnishings in the room.
+~
+~
+0 1073744904 14 0
+D1
+You see the hallway.
+~
+door~
+1 -1 30686
+S
+#30689
+A Private Room~
+You are in a small room above the bar of the Sleeping Dragon Inn. A window
+looks out into the streets of Mithras and a door leads out into the hallway.
+Against the wall is large comfertable bed which along with mirror on the
+wall are the only furnishings in the room.
+~
+~
+0 1073744904 15 0
+D1
+You see the hallway.
+~
+door~
+1 -1 30637
+S
+#30690
+A Private Room~
+You are in a small room above the bar of the Sleeping Dragon Inn. A window
+looks out into the streets of Mithras and a door leads out into the hallway.
+Against the wall is large comfertable bed which along with mirror on the
+wall are the only furnishings in the room.
+~
+~
+0 1073744904 15 0
+D3
+You see the hallway.
+~
+door~
+1 -1 30637
+S
+#30691
+Joran's Training Chamber~
+All around you stand practice dummies and other things used to
+help young adventurers train their skills up to par.
+ 
+     FOR LEVELS: TRAIN <class>
+     class being the class you wish to train a level in.
+ 
+     FOR SKILLS: PRA for a list
+                 PRACTISE <skill/spell> to train them up.
+ 
+     FOR ATTRIBUTES: TRAIN <attribute> type TRAIN for usage.
+ 
+NOTE: You can only train skills/spells to 19% or so, the rest
+      you earn as you use them.
+ 
+==GW==
+~
+~
+0 1049608 1 0
+D0
+~
+~
+0 -1 30602
+S
+#30692
+The Temple of Immortality~
+You are standing in a huge temple chamber.. stained glass windows
+depicting scenes from the creation of the world display themselves
+on the walls in full glory.  Ahead of you is a large shrine which
+you can use to communicate with your deity and have the deity hear
+your pleas. It is here, that you may pray to the gods for assistance..
+Be Warned.. donot bug the Gods, or thou may be struck down by there wrath. 
+~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 30601
+S
+#30693
+Hall of Honour~
+The feeling of pure Magesty washes over you.  The walls are made white and grey
+veined marble.  Pilars made of the same marble stand to your left and right.
+Adorning the walls are plaques and medals honouring those who have shown
+loyalty, helpfulness or have done deeds above all others.
+Perhaps you will be the next to be honoured here...
+~
+~
+0 1074791436 1 0
+D3
+~
+~
+0 -1 30601
+S
+#30694
+Quill and Parchment shop~
+You are standing in a large shop filled with pens and paper
+before you is a man who almost has pens coming out of every part
+of his body and paper stuck to his skin.. quite disgusting actually
+~
+~
+0 1049604 1 0
+S
+#30695
+Alter of the Immortals~
+This room is surrounded by large marble blocks. At the front of the room
+stands a large stone alter, dedicated to the Immortals of these realms.
+This room is a place of rest and healing, for those advanterurs with no 
+place to go.
+~
+~
+0 1049608 1 0
+D2
+~
+~
+0 -1 30601
+S
+#30696
+The Mithras Locker Room~
+The walls of this room are covered in lockers, forged by the blacksmith
+of Mithras. The heavy iron doors look pretty much impossible to break.
+There are a few benches along the lockers for people to get dressed and
+to sit around and chat about current MUD events.
+ 
+A Large sign reads 'READ HELP LOCKER FIRST!'
+~
+~
+0 1073742856 1 0
+D2
+~
+~
+0 -1 30603
+S
+#30697
+&rA room swamped in blood~
+The immortals of Age of the Ancients have decided to open up a morgue
+for all the unlucky souls that fell foul of some wicked creature.
+The walls are smeared in sticky blood, some of it still wet to the touch.
+The Reaper smiles at you happily, glad to have taken your soul once and
+willing to take it again if he feels the need.
+~
+~
+0 1028 1 0
+D4
+~
+~
+0 -1 30603
+S
+#30698
+The lair of the Vampire!~
+You have stumbled into a highly dangerous room where vampires are
+rumoured to inhabit!  You should leave quickly before they find you
+and decide to feast on YOUR blood like the last fool that stumbled in
+here!
+~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 30672
+S
+#0
+
+
+#RESETS
+D 0 30604 2 0
+M 1 30653 8 30606
+E 1 30655 1 11
+E 1 30657 1 16
+E 1 30656 1 5
+D 0 30606 0 0
+D 0 30606 2 0
+D 0 30607 0 0
+D 0 30607 2 0
+M 1 30652 10 30608
+E 1 30655 1 11
+E 1 30656 1 5
+E 1 30657 1 16
+M 1 30652 10 30608
+E 1 30656 1 5
+E 1 30657 1 16
+M 1 30652 10 30608
+E 1 30655 1 11
+E 1 30656 1 5
+E 1 30657 1 16
+M 1 30663 10 30608
+M 1 30604 1 30610
+G 1 30602 1
+G 1 30603 1
+D 0 30610 2 0
+M 1 30607 1 30611
+M 1 30654 3 30611
+G 1 30004 1
+G 1 30004 1
+M 1 30653 8 30611
+E 1 30655 1 11
+E 1 30656 1 5
+E 1 30657 1 16
+D 0 30611 0 0
+M 1 30609 1 30612
+G 1 30605 1
+G 1 30606 1
+G 1 30607 1
+D 0 30612 2 0
+M 1 30608 1 30613
+G 1 30609 1
+G 1 30610 1
+G 1 30608 1
+G 1 30611 1
+D 0 30613 0 0
+D 0 30614 0 0
+D 0 30614 2 0
+D 0 30615 2 0
+D 0 30616 0 0
+D 0 30616 2 0
+M 1 30652 10 30617
+E 1 30655 1 11
+E 1 30656 1 5
+E 1 30657 1 16
+M 1 30652 10 30617
+E 1 30655 1 11
+E 1 30656 1 5
+E 1 30657 1 16
+D 0 30618 1 0
+D 0 30618 3 0
+M 1 30654 3 30619
+G 1 30639 1
+M 1 30652 10 30621
+E 1 30655 1 11
+E 1 30656 1 5
+E 1 30657 1 16
+M 1 30652 10 30621
+E 1 30655 1 11
+E 1 30656 1 5
+E 1 30657 1 16
+M 1 30663 10 30621
+M 1 30653 8 30621
+E 1 30655 1 11
+E 1 30656 1 5
+E 1 30657 1 16
+D 0 30624 5 0
+M 1 30603 1 30625
+G 1 30638 1
+G 1 30639 1
+D 0 30625 0 0
+D 0 30626 2 0
+M 1 30601 1 30627
+G 1 30658 1
+G 1 30659 1
+O 1 25514 1 30627
+M 1 30602 1 30628
+G 1 9224 1
+E 1 30625 1 17
+G 1 30626 1
+G 1 30627 1
+D 0 30628 0 0
+D 0 30629 2 0
+M 1 30605 1 30630
+M 1 30663 10 30630
+D 0 30630 0 0
+D 0 30630 3 0
+M 1 30611 1 30634
+G 1 30645 1
+G 1 30644 1
+M 1 30663 10 30634
+M 1 30613 1 30635
+G 1 30621 1
+G 1 30622 1
+M 1 30606 1 30636
+G 1 30647 1
+G 1 30646 1
+G 1 30648 1
+D 0 30637 1 0
+D 0 30637 3 0
+M 1 30663 10 30639
+M 1 30653 8 30640
+G 1 30655 1
+G 1 30657 1
+G 1 30656 1
+M 1 30653 8 30643
+E 1 30657 1 16
+E 1 30655 1 11
+E 1 30656 1 5
+M 1 30663 10 30645
+M 1 30653 8 30646
+E 1 30655 1 11
+E 1 30657 1 16
+E 1 30656 1 5
+M 1 30663 10 30648
+M 1 30663 10 30651
+M 1 30663 10 30653
+M 1 30652 10 30655
+E 1 30655 1 11
+E 1 30656 1 5
+E 1 30657 1 16
+M 1 30652 10 30655
+E 1 30655 1 11
+E 1 30656 1 5
+E 1 30657 1 16
+M 1 30652 10 30655
+E 1 30655 1 11
+E 1 30656 1 5
+E 1 30657 1 16
+M 1 30614 1 30656
+M 1 30653 8 30657
+E 1 30655 1 11
+E 1 30657 1 16
+E 1 30656 1 5
+O 1 30643 1 30658
+M 1 30625 1 30659
+D 0 30659 0 1
+D 0 30659 2 1
+D 0 30659 3 0
+M 1 30615 1 30660
+M 1 30663 10 30660
+D 0 30660 1 0
+M 1 30624 1 30663
+M 1 30645 1 30664
+M 1 30646 1 30665
+D 0 30665 3 0
+M 1 30647 1 30666
+M 1 30633 1 30667
+M 1 30649 1 30668
+M 1 30623 1 30669
+M 1 30655 1 30670
+D 0 30670 1 0
+D 0 30670 2 0
+M 1 30617 1 30671
+M 1 30619 1 30671
+M 1 30620 1 30671
+M 1 30622 1 30672
+M 1 30650 1 30673
+M 1 30621 1 30674
+O 1 30649 1 30675
+D 0 30675 2 1
+D 0 30676 0 1
+M 1 30644 1 30677
+M 1 30654 3 30678
+G 1 25509 1
+D 0 30678 2 0
+O 1 30650 1 30679
+O 1 30651 1 30679
+D 0 30679 0 0
+M 1 30648 1 30680
+M 1 30616 1 30681
+M 1 30665 1 30682
+G 1 33 1
+D 0 30682 4 0
+D 0 30683 1 0
+D 0 30683 3 0
+D 0 30684 3 0
+D 0 30685 1 0
+D 0 30686 1 0
+D 0 30686 3 0
+D 0 30687 3 0
+D 0 30688 1 0
+D 0 30689 1 0
+D 0 30690 3 0
+O 1 30663 1 30692
+M 1 30664 1 30694
+G 1 36 1
+G 1 37 1
+O 1 30642 1 30603
+M 1 30662 1 30602
+O 1 30641 1 30602
+O 1 30695 1 30609
+D 0 30609 0 0
+M 1 30667 1 30696
+M 1 30668 1 30632
+D 0 30632 3 0
+M 1 30656 1 30695
+G 1 30697 1
+G 1 30698 1
+D 0 30620 1 0
+O 1 30699 1 30693
+M 1 30670 1 30605
+O 1 30601 1 30605
+O 1 30660 1 30605
+M 1 30661 1 30691
+M 1 30610 1 30631
+G 1 30617 1
+G 1 30620 1
+G 1 34 1
+G 1 30696 1
+D 0 30631 1 0
+M 1 30612 1 30633
+G 1 30613 1
+G 1 30614 1
+G 1 35 1
+G 1 30619 1
+G 1 30616 1
+G 1 30615 1
+O 1 24406 1 30698
+S
+
+
+#SHOPS
+ 30601    9  0  0  0  0   120  90         1 20    ; Amy
+ 30602   15 17 31  0  0   120  60         0 20    ; Carl
+ 30603    1 36 31  0  0   120  90         0 23    ; the man
+ 30604   19  0 19  0  0   120  60         6 23    ; Johan
+ 30606   17  0  0  0  0   105   0         0 23    ; Harry
+ 30608    5  0  0  0  0   120  90         0 23    ; Will
+ 30609    8  0  0  0  0   140  60         0 23    ; The jeweller is here tinkering with a bracelet
+ 30610    2  0  0  0  0   133  90         0 23    ; Pulsar
+ 30611   22 32 30  0  0   150  90         6 22    ; Brightwater
+ 30612   10  0  0  0  0   140  60         0 23    ; Photon
+ 30613    4  3  0  0  0   120  90         0 23    ; Phaser
+ 30656    0  0  0  0  0   120  90         0 23    ; The Healer
+ 30657   32 31 30  0  0   120  90         0 23    ; the herbalist
+ 30664    0  0  0  0  0   120  90         0 23    ; The shopkeeper
+ 30665    0  0  0  0  0   120  90         0 23    ; The assassin
+ 30666    0 32 30  0  0   100  90         0 23    ; The dark figure
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  30605 spec_cast_mage
+M  30614 spec_cast_cleric
+M  30648 spec_cast_mage
+M  30649 spec_cast_undead
+M  30651 spec_executioner
+M  30652 spec_guard
+M  30653 spec_executioner
+M  30654 spec_janitor
+M  30656 spec_cast_adept
+M  30661 spec_cast_mage
+M  30663 spec_executioner
+M  30670 spec_questmaster
+M  30672 spec_clan_salesman
+S
+
+
+#$

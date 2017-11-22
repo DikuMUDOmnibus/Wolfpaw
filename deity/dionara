@@ -1,0 +1,46 @@
+#DEITY
+Filename		../deity/dionara~
+Name		Dionara~
+Description	Dionara feels that the best way to obtain the sacred amulet is
+to constuct a dark army by which to watch and rule over the
+population of the World.  Her minions are well disciplined and
+are promised places of power when the amulet becomes hers.
+ 
+~
+Alignment		-350
+Worshippers	0
+Flee		-15
+Flee_npcrace	-15
+Flee_npcfoe	-15
+Kill		15
+Kill_npcrace	15
+Kill_npcfoe	15
+Kill_magic	20
+Sac		10
+Bury_corpse	1
+Aid_spell		5
+Aid		5
+Steal		20
+Backstab		20
+Die		-30
+Die_npcrace	-30
+Die_npcfoe	-30
+Spell_aid		5
+Dig_corpse	-1
+Scorpse		0
+Savatar		-300
+Sdeityobj		-300
+recall		0
+Race		0
+Class		0
+Element		0
+Sex		2
+Avatar		0
+Deityobj		0
+Affected		0
+Npcrace		0
+Npcfoe		0
+Suscept		0
+End
+
+#END

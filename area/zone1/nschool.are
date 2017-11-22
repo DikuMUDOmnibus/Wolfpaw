@@ -1,0 +1,1418 @@
+#AREA   Newbie School~
+
+
+
+#VERSION 2 AV-2-TXT-ZC~
+
+#MAPFILE None~
+
+#AUTHOR Greywolf~
+
+#RANGES
+1 50 0 50
+$
+
+#FLAGS
+320 59 0 0
+
+#CLUB None~
+
+#ECONOMY 0 259052
+
+#MOBILES
+#25502
+temple protector~
+The Protector~
+A Protector of the Temple stands here, on the lookout for intruders!
+~
+~
+Unknown~
+Unknown~
+3 650 400 C 0 0
+37 0 0 200d20+15000 4d4+6
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 0 0 0 0 0 6155
+> all_greet_prog 100~
+if isnpc($n)
+or level($n) < 6
+or isimmort($n)
+else
+shout BLOODY FOOL!  Trying to cheat and re-enter the Newbie Area, $n!
+endif
+~
+|
+#25503
+Jalyn guardian~
+Jalyn~
+Jalyn, the Guardian of truth stands here smiling warmly at you.
+~
+~
+Greywolf~
+Sat Mar 25 16:29:11 2000~
+3 128 400 S 0 0
+55 0 -300 0d0+0 0d0+0
+1000000 0
+8 8 1
+> all_greet_prog 100~
+if ispc($n)
+      smile $n
+      say Hello $n, welcome to The Age of the Ancients!
+      shake $n
+say to the north you will find the Path of Learning, on which
+say you will learn all you need to know to survive in these realms!
+say Welcome friend, please, continue on your journey!
+mpforce $n wear all
+endif
+~
+|
+#25504
+The Deer~
+The Deer~
+A tan colored Deer is here, grazing quietly amony the thick grass.
+~
+~
+Unknown~
+Unknown~
+1 0 0 S 0 0
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+> rand_prog 69~
+~
+|
+#25505
+healer jaylenne~
+Jaylenne~
+A beautiful child stands before you, smiling and combing her hair.
+~
+This child is of unequalled beauty.  Watching her smile and daydream brings
+thoughts of childhood and innocence to your mind.  Her hair sparkles as
+she distractedly combs it.  A sweet sigh escapes her mouth, making you
+want to hold her and protect her from growing up and loosing her innocence.
+She is definitely a creature not made to be attacked.
+~
+Unknown~
+Unknown~
+67 128 1000 C 0 0
+53 0 -200 5d5+10 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 5 0 0 3 2 1
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+smile $n
+tell 0.$n I can cast helpful spells on you if you stay here with me.
+else
+endif
+~
+|
+#25506
+beast monster creature hairy~
+a mangy monster~
+This hairy beast stands chained to the wall, growling at your presence.
+~
+~
+Unknown~
+Unknown~
+3 0 900 S 0 0
+5 20 9 2d6+10 1d5+0
+34 0
+8 8 1
+#25507
+janitor~
+the janitor~
+A janitor is walking around, cleaning up.
+~
+~
+Unknown~
+Unknown~
+3 0 900 S 0 0
+2 20 9 2d6+10 1d5+0
+34 0
+8 8 1
+#25508
+rat~
+a rat~
+A small rat shrieks and runs around.
+~
+The rat is a little evil creature that deserves death.
+~
+Unknown~
+Unknown~
+7 0 -200 S 0 0
+2 19 8 2d4+24 1d5+1
+5 0
+8 8 1
+#25509
+Buster Mover~
+Buster Mover~
+Buster stands before you, looking friendly
+~
+~
+Unknown~
+Unknown~
+3 4194432 1000 S 0 0
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+> act_prog p has entered the game.~
+if isimmort($n)
+else
+mpoload 21 1
+give ball 0.$n
+mpforce 0.$n wear all
+~
+> speech_prog 'light please' 100~
+cas 'continual light'
+give ball $n
+say There you are, young adventurer
+smile $n
+~
+|
+#0
+
+
+#OBJECTS
+#25501
+sword truth~
+The sword of Truth.~
+The Sword of Truth~
+~
+Unknown~
+Unknown~
+5 11265 8193 0 0 0 0 0 0 0 0
+0 0 0 3
+1 0 0
+A
+13 50
+A
+17 -10
+A
+56 3
+#25502
+stone sword ~
+The Sword in the Stone~
+A peice of gagged granite sits here, with a Sword stuck in the center.~
+You can us the 'look' command to look at items, mobs,people, and rooms this is very helpfull, there are some good clues in room descriptions.~
+Unknown~
+Unknown~
+13 1 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+E
+stone rock sword granite~
+You can us the 'look' command to look at items, mobs, people, and rooms
+as you explore during your travels.  This is very helpful.  There are some
+hidden in room descriptions, on signs and objects, and in exit descriptions.
+Take that extra moment to look at your surroundings.
+~
+> look_prog 100~
+mpechoat $n This is working.
+~
+|
+#25503
+plaque~
+The Temple of Knowledge Plaque~
+A Black Marble Plaque split in four is embedded in the ground.~
+~
+Unknown~
+Unknown~
+13 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#25504
+torch~
+A torch~
+A torch hangs on the wall here.~
+~
+Unknown~
+Unknown~
+1 1 16385 0 0 0 0 0 0 0 0
+0 0 -1 0
+1 0 0
+#25505
+ball gold light~
+&C&WA &C&W&Yg&Ol&Yo&Ow&Yi&On&Yg&C&W ball of &C&W&OG&Yo&Ol&Yd&c&w~
+&C&WA &C&W&Yg&Ol&Yo&Ow&Yi&On&Yg&C&W ball of &C&W&OG&Yo&Ol&Yd&c&w~
+~
+Silvermoon~
+Sun Nov 21 22:09:28 1999~
+1 1 1 0 0 536870912 0 0 0 0 0
+0 0 -1 0
+10 3500 350
+E
+ball gold light~
+This ball of gold glows so brightly you could probably use it as a light.
+~
+A
+13 50
+A
+12 50
+A
+14 50
+A
+26 16777216
+#25506
+book immortals~
+The book of the Immortals.~
+An Acient book sits here on a Dragon Pedistal!~
+~
+Unknown~
+Unknown~
+13 65 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#25507
+mace adventurers~
+&C&WA &z&rDeadly &C&WAdventurers &c&zMace&c&w~
+&C&WA &z&rDeadly &C&WAdventurers &c&zMace&c&w~
+~
+Silvermoon~
+Sun Nov 21 09:49:27 1999~
+5 64 8193 0 0 536870912 0 0 0 0 0
+0 10 40 8
+5 0 0
+E
+sub mace~
+You see a mace of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+18 50
+A
+19 50
+A
+30 62
+#25508
+dagger adventurers~
+&C&WA &z&rDeadly &C&WAdventurers &c&zDagger&c&w~
+&C&WA &z&rDeadly &C&WAdventurers &c&zDagger&c&w~
+~
+Silvermoon~
+Sun Nov 21 09:59:47 1999~
+5 64 8193 0 0 536870912 0 0 0 0 0
+12 10 40 11
+5 0 0
+E
+sub dagger~
+You see a dagger of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+18 50
+A
+19 50
+A
+30 62
+#25509
+sword adventurers~
+&C&WA &z&rDeadly &C&WAdventurers&c&z Sword&c&w~
+&C&WA &z&rDeadly &C&WAdventurers&c&z Sword&c&w~
+~
+Winter~
+Sun Nov 21 14:36:10 1999~
+5 64 8193 0 0 536870912 0 0 0 0 0
+0 10 40 3
+5 0 0
+E
+sub sword~
+You see a sword of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+18 50
+A
+19 50
+A
+30 62
+#25510
+vest soft leather~
+&C&WA &C&W&OHard Leather Vest&c&w~
+&C&WA &C&W&OHard Leather Vest&c&w~
+~
+Silvermoon~
+Sun Nov 21 22:14:07 1999~
+9 0 9 0 0 536870912 0 0 0 0 0
+50 50 50 50
+5 0 0
+E
+sub vest~
+You see a vest of great but cheap craftsmanship.  Stamped on the side is:
+Merc Industries
+~
+A
+1 1
+A
+26 8
+#25511
+shield spiked~
+&C&WA &c&wLarge &z&rS&c&zp&z&ri&c&zk&z&re&c&zd&C&W Shield~
+&C&WA &c&wLarge &z&rS&c&zp&z&ri&c&zk&z&re&c&zd&C&W Shield~
+~
+Gayle~
+Sun Nov 21 22:12:16 1999~
+9 0 513 0 0 536870912 0 0 0 0 0
+50 50 0 0
+5 0 0
+E
+sub shield~
+You see a shield of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+13 100
+A
+12 100
+A
+14 100
+A
+5 3
+A
+26 128
+#25512
+cloak gleeman~
+&C&WA &z&cGl&C&W&Cee&z&cma&C&W&Cns&z&c Cloak~
+&C&WA &z&cGl&C&W&Cee&z&cma&C&W&Cns&z&c Cloak~
+~
+Gayle~
+Sun Nov 21 22:21:25 1999~
+9 0 1025 0 0 536870912 0 0 0 0 0
+50 50 0 0
+5 0 0
+E
+sub cloak~
+You see a cloak of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+4 3
+A
+13 50
+A
+12 50
+A
+26 98304
+#25513
+helmet plated~
+&C&WA &c&zPl&c&wat&c&zed&c&w He&c&zlm&c&wet~
+&C&WA &c&zPl&c&wat&c&zed&c&w He&c&zlm&c&wet~
+~
+Silvermoon~
+Mon Nov 29 16:54:57 1999~
+9 0 17 0 0 536870912 0 0 0 0 0
+50 50 0 0
+5 0 0
+E
+sub helmet~
+You see a helmet of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+13 100
+A
+12 100
+A
+14 100
+A
+2 3
+A
+4 5
+A
+56 28
+#25514
+leggings hard leather~
+&C&WA &OPair&C&W of &OHard Leather Leggings&c&w~
+&C&WA &OPair&C&W of &OHard Leather Leggings&c&w~
+~
+Gayle~
+Sun Nov 21 22:24:36 1999~
+9 0 33 0 0 536870912 0 0 0 0 0
+50 50 0 0
+5 0 0
+E
+sub leggings~
+You see leggings of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+3 3
+A
+14 50
+A
+12 50
+A
+13 50
+A
+26 -2147483648
+#25515
+boots soft leather~
+&C&WSome &c&wSoft &c&zLeather Boots&c&w~
+&C&WSome &c&wSoft &c&zLeather Boots&c&w~
+~
+Gayle~
+Sun Nov 21 22:26:01 1999~
+9 0 65 0 0 536870912 0 0 0 0 0
+50 50 0 0
+5 0 0
+E
+sub boots~
+You see boots of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+13 100
+A
+12 100
+A
+14 100
+A
+26 524288
+#25516
+sub gloves spiked~
+&C&WA &c&wPair&C&W of&C&W&R S&c&wp&C&W&Ri&c&wk&C&W&Re&c&wd&C&W&O Gloves&c&w~
+&C&WA &c&wPair&C&W of&C&W&R S&c&wp&C&W&Ri&c&wk&C&W&Re&c&wd&C&W&O Gloves&c&w~
+~
+Silvermoon~
+Sun Nov 21 20:38:21 1999~
+9 0 129 0 0 536870912 0 0 0 0 0
+10 10 0 0
+5 0 0
+E
+sub gloves~
+You see gloves of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+25 3
+A
+13 50
+A
+12 50
+A
+14 50
+#25517
+ring beginning life sub~
+&cRing &zof &CNew &cBeginnings&w~
+&c&w&zA &cRing &zof &CNew &cBeginnings has been left here.&w~
+~
+Gayle~
+Mon Feb 21 13:40:34 2000~
+9 0 3 0 0 536870912 0 0 0 0 0
+50 50 25 25
+1 0 0
+A
+26 369098752
+#25518
+adventurers amulet~
+&C&WAn &C&W&YAd&Ove&Ynt&Our&Yer&Os &C&W&CAm&z&cul&C&W&Cet&c&w~
+&C&WAn &C&W&YAd&Ove&Ynt&Our&Yer&Os &C&W&CAm&z&cul&C&W&Cet&c&w~
+~
+Silvermoon~
+Sun Nov 21 21:20:05 1999~
+9 0 5 0 0 536870912 0 0 0 0 0
+50 50 0 0
+5 0 0
+E
+sub cape~
+You see a cape of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+31 3
+A
+13 100
+A
+12 100
+A
+14 100
+#25519
+belt hard leather~
+&C&WA &c&zHard &C&W&OLeather Belt&c&w~
+&C&WA &c&zHard &C&W&OLeather Belt&c&w~
+~
+Gayle~
+Sun Nov 21 22:34:58 1999~
+9 0 2049 0 0 536870912 0 0 0 0 0
+50 50 0 0
+1 0 0
+A
+13 100
+A
+12 100
+A
+14 100
+A
+26 4194304
+#25520
+bracers spiked sub~
+&C&WA &c&wPair&C&W of&z&r Deadly &c&wS&c&zp&c&wi&c&zk&c&we&c&zd&C&W Bracers&c&w~
+&C&WA &c&wPair&C&W of&z&r Deadly &c&wS&c&zp&c&wi&c&zk&c&we&c&zd&C&W Bracers&c&w~
+~
+Gayle~
+Sun Nov 21 22:04:10 1999~
+9 0 4097 0 0 536870912 0 0 0 0 0
+50 50 0 0
+5 0 0
+E
+sub bracer~
+You see a bracer of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+13 50
+A
+12 50
+A
+14 50
+A
+26 2
+#25521
+newbie guide book~
+The Age of the Ancients, Newbie Guide~
+A book entitled, AoA Newbie Guidebook, lies here~
+~
+Gayle~
+Sun Nov 21 21:22:46 1999~
+9 0 16385 0 0 536870912 0 0 0 0 0
+15 15 0 0
+1 1 0
+E
+book guide~
+Welcome to the Age of the Ancients, I am the Newbie Guidebook
+and I'm here to tell you a little about the game to make your
+transition into our world a little easier
+ 
+type 'look (page)' to read this book and 'look contents' to see
+the table of contents
+ 
+(At the bottom of the book is inscribed the author's name)
+By, Callinon Soulforge, enjoy the game
+~
+E
+contents~
+This page lists all the chapters and their starting pages
+type 'look (page number)' to read a page in this book
+ 
+1. Movement
+2. Creatures of the Land
+3. Combat
+4. Objects
+5. Laws of the Land
+6. Experiance
+7. Death
+8. Chatting with the Gods
+9. Channels
+10. Skills and Spells
+11. Frequently Asked Questions (FAQ)
+~
+E
+1~
+Chapter 1. Movement.
+ 
+Movement in Age of the Ancients is pretty simple, just type the name
+of the direction you want to go, and if nothingis stopping you,
+you'll go in that direction.
+ 
+The shorthand version of directions is accepted so...
+ 
+n = north, s = south, w = west, e = east, u = up, d = down
+ 
+One thing that is immensly helpful is autoexits.. to turn these on
+type 'config +autoexit' you also may want to type 'help config'
+sometime in the future to find other useful features
+ 
+One of the main things that can prevent you from moving in a direction
+is the presence of a door.. doors can usually be moved out of the
+way by typing 'open (direction of door)' if the door isn't locked
+this will work.  If the door is locked, you will need the key then
+type 'unlock (direction of door)' then open it and you will have
+removed the obsticle and be free to go in that direction
+~
+E
+2~
+Chapter 2. Creatures of the Land.
+ 
+This chapter deals with the creatures which inhabit this world with
+us.. they are called 'mobiles' or 'mobs' and they are the things 
+you'll see walking around only without a person behind them :P
+(don't try to have a meaningful conversation with a mob it won't say
+much)
+ 
+There are several commands used for interacting with mobs they are,
+ 
+kill, look, and consider
+ 
+kill - will initiate combat with a mob, more on combat later
+look - will give you some information on the mob and what it's carrying
+consider - will give you the odds of your beating the mob in combat
+based on hitpoints and experiance
+ 
+Consider should always be used before beginning combat with a new
+mob.. but even consider isn't always right.. so use your judgement
+on that one (how's that for newbie help)
+~
+E
+3~
+Chapter 3. Combat.
+ 
+So you've decided to kill something have you?  That's great as soon
+as you've picked out a target use 'kill (mob)' to proceed to bash it
+ 
+in combat you have access to some new commands as well as skills
+the 'flee' command will cause you to attempt to run away from your
+mob.. if successful you will run in *A* direction.. no telling which
+one.. if there is no where to run don't count on getting far..
+and even if you manage to escape some mobs will hunt you down and
+try to kill you.
+ 
+Some skills also only work in combat such as, parry, dodge, second attack
+these skills are automatic and will be used when appropriate...
+other skill such as, kick, feed, and circle require you to type the
+name of the skill before it is used
+ 
+remember these skills can only be used once they have been practiced
+~
+E
+4~
+Chapter 4. Objects.
+ 
+An object is something you can pick up and carry with you
+several commands go with objects such as,
+get, drop, inventory, equipment, wear, wield, hold, remove, examine
+ 
+'get (object)' will take an object and put it in your inventory
+'drop (object)' will take an object from your inventory and put it
+on the ground in front of you
+'inventory' or 'i' will show you what you are currently holding
+'equipment' or 'eq' will show you the objects you're currently using
+the objects shown here are ones which are being used in combat
+'wear (object)' will cause you to start using a piece of armor
+'wield (object)' will cause you to begin using a weapon
+'hold (object)' will cause you to hold something which doesn't go
+anywhere else
+ 
+a clan insignia can also be worn but to use it you will need another
+command.. 'use (insignia)' this will send you to your clan's hall
+~
+E
+5~
+Chapter 5. Laws of the Land
+ 
+"And the gods cried out for order amongst chaos"
+ 
+The laws that govern this world are very straightforward
+ 
+1. No swearing on any channel other then FLAME
+2. An immortal's word is law unless you are told differently by
+   a higher ranked immortal
+3. The highest immortals are IMPLEMENTOR, anyone disrespecting an
+   IMP or disobeying them will possibly be balzhured or deleted on
+   the spot (at the IMP's discretion)
+4. Harrasment or Racial insults are not tolerated EVEN on flame
+5. No PKILL outside the Arena.. killing a player outside the arena
+   will give you a flag causing all guards and shopkeepers to hate
+   you and attempt to kill you
+6. Any descision can be appealed to a higher level imm even deletion
+7. You are required to read all rules help files (this is just a
+   brief list of rules) but some of the files you need to read are
+'help rules' 'help pkill' 'help clanrules' AND ANY OTHER ONES WE
+TELL YOU TO
+ 
+Remember, stupidity is no excuse, you don't follow the rules you
+will face the full penelty of that rule
+~
+E
+6~
+Chapter 6. Experiance.
+ 
+Experiance is gained for doing any and all of these things,
+ 
+hitting something,
+killing something
+successfully using a spell or skill,
+adepting a spell or skill,
+being in a group that killed something
+ 
+experiance, when it adds up, can be used to advance you to the next
+level, a way to tell when you can advance is by checking your
+'score' and then typing 'level' and checking the two EXP numbers
+against each other, or if you want to do it the easy way put %X
+in your prompt, when it hits 0 you can advance.
+ 
+here is a prompt that will show you everything you need to know
+<%h/%Hhp %m/%Mmp (or %b/%Bbp if you're a vampire) %v/%Vmv %Xto lvl>
+that prompt will display your current and max for hitpoints (hp),
+mana or blood (mp or bp) and movement (mv)
+ 
+~
+E
+7~
+Chapter 7. Death.
+ 
+It's a pain but it does happen, the question is what to do afterward
+ 
+When you die your corpse goes to just west of the Mithras healer,
+or if you're level 10 or over it stays right where you left it,
+where you died.  You will need to go back there and get your stuff
+from it.. you have about 10 minutes of real time to get back to
+your corpse and get all your stuff from it before it, and everything
+inside it, decomposes and is destroyed.
+ 
+Spells are cancelled by death and you lose EXP (halfway back to the
+start of your level) you will also lose favor with your deity
+ 
+Following and groups are not affected by death so if your group
+dragged you into a nasty battle they are still there for you to
+yell at ;)
+~
+E
+8~
+Chapter 8. Chatting with the Gods,
+ 
+Can you believe there is a whole section on just the right way
+to talk to an immortal? :)
+ 
+There are some rules which should be followed when addressing or speaking
+to an immortal, regardless of rank
+ 
+1. ALWAYS be respectful of them, these guys don't sit on their butts
+   all day, they work to hold their position, they shape the game
+   you're playing, so the least you can do is show respect to them
+2. NEVER NEVER NEVER NEVER NEVER *LIE* to an immortal.. you can
+   count on your punishment for whatever it is to be increased
+   and we WILL find out folks
+3. Never walk away or IGNORE an immortal when they're talking to you
+   when an imm is talking to you directly, give them your attention
+   and never ignore an imm's tell as this will just make them mad
+   and cause them to do bad things to you
+4. Never harrass an immortal about anything, we have a command to
+   deal with people who harrass.. plrpurge.. which will take away
+   ALL you're possessions and leave you with nothing
+ 
+And the rest is just common sense, treat us with repect and we will
+you
+~
+E
+9~
+Chapter 9. Channels.
+ 
+This chapter covers how to use public channels, private channels,
+and local channels, as well as some do's and don't's
+ 
+gossip - general chatting, this is the most used channel
+wartalk - channel for talking to other people who are engaged in
+          battle, usually an arena battle
+yell - this channel can be heard by everyone in your area who is awake
+shout - this channel can be heard by everyone on the MUD who is awake
+ask / answer - this channel is for questions and answers only
+music - for bringing the gift of song to the MUD
+newbiechat - this channel is for asking basic questions
+auction - not really a channel.. 'help auction'
+ 
+those are public channels and can only be heard by players.. do not
+try to ASK a mob to do something it won't hear you
+ 
+Private channels,
+clantalk - for talking to your clan
+tell (person) (message) - one on one conversation
+reply - will send a tell back to the last person who sent you one
+regardless if you can see them or not
+ 
+~
+E
+9A~
+Chapter 9 continued.
+ 
+local channels can only be seen by people in the room you're standing
+in, these channels cannot be turned on or off.
+ 
+say - says the message to everyone in the room
+emote - performs the action and displays it to everyone in the room
+social - performs a preset action 'socials' for a list
+~
+E
+10~
+Chapter 10. Skills and Spells
+ 
+This chapter deals with skills and spells, how to learn them, how
+to use them.
+ 
+first off.. to see a list of all the skills and spells you'll get
+type 'slist' and to see what you already have type 'practice'
+in order to learn a skill or spell you must first practice it
+in order to practice a skill or spell you need to find a trainer
+the trainer in Mithras is up and south from the recall point
+ 
+'practice (skill or spell)' to begin learning that skill or spell
+once you've practiced it once you now have to practice it in a
+normal situation (go out and use it)
+ 
+some skills are automatically used in combat such as parry
+and some must be used by you to work.. such as kick
+~
+E
+11~
+Frequently Asked Questions (FAQ)
+ 
+Q: How do I gain a level?
+A: Go up and south from recall and type 'train (full class name)'
+ 
+Q: Where do I buy food?
+A: Type 'help map' and follow it to the food shop
+ 
+Q: I died, where's my corpse?
+A: where you left it, go back to where you died
+ 
+Q: Where's a good place to start killing things?
+A: Ask the newbie guide up from recall for help.. maybe he can tell you
+ 
+Q: What's a Kinju?
+A: I was hoping you knew ;)
+ 
+Q: Why do psiconists have so few spells?
+A: Because they don't have more yet
+ 
+Q: How do I get a second class?
+A: read 'help pray'
+ 
+If you can think of anything else that needs to be here tell Callinon
+~
+A
+3 5
+#0
+
+
+#ROOMS
+#25501
+The Path of Learning~
+This is the path of Learning.  Should you choose to traverse this path, 
+you will learn many of the skills you shall need to be successful in
+these realms.  All young adventurers are advised to take this path.
+This zone may not hold much interest for those adventurers that have
+reached level 5.  Be aware, this area can cause your death.
+~
+~
+Taizu~
+Wed Feb  2 22:19:41 2000~
+0 4 1 0
+D0
+~
+~
+0 -1 25502
+D2
+~
+~
+0 -1 6500
+D4
+~
+~
+0 -1 7841
+D5
+~
+~
+0 -1 3621
+S
+#25502
+Path to the Temple of Knowledge~
+You find yourself traveling a small dirt path.  Both sides of the path are
+framed by deep brush, clearly blocking your exploration in any way other
+than forward or back the way you came.  In the distance you can see tall
+tree, looking as ageless and ancient as the gods themselves.  The chattering
+and chirping of wildlife is heard all about you.  Curious to your presence,
+the animals appear to be speculating on your purpose here.  In thecenter
+of the path is a large granite stone.  What catched your eye is the fact that
+a large stone is buried deeply into this huge rock.  As you walk closer to
+this odd object, you make out a slight inscription carved into the stone.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D2
+~
+~
+0 -1 25501
+D3
+~
+~
+0 -1 25503
+> entry_prog 100~
+if level($n) > 6
+of isimmort($n)
+mpoload 25505 1
+mpat 25504 drop ball
+else
+endif
+~
+|
+S
+#25503
+The Lagoon~
+Around the shore of this inlet is a myriad of footprints in the sand.
+It appears this is the main waterhole for the animals in this path of
+the forest.  The water here drains towards the coral reef to the south.
+As you drink in the beauty of this place you notice a castle to the west.
+At first it blended into the surroundings so much as to appear to have
+grown where it stands.  Then you notice a glittering of silver and gold
+as the sun creates a holo around the object of your inspection.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 25502
+D3
+~
+~
+0 -1 25504
+S
+#25504
+Path to the Temple of Truth~
+Gold sparkles brightly here, lighting your path.  The very soil appears
+to be encrusted with actual flakes of gold.  Ahead of you lies the
+fabled Castle of Truth.  The place where the true adventurer begins
+the journey of growth.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 25503
+D2
+~
+~
+0 -1 25505
+S
+#25505
+On the Steps of the Temple~
+Just ahead are a set of gigantic steps, leading into the silver and gold
+castle known as The Temple if Truth.  Looming above you, the steps seem
+as if the were constructed by the gods.  You cannot make out the top
+step, they seem to go on for ever.  You are awe struck when you realize
+that everything around you is created from gold; pure, quality gold.
+~
+~
+Unknown~
+Unknown~
+0 4 1 0
+D0
+~
+~
+0 -1 25504
+D2
+~
+~
+0 -1 25506
+> all_greet_prog 100~
+~
+> all_greet_prog 100~
+~
+|
+S
+#25506
+Foyer of the Temple of Truth~
+You stand upon a black marble floor.  The walls are covered with murals
+of the great warriors of this realm who have graduated from this ancient
+castle in days long ago.  If you are truly prepared to begin your training,
+you have merely to step ahead.  You may also choose to turn back now, dooming
+yourself to almost certain failure.  If you have already finished this
+tower then you can leave west to the Nexus of Knowledge, and continue on
+your adventure.  Be Warned!  Once you have chosen to enter the Nexus of 
+Knowledge you cannot return to this place.  You must finish what you have
+started. Good luck, adventurer.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+To the north is the base of the stairs.
+~
+~
+0 -1 25505
+D3
+The Nexus of Knowledge lies in this direction.  BEWARE.. it is a one way trip.
+~
+~
+0 -1 25507
+D4
+Stairs lead far, far up into the clouds... leading to the castle entrance.
+~
+~
+0 -1 30007
+S
+#25507
+The Nexus of Knowledge~
+Surrounding you are saparkling blue portals, with large black marble
+plaques over them, which read where each one leads. Use Enter <name>
+to use these portals, this is an important skill as you will run int
+into all kinds of portals and nifty little exits like this room.
+Type 'LOOK PLAQUE' for a list of exits.
+~
+~
+Unknown~
+Unknown~
+0 8192 1 0
+D0
+~
+museum~
+133120 -1 25511
+D1
+~
+movement~
+133120 -1 25509
+D2
+~
+temple~
+33687552 -1 25506
+D3
+~
+hall~
+133120 -1 25508
+E
+palque~
+~
+E
+plaque~
+The Plaque reads :
+ 
+portal name | Room Name
+----------------------------------------------------------------------
+museum      | The Museum
+movement    | The Room of Movement
+temple      | Foyer of The Temple of Truth
+hall        | The Hall of Absolutes
+----------------------------------------------------------------------
+ 
+Type: enter <portal name> to visit that room, the exit to this temple is som
+somewhere in one of them. You cannot go back to the temple now, you must
+finish what you have started, thus, you will benifit from it in the end.
+~
+S
+#25508
+The Hall of Absulutes~
+This is the Hall of Absolutes, it contains the thigs you must ABSOLUTLY
+know in order to play this MUD, please read all the room descriptions
+carefully, so you dont miss anything. In the center of this room there
+is an ancient leather bound book, attached to an magical chain which is
+bound to a white marbe pedistal, with a golden base in the shape of a
+dragon claw. It is believed this book is known as "The test of the 
+Immortals", it is the only copy that exsists, as far as we know, trying
+to remove it may not be such a good idea....you may invoke the wrath
+of the immortal who bound it to with that majical chain, attempt it if you
+wish, but it has been pased down through the gennerations, that all one
+should attempt is to LOOK BOOK.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 25507
+E
+book~
+You have set your site upon a book written by a GOD, it seems to be able
+too be read by ANY person, who can read ANY language!
+This is what it reads:
+ 
+Reading this text will give you the knowledge you need to unlock the
+power and secrets of the ancient ones! -- this is what you need yo Know:
+ 
+1. Leveling -- Goto your guild hall, of your MAIN class, no matter
+   which one you plan on leveling, for if not, the guard will not admit
+   you into the guild hall. When at yout guild master type :
+   train <warrior/mage/cleric/thief/vampire/druid/ranger/augurer>
+   (the option being the class which you wish too advance you knowledge of)
+   -==- Note -==- The option MUST be ethier your first or second class!
+ 
+2. Recieving a second class --You  will recieve your second class after:
+   * you level to 15 in your main class
+   * you gain experience after that killing something.
+   * Then it will be randomly selected for you.
+   * -=- Note -=- There is a 25 % chance you will be granted the choice-=-
+ 
+3. Read HELP RULES, HELP APPEAL, and HELP PKILL, these are required reading.
+   You may also want to read The Quest of the Ancients, which is located
+   In the book of the Ancients, inside the Immortal Temple.
+   -==- NOTE -==- IGNORANCE IS NOT AN EXCUSE -- you are expected to know
+~
+S
+#25509
+Room of Movement~
+This MUD has 6 directions, maximun you can go from a room. These are
+[N]orth, [S]outh, [E]ast, [W]est, [U]p and [D]own. Before you go in
+any direction, you should try too see where it leads, if you are a 
+Thief by Main Class, then use peek <dir>(then you get the skill).
+The reason this is recomended is well, thier could be a Death Trap
+[DT] in any direction. If you happen to fall into a death trap, you
+will lose all your eq, and will not get any reinbusement for it. So
+as you can guess that would not be a good thing, thus use peek, of
+if you are low level, group with someone who has it. Now there is 
+also a command called [Ex]it, which will show you the names of the
+first room on any sie fo you (where the is an exit) looks like this:
+ 
+     North - The Weapon Shop
+     South - Dhenir Road
+     Down - The Puddle
+ 
+But, be warned that like i said DT's can be very deciving, so try
+to group with a person who has the peek skill.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D3
+~
+~
+0 -1 25507
+S
+#25510
+Elevator Shaft~
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D2
+~
+~
+0 -1 25513
+D4
+~
+~
+0 -1 25511
+S
+#25511
+The Museum~
+All around this room are Platinum stands, on which are statues of the
+great warriors of these realms. engraved in the floor, in the center
+of this room, is the Crest of the Ancients. The floor is made of pure
+gold, the walls of black marble
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 25512
+D2
+~
+~
+0 -1 25507
+S
+#25512
+The Museum~
+All around this room are Platinum stands, on which are statues of the
+great warriors of these realms. engraved in the floor, in the center
+of this room, is the Crest of the Ancients. The floor is made of pure
+gold, the walls of black marble.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D2
+~
+~
+0 -1 25511
+D5
+~
+~
+0 -1 25513
+S
+#25513
+The Stairwell~
+Afoot is a rotting wooden circular staircase, the walls are constructed
+of decaying limestone blocks. A constant dripping sound can be heard
+coming from above, a dim light shines from below. In the corners a
+couple pairs of red eyes stare out into the darkness...
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D4
+~
+~
+0 -1 25512
+D5
+~
+~
+0 -1 25514
+S
+#25514
+The Basement of the Museum~
+The walls are constructed of decaying limestone blocks. A constant 
+Dripping sound can be heard coming from above, a dim light shines
+from a torch hanging on the wall here. In the corners a couple 
+pairs of red eyes stare out into the darkness...
+ 
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 25515
+D4
+~
+~
+0 -1 25513
+S
+#25515
+The Basement of the Museum~
+The walls are constructed of decaying limestone blocks. A constant 
+Dripping sound can be heard coming from above, a dim light shines
+from a torch hanging on the wall here. In the corners a couple 
+pairs of red eyes stare out into the darkness... There seems to
+be some kind of grate to the north, try 'OPEN GRATE'.
+ 
+~
+~
+Unknown~
+Unknown~
+0 1056769 1 0
+D0
+~
+grate~
+1 -1 25516
+D3
+~
+~
+32 -1 25514
+S
+#25516
+The Duct~
+Jeez it STINKS IN HERE, and there seems to be some fur rubbing ... OH
+NO !!! RATS!!!!
+~
+~
+Unknown~
+Unknown~
+0 1056769 1 0
+D2
+~
+~
+33 -1 25515
+D4
+~
+~
+0 -1 30601
+S
+#25517
+The Nexus of Creation~
+This is the Nexus of Creation, where all things are born. The walls 
+seem to be alive here, they are made of a silver substance which seems
+to hold no mass. If one tried, they may even be able to stick thier
+hand right through them! To the north a blue portal fades in and out
+of exsistance.
+~
+~
+Greywolf~
+Sat Mar 25 16:28:18 2000~
+0 3146752 1 0
+D0
+~
+~
+0 -1 25504
+S
+#25518
+The Room of Souls~
+You stand in a plain room, try going north.
+The walls are lined with stone alters, on which are lifless bodys waiting
+to be filled with souls. To the north is The Nexus of Creation. Go
+Friend, kill, gain experience, and maybe you, may solve the Quest of
+the Ancients.
+ 
+~
+~
+Unknown~
+Unknown~
+0 1152 1 0
+D0
+~
+~
+0 -1 25517
+S
+#25519
+Alter of the Gods~
+At the front of the room stands a large golden alter, it is this
+alter infront of which you must wait for the gods to allow you
+entry to this realm, wait patiently, for if thy hassle the gods
+thy will surely be refused admittance.
+~
+~
+Greywolf~
+Wed Jul 14 16:37:40 1999~
+0 66692 1 0
+> act_prog p has entered the game.~
+mpoload 25521
+mpat $n give book $n
+mpat $n mpechoat $n _blu The Newbie Guide is delivered into your hands
+mpat $n mpechoat $n _blu It would be wise to read it as it has much to
+mpat $n mpechoat $n _blu teach
+~
+|
+S
+#0
+
+
+#RESETS
+M 1 25504 1 25503
+O 1 25506 1 25508
+O 1 25503 1 25507
+M 1 25503 1 25517
+M 1 25507 1 25511
+M 1 25507 2 25512
+M 1 25508 2 25513
+M 1 25508 2 25513
+O 1 25504 1 25514
+M 1 25508 3 25515
+D 0 25515 0 0
+M 1 25508 4 25516
+M 1 25502 1 25502
+E 1 25501 1 18
+E 1 25501 1 16
+O 1 25502 1 25502
+S
+
+
+#SHOPS
+ 25502    0  0  0  0  0   120  90         0 23    ; The Protector
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  25503 spec_cast_cleric
+M  25505 spec_cast_adept
+M  25506 spec_janitor
+M  25507 spec_janitor
+M  25508 spec_poison
+S
+
+
+#$

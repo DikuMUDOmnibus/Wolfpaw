@@ -1,0 +1,53 @@
+rm -rf a
+rm -rf b
+rm -rf c
+rm -rf d
+rm -rf e
+rm -rf f
+rm -rf g
+rm -rf h
+rm -rf i
+rm -rf j
+rm -rf k
+rm -rf l
+rm -rf m
+rm -rf n
+rm -rf o
+rm -rf p
+rm -rf q
+rm -rf r
+rm -rf s
+rm -rf t
+rm -rf u
+rm -rf v
+rm -rf w
+rm -rf x
+rm -rf y
+rm -rf z
+mkdir a
+mkdir b
+mkdir c
+mkdir d
+mkdir e
+mkdir f
+mkdir g
+mkdir h
+mkdir i
+mkdir j
+mkdir k
+mkdir l
+mkdir m
+mkdir n
+mkdir o
+mkdir p
+mkdir q
+mkdir r
+mkdir s
+mkdir t
+mkdir u
+mkdir v
+mkdir w
+mkdir x
+mkdir y
+mkdir z
+

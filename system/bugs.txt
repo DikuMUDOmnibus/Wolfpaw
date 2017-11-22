@@ -1,0 +1,33 @@
+[*****] BUG: LOAD_MOBS: NUMATTACKS LESS THEN 1 mob 9401
+[*****] BUG: Fixing...
+[*****] BUG: LOAD_MOBS: NUMATTACKS LESS THEN 1 mob 9402
+[*****] BUG: Fixing...
+[*****] BUG: LOAD_MOBS: NUMATTACKS LESS THEN 1 mob 9403
+[*****] BUG: Fixing...
+[*****] BUG: LOAD_MOBS: NUMATTACKS LESS THEN 1 mob 9404
+[*****] BUG: Fixing...
+[*****] BUG: LOAD_MOBS: NUMATTACKS LESS THEN 1 mob 9406
+[*****] BUG: Fixing...
+[*****] BUG: Deleting south exit in room 25501
+[*****] BUG: Deleting down exit in room 25501
+[*****] BUG: Deleting south exit in room 21709
+[*****] BUG: Deleting north exit in room 30005
+[*****] BUG: Deleting down exit in room 30032
+[*****] BUG: Deleting north exit in room 7801
+[*****] BUG: Deleting east exit in room 7808
+[*****] BUG: Deleting down exit in room 7809
+[*****] BUG: Deleting south exit in room 7812
+[*****] BUG: Deleting west exit in room 7818
+[*****] BUG: Deleting east exit in room 7836
+[*****] BUG: Deleting east exit in room 7840
+[*****] BUG: Deleting north exit in room 7841
+[*****] BUG: Deleting east exit in room 7841
+[*****] BUG: Deleting south exit in room 7841
+[*****] BUG: Deleting up exit in room 30602
+[*****] BUG: Reset_area: 'O': bad obj vnum 11422. (immoffice.are)
+[*****] BUG: Reset_area: 'E' or 'G': bad obj vnum 9224. (mithras.are)
+[*****] BUG: Read_object: vnum 30699 bad type.
+[*****] BUG: ------------------------>     
+[*****] BUG: Reset_area: 'O': bad obj vnum 24406. (mithras.are)
+[*****] BUG: Load_Warrent: # not Found.
+[*****] BUG: Fread_string: EOF

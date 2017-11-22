@@ -1,0 +1,16 @@
+Name		Halfling~
+Affected		32768
+StrPlus		-2
+DexPlus		1
+WisPlus		0
+IntPlus		0
+ConPlus		1
+ChaPlus		0
+LckPlus		0
+Hit		-3
+Mana		10
+Resist		0
+Suscept		0
+Restriction	0
+Lang		131072
+$ $

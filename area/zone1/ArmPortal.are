@@ -1,0 +1,162 @@
+#AREA   The Portal to Armageddon~
+
+
+
+#VERSION 1 AV-1-TXT-ZC~
+
+#AUTHOR Greywolf~
+
+#RANGES
+0 67 0 67
+$
+
+#FLAGS
+0 67 0 0
+
+#CLUB None~
+
+#ECONOMY 0 31250000
+
+#MOBILES
+#27400
+healer armagoddon xanther~
+Xanther~
+The Healer of Armageddon is standing here, ready to aid you.
+~
+~
+3 128 0 C 0 0
+55 0 0 1d1+30000 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#0
+
+
+#ROOMS
+#27400
+Portal to Armageddon~
+You have climbed down from the square, to an odd kind of portal
+it is quite large and doesn't even seem possible to exist so closely
+to Mithras..  In fact you're no longer sure, looking at the portal,
+how far down you climbed...  It is a giant monolithic stone archway
+inscribed with glyphs telling of the great armageddon..  There are
+several others regarding death and blood inscribed about the stones
+ 
+Something odd about this portal however, is that it doesn't outwardly
+seem to be open..  But there is a strange aura about the room, as if
+the power inside the portal was not as contained as it at first seemed
+~
+~
+0 1089479684 1 0 27401 60 0
+D4
+~
+~
+0 -1 30605
+S
+#27401
+Entrance to Armageddon~
+You knew that portal didn't seem contained, now you're in trouble
+you seem to have been transported to a strange dimension...  Could
+this be the armageddon spoken of in the portal..  Or someplace else
+ 
+This room is made of carved stone, but it's warped and twisted in
+dark and evil ways, so it no longer looks like the world you once
+knew, you can see a small dagger that has been jammed inside of a
+nearby stone, the handle is bright and made of gold, but the blade
+has fresh blood on it, and is dented from penetrating armor..  You
+suddenly realize..  This is not going to be a friendly place to be
+ 
+There seems to be another energy flow like the one before coming from
+above, it may be a way out of this hell
+~
+~
+0 1076895748 1 0
+D0
+~
+~
+0 -1 27001
+D1
+~
+~
+0 -1 27364
+D2
+~
+~
+0 -1 27100
+D3
+~
+~
+0 -1 27264
+D4
+~
+~
+0 -1 27402
+D5
+~
+~
+0 -1 27000
+S
+#27402
+Exit from Armageddon~
+After climbing your way up from there, your relieved to finally be
+safe for a while, the energy in this room isn't quite peaceful.. 
+but it's HEAVENLY compared to what you just went through..  The portal
+out is very near, there is a ladder on the far side of the room leading
+out..  This room is unremarkable except for the blood stains on the
+floor of those others lucky enough to have escaped with their limbs
+attached
+~
+~
+0 1076896772 1 0
+D4
+~
+~
+0 -1 27403
+S
+#27403
+Portal from Armageddon~
+That was quite a climb, but you finally made it out of that field
+of blood..  Before you stands another semi-contained portal, it is
+another monolith, but this one is inscribed with glyphs depicting the
+end of bloodlust and the murderous hatred that is as air in this
+battlefield, you feel yourself being transported again, but this time
+back to where you were before this nightmare ever happened, you feel
+as if you're waking from a nightmare..  But the wounds are real, and
+the terror that went through your bones is very very real
+~
+~
+0 1089479684 1 0 30605 60 0
+D5
+~
+~
+0 -1 27402
+S
+#0
+
+
+#RESETS
+M 1 27400 1 27402
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  27400 spec_cast_adept
+S
+
+
+#$

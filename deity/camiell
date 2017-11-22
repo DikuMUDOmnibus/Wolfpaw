@@ -1,0 +1,47 @@
+#DEITY
+Filename		../deity/camiell~
+Name		Camiell~
+Description	Camiell is the diety of the Knights of Light.  These soldiers
+look to keep justice and civility in the World.  They dedicate
+their swords and lives to Camiell in hopes she will bring
+eternal light.  Her followers all must be good to have worth
+in her sight.
+ 
+~
+Alignment		350
+Worshippers	2
+Flee		-10
+Flee_npcrace	-10
+Flee_npcfoe	-10
+Kill		15
+Kill_npcrace	15
+Kill_npcfoe	15
+Kill_magic	15
+Sac		10
+Bury_corpse	20
+Aid_spell		30
+Aid		30
+Steal		-15
+Backstab		-15
+Die		-25
+Die_npcrace	-25
+Die_npcfoe	-25
+Spell_aid		30
+Dig_corpse	-20
+Scorpse		0
+Savatar		-350
+Sdeityobj		-250
+recall		0
+Race		-1
+Class		-1
+Element		0
+Sex		-1
+Avatar		0
+Deityobj		0
+Affected		0
+Npcrace		0
+Npcfoe		0
+Suscept		0
+End
+
+#END

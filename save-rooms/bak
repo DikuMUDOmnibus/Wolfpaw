@@ -1,0 +1,57 @@
+#OBJECT
+Vnum         30695
+Level        1
+Values       5000 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         13205
+Level        49
+Values       5 5 10 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18303
+Level        50
+Values       12 7 140 3 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18329
+Level        49
+Values       22 22 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         9909
+Level        28
+Values       45 45 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         30656
+Level        11
+Values       7 7 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         30657
+Level        11
+Values       12 5 85 1 0 0
+End
+
+#OBJECT
+Nest         1
+Count        2
+Vnum         11601
+Level        50
+Values       11603 0 0 0 0 0
+End
+
+#END

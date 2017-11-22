@@ -1,0 +1,42 @@
+#!/bin/csh -f
+# Shell script for merging and cleaning log files.
+
+# Get the current date
+set date=`date +%m-%d-%y`
+
+# Get the list of log files in decending order.  Use sed
+# to remove the first line which is the most recent
+# log file then we re-sort it to put it back into normal
+# order.  These log files will be merged and deleted.
+set list=`ls -t1 *.log | sed 1,1d`
+
+# Make sure our file exists so we can append to it
+if (! -e $date) then
+   touch $date
+endif
+
+# Merge the log files into one big file and delete the
+# log files.
+echo "Merging and deleting files..."
+foreach i ($list)
+  cat $i >> $date
+  rm $i
+end
+
+# Compress the merged file.
+echo "Compressing merged file..."
+gzip -f $date
+
+# Move the file into "backlog" directory.
+echo "Moving file..."
+if (-d ./backlog) then
+   mv $date.gz ./backlog
+else
+   echo "The backlog directory could not be found\!"
+   echo "Making one now..."
+   mkdir backlog
+   mv $date.gz ./backlog
+endif
+echo "Done."
+
+

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+WHO=`whoami`
+
+echo -n "Who are you? [$WHO]: "
+read CODER
+if [ -z "$CODER" ]
+then CODER="$WHO"
+fi
+
+echo $CODER > ../../system/compile_who
+exit
+

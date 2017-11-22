@@ -1,0 +1,45 @@
+#DEITY
+Filename		../deity/toranil~
+Name		Toranil~
+Description	Toranil also promises positions of power to those who follow
+him.  He however does not believe in good nor evil, but that
+everyone will perform their own purpose.  He has no ill
+intentions for the World, and has many followers of all aligns.
+~
+Alignment		0
+Worshippers	0
+Flee		-15
+Flee_npcrace	-10
+Flee_npcfoe	-10
+Kill		10
+Kill_npcrace	10
+Kill_npcfoe	10
+Kill_magic	15
+Sac		15
+Bury_corpse	0
+Aid_spell		15
+Aid		10
+Steal		10
+Backstab		5
+Die		-30
+Die_npcrace	-20
+Die_npcfoe	-20
+Spell_aid		10
+Dig_corpse	0
+Scorpse		0
+Savatar		-300
+Sdeityobj		-250
+recall		0
+Race		-1
+Class		-1
+Element		0
+Sex		1
+Avatar		0
+Deityobj		0
+Affected		0
+Npcrace		0
+Npcfoe		0
+Suscept		0
+End
+
+#END

@@ -1,0 +1,161 @@
+#OBJECT
+Vnum         30695
+Level        1
+Values       5000 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2348
+Level        49
+Values       12 14 42 3 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2347
+Level        50
+Values       8 8 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2346
+Level        50
+Values       10 10 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2386
+Level        50
+Values       12 15 43 2 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         5252
+Level        6
+Values       15 15 225 11 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         5221
+Level        50
+Values       11 14 42 3 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         5221
+Level        50
+Values       12 14 44 3 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         5221
+Level        50
+Values       12 15 42 3 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         5221
+Level        50
+Values       12 13 43 3 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         5202
+Level        49
+Values       8 8 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         5202
+Level        50
+Values       8 8 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         5201
+Level        50
+Values       8 8 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         5205
+Level        49
+Values       7 7 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         22506
+Level        50
+Values       12 10 200 4 0 0
+End
+
+#OBJECT
+Nest         1
+Count        2
+Vnum         22513
+Level        42
+Values       14 14 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26924
+Level        9
+Values       0 0 -1 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26924
+Level        10
+Values       0 0 -1 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         19030
+Level        11
+Values       10 20 300 11 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         19030
+Level        16
+Values       10 20 300 11 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         25518
+Values       49 50 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         25518
+MagicFlags   128
+Values       50 50 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         13407
+Level        50
+Values       20 21 0 0 0 0
+End
+
+#END

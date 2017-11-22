@@ -1,0 +1,142 @@
+Fri Oct 20 05:52:59 2000 :: Setting Reboot Time
+Fri Oct 20 05:52:59 2000 :: Initiating Memlog
+Fri Oct 20 05:52:59 2000 :: Initiating Roomlog
+Fri Oct 20 05:52:59 2000 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Fri Oct 20 05:52:59 2000 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Fri Oct 20 05:52:59 2000 :: Loading commands
+Fri Oct 20 05:52:59 2000 :: Loading sysdata configuration...
+Fri Oct 20 05:52:59 2000 :: Loading Main Database File.....
+Fri Oct 20 05:52:59 2000 :: Loaded Max Skills: 450
+Fri Oct 20 05:52:59 2000 :: Loading socials
+Fri Oct 20 05:52:59 2000 :: Loading skill table
+Fri Oct 20 05:52:59 2000 :: Sorting skill table...
+Fri Oct 20 05:52:59 2000 :: Loading classes
+Fri Oct 20 05:52:59 2000 :: Loading races
+Fri Oct 20 05:52:59 2000 :: Loading herb table
+Fri Oct 20 05:52:59 2000 :: Making wizlist
+Fri Oct 20 05:52:59 2000 :: Making Web Wizlist
+Fri Oct 20 05:52:59 2000 :: Loading Mail
+Fri Oct 20 05:52:59 2000 :: Initializing Kombat...
+Fri Oct 20 05:52:59 2000 :: Initializing Challenge...
+Fri Oct 20 05:52:59 2000 :: Initializing Arena(s)...
+Fri Oct 20 05:52:59 2000 :: Loading Arena #1...
+Fri Oct 20 05:52:59 2000 :: Arena Loading Complete.
+Fri Oct 20 05:52:59 2000 :: Initializing Stocks...
+Fri Oct 20 05:52:59 2000 :: Shares Activated.
+
+Fri Oct 20 05:52:59 2000 :: Share cost for this boot is: 20000000.
+Fri Oct 20 05:52:59 2000 :: Setting up TopTen..
+Fri Oct 20 05:52:59 2000 :: Loading Entry: T:3
+Fri Oct 20 05:52:59 2000 :: Loading Entry: T:1
+Fri Oct 20 05:52:59 2000 :: Loading Entry: T:2
+Fri Oct 20 05:52:59 2000 :: Loading Entry: T:4
+Fri Oct 20 05:52:59 2000 :: Loading Entry: T:5
+Fri Oct 20 05:52:59 2000 :: Loading Entry: T:7
+Fri Oct 20 05:52:59 2000 :: Loading Entry: T:6
+Fri Oct 20 05:52:59 2000 :: Loading Entry: T:9
+Fri Oct 20 05:52:59 2000 :: Loading Entry: T:8
+Fri Oct 20 05:52:59 2000 :: TopTen Setup Conplete!
+Fri Oct 20 05:52:59 2000 :: TOPTEN: Checking to make sure all entries still exist..
+Fri Oct 20 05:52:59 2000 :: TOPTEN: raige Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: hunter Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: rasputin Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: yllek Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: spawn Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: magic Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: magik Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: aderon Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: nemo Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: newbie on Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: will Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: enmity Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: warlord Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: soulbender Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: nemisis Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: wyrm Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: magik Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: sabretooth Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: keeper Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: neferset Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: elendil Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: grymming Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: natas Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: elurna Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: mym Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: nightbane Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: corum Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: neferset Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: magik Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: sabretooth Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: enmity Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: will Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: soulbender Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: warlord Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: nemisis Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: purden Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: wyrm Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: magik Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: keeper Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: nemo Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: enmity Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: soulbender Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: lyim Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: will Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: ponise Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: warlord Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: dinga Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: neferset Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: magik Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: keeper Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: enmity Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: will Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: soulbender Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: warlord Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: neferset Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: nemisis Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: mashan Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: keeper Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: magik Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: xetharius Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: mashan Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: paragrin Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: elurna Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: enmity Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: ebony Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: brogar Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: sabretooth Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: nemo Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: drackor Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: jonzo Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: nemo Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: yllek Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: wyrm Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: keeper Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: vince Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: arcid Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: cilisa Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: ebony Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: magik Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: drackor Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: nemo Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: keeper Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: yllek Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: vince Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: ebony Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: wyrm Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: cilisa Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: magik Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: rahl Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: TOPTEN: drackor Not found, Removing.
+Fri Oct 20 05:52:59 2000 :: Done.
+Fri Oct 20 05:52:59 2000 :: Initializing request pipe
+Fri Oct 20 05:52:59 2000 :: Initializing random number generator
+Fri Oct 20 05:52:59 2000 :: Setting time and weather
+Fri Oct 20 05:52:59 2000 :: Assigning gsn's
+Fri Oct 20 05:52:59 2000 :: Reading in zones...
+Main Mud Zone  Zone #: 1
+Fri Oct 20 05:52:59 2000 :: Reading in area files...
+(zone1/help.are)
+Fri Oct 20 05:52:59 2000 :: [*****] FILE: Armag.are LINE: 96
+Fri Oct 20 05:52:59 2000 :: [*****] BUG: Load_rooms: vnum 27000 has flag '0' not 'DES'.
+Fri Oct 20 05:52:59 2000 :: MUD SHUTTING DOWN: Room flag not DES

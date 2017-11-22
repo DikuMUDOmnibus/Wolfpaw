@@ -1,0 +1,1560 @@
+#AREA   Immortal Offices~
+
+
+
+#VERSION 2 AV-2-TXT-ZC~
+
+#MAPFILE None~
+
+#AUTHOR Dhamon~
+
+#RANGES
+51 67 51 67
+$
+
+#RESETMSG &R&WA low rumbling echoes through the heavens.~
+
+#FLAGS
+320 67 5 0
+
+#CLUB None~
+
+#ECONOMY 1 855761008
+
+#MOBILES
+#30700
+post master postmaster crazy ivan~
+&CCrazy Ivan~
+&CCrazy Ivan &R&Wthe Immortals postmaster stands before you.
+~
+~
+Unknown~
+Unknown~
+515 0 0 S 0 0
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#0
+
+
+#OBJECTS
+#30700
+imm immortal board~
+the board~
+The immortal board hovers here.~
+~
+Unknown~
+Unknown~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30701
+filler~
+a newly created filler~
+Some god dropped a newly created filler here.~
+~
+Unknown~
+Unknown~
+13 1073741824 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30702
+implementor imp board~
+the board~
+The Implementor Message Board is here.~
+~
+Unknown~
+Unknown~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30703
+riddle token~
+a riddle token~
+A riddle token good for neat prizes =) See Dhamon about them.~
+look~
+Unknown~
+Unknown~
+19 0 1 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+E
+test~
+test
+~
+#30704
+highimm~
+A highimm board~
+The board of the high immortals is here.~
+~
+Unknown~
+Unknown~
+13 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30705
+promo board~
+The promo board~
+The Gods Promotion Board sits here.~
+~
+Unknown~
+Unknown~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30706
+idea board~
+the board~
+The great tome of thought sits on a pedistal in the center of the room~
+~
+Unknown~
+Unknown~
+13 2 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30707
+areas board~
+Drop this Pal.~
+A column in the center of the room is covered with charts, maps and notes from the builders of the realms.~
+~
+Taizu~
+Tue Jun 29 19:23:07 1999~
+12 2 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30708
+code board~
+The Coding Board, PUT IT BACK~
+The Coding Council's board de la Code~
+~
+Unknown~
+Unknown~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30709
+CfI board~
+The Informativity Council board, now that you've picked it up you will have to be killed~
+A large board containing information a plenty stands in the center of this room~
+~
+Unknown~
+Unknown~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30710
+Mortal Affairs Board~
+The Mortal Affairs Board~
+The huge mortal affairs board stands here, weighed down by all the notes~
+~
+Unknown~
+Unknown~
+13 2 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30712
+immortal affairs board~
+The Immortal Affairs board, DROP IT~
+The Tome of Immortal Affairs sits here, waiting for your posting~
+~
+Unknown~
+Unknown~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30713
+chocolate milk fountain~
+A Fountain of Chocolate Milk~
+A Large Fountain, full of Chocolate Milk sits here .... try it!~
+~
+Unknown~
+Unknown~
+17 1 0 0 0 0 0 0 0 0 0
+2000000000 2000000000 18 0
+1 0 0
+#30724
+itherian board~
+&R&WItherian's Board~
+The place to post notes for Itherian.~
+~
+Unknown~
+Unknown~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30729
+kinsman board note~
+&R&WKinsman's Board~
+The place to post notes for Kinsman.~
+~
+Unknown~
+Unknown~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30730
+silvermoon board~
+&R&WSilvermoon's Board~
+The place to post notes for Silvermoon.~
+~
+Unknown~
+Unknown~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30731
+gorbash board~
+&R&WGorbash's Board~
+The place to post notes for Gorbash.~
+~
+Unknown~
+Unknown~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30732
+wayne board~
+&R&WWayne's Board~
+&c&w&zWayne's &rCoffin, &zleave your messeges here.~
+~
+Gayle~
+Mon Nov 22 10:00:33 1999~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30733
+board thorn~
+&w&RIF THORN CATCHES YOU WITH HIS BOARD YOUR GONNA BE IN DEEP SHIT!!~
+Thorn's Board~
+~
+Thorn~
+Mon Jan  3 16:25:10 2000~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30734
+Echo board~
+&R&WEcho's Board~
+The place to post notes for Echo.~
+~
+Unknown~
+Unknown~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30735
+luney board~
+&R&W Luney's Board~
+The place to post notes for Luney.~
+~
+Kinsman~
+Fri Sep 24 03:32:10 1999~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30736
+Paphlinander board~
+&C&W&BPaphlinander's &YHawaiian &GHoliday &RNote&Wboard~
+&C&W&BPaphlinander's &YHawaiian &GHoliday &RNote&Wboard~
+~
+Gayle~
+Wed Nov 10 19:54:51 1999~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30737
+Doom's board~
+&c&w&W(&BAura of Beauty&W) &PA lovely, young lady waits for Doom's return.&w~
+&c&w&W(&BAura of Beauty&W) &PDoom's Lover keeps his notes for him.&w~
+~
+Gayle~
+Thu Nov 25 04:40:41 1999~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30739
+winter board~
+&R&WWinter's Board~
+The place to post notes for Winter.~
+~
+Unknown~
+Unknown~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30740
+nakita board~
+Nakita's Board~
+A place to post notes for Nakita~
+~
+Gayle~
+Thu Dec  2 00:40:16 1999~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30741
+dragonslayer board~
+&R&WDragonslayer's Board~
+The place to post notes for Dragonslayer.~
+~
+Kinsman~
+Wed Oct 13 05:43:16 1999~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30742
+silvia board~
+&R&WSilvia's Board~
+The place to post notes for Silvia.~
+~
+Kinsman~
+Fri Sep 24 03:18:01 1999~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30743
+baron board~
+&R&WBaron's Board~
+The place to post notes for Baron.~
+~
+Kinsman~
+Mon Sep 27 03:28:07 1999~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30746
+brulok board~
+&R&WBrulok's Board.~
+The place to post notes for Brulok.~
+~
+Unknown~
+Unknown~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30747
+Warner Board~
+&c&w&CWakko's &cBad &GChecks &Rand &WNotes~
+&c&w&CWakko's &cBad &GChecks &Rand &WNotes~
+~
+Gayle~
+Mon Apr 17 07:30:56 2000~
+13 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30748
+&R&WDarkDragon's Board~
+Darkdragon's Board, LEAVE IT HERE~
+The place to post notes for DarkDragon.~
+~
+Darkdragon~
+Tue Oct 26 13:35:27 1999~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30751
+Gayle board~
+&C&W&YGayle's &RRose&GVine &zcovered &BNote&WBoard~
+&C&W&YGayle's &RRose&GVine &zcovered &BNote&WBoard~
+~
+Gayle~
+Wed Nov 10 20:09:31 1999~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30752
+satan board~
+&RHatred's message board&w~
+&rHatred's &RHate &rMail gets burnt here.&w~
+~
+Taizu~
+Sat Apr  8 00:53:39 2000~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30753
+airiq board~
+&C&WA &C&W&RC&C&W&Yo&C&W&Gl&C&W&Co&C&W&Br&z&bi&z&pn&c&zg&C&W Book for you to leave &C&W&RNotes&C&W to &V&W&BScram &C&Won.&c&w~
+&C&WA &C&W&RC&C&W&Yo&C&W&Gl&C&W&Co&C&W&Br&z&bi&z&pn&c&zg&C&W Book for you to leave &C&W&RNotes&C&W to &V&W&BScram &C&Won.&c&w~
+~
+Silvermoon~
+Mon Nov  8 20:09:41 1999~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30755
+creamy board~
+&C&W&CCreamy&C&W'&C&W&Cs&z&b Pool&C&W of&C&W&C Messages&c&w~
+&C&W&CCreamy&C&W'&C&W&Cs&z&b Pool&C&W of&C&W&C Messages&c&w~
+~
+Silvermoon~
+Thu Oct 21 18:33:50 1999~
+12 1073741824 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30756
+leather couch~
+&Oa soft leather couch&w~
+&OA soft leather couch faces the fireplace.&w~
+~
+Taizu~
+Sat Jan 29 09:52:33 2000~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30757
+large comfy hammock~
+&Ba large comfy hammock&w~
+&BA large comfy hammock swings gently in the breeze.&w~
+~
+Taizu~
+Mon Jan 31 13:01:56 2000~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30758
+single red rose gayle~
+&c&w&Wa single &RRED R&ro&Rs&re &R@&G}----&w~
+&c&w&Wa single &RRED R&ro&Rs&re &Wgrows here &R@&G}----&w~
+~
+Gayle~
+Tue Feb 29 00:18:24 2000~
+13 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30759
+pr board~
+The PR Board~
+The PR Board floats here..~
+~
+Greywolf~
+Sun Apr  2 05:57:01 2000~
+12 1 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#30790
+throne chair adamantite~
+a giant adamantite throne~
+&zA huge throne of black and &bblue&z adamantite sits here.~
+~
+Unknown~
+Unknown~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+100 300 30
+#30791
+taizu board~
+&R&WTaizu's Board~
+The Place to post notes for Taizu.~
+~
+Kinsman~
+Tue Jan 18 21:09:44 2000~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+999 0 0
+#30799
+creation building board~
+the board~
+The Creation Board is hovers magicaly here.~
+~
+Unknown~
+Unknown~
+12 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#30700
+Immortal General Hall~
+You are in the general assembly hall for the gods of this MUD.
+the implementors' room is to your north and the builders' room is
+located to your east.
+~
+twzone.wav~
+Unknown~
+Unknown~
+0 1075838980 1 51
+D0
+~
+~
+0 -1 30799
+D1
+~
+~
+0 -1 30701
+D2
+~
+~
+0 -1 30702
+D3
+~
+~
+0 -1 30602
+D4
+~
+~
+0 -1 30703
+D5
+~
+~
+0 -1 30704
+S
+#30701
+The Creation Room~
+This is where areas for the Age of the Anceints are planned and created.
+In the middle of the rooms hovers a magical messages board containing 
+questions and thoughts on the building of new areas.
+~
+~
+Unknown~
+Unknown~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 30745
+D3
+~
+~
+0 -1 30700
+D4
+~
+~
+0 -1 30728
+S
+#30702
+Alter of Lords~
+This is the Promotion room of the gods, there is where if a god feels
+he should get a promotion, he shall leave a note on this board
+with only his name as a subject, and no text and hope. He must be wary
+however, for posting for a promotion without deserving it may cuase
+that god to lose some, or all of his power, in the reviews held
+each month.
+~
+~
+Unknown~
+Unknown~
+0 2097152 1 51
+D0
+~
+~
+0 -1 30700
+S
+#30703
+The Chamber of the High Gods~
+You enter this hallowed hall.  As you slowly, cautiously walk
+to the board at the end you feel emense power pulsating from
+the walls.  This place makes you feel as if you were being
+watched with a thousand eyes.  If you aren't a lord.. maybe
+you should leave or be at the mercy of the gods!
+~
+~
+Unknown~
+Unknown~
+0 2097152 67 57
+D5
+~
+~
+0 -1 30700
+S
+#30704
+Hall of Thought~
+You enter the great hall of thought in which ideas are made into
+reality and problems are corrected.. the huge board in the center
+of the room holds the mystic runes, scribed by the gods themselves,
+containing the thoughts and dreams of those gods for hopeful realization
+by the greater powers.
+~
+~
+Unknown~
+Unknown~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 30705
+D4
+~
+~
+0 -1 30700
+S
+#30705
+The Hall of Councils~
+This great hall houses the councils of the realm, the tall ceilings
+seem to reach into forever and the huge archways into each of the council
+meeting halls are even more promenant 
+ 
+The seal of the Ancients has been engraved into the floor
+~
+~
+Unknown~
+Unknown~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 30704
+D1
+~
+~
+0 -1 30708
+D2
+~
+~
+0 -1 30706
+D3
+~
+~
+0 -1 30707
+S
+#30706
+Chambers of the Area Improvement Council~
+This hall has a more unique shape than the others.  The walls spread
+out from the door in the shape of an octagon.  In the center of each
+wall is a portal that overlooks a different sector of the realms.
+It is here that the gods keep watch on the races and civilizations as 
+they progress, always ready to intervene if direction is needed.
+ 
+~
+~
+Taizu~
+Tue Jun 29 19:24:10 1999~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 30705
+S
+#30707
+Code Council Niche~
+Schematics line the walls of this room, but not like area blueprints
+these diagrams show the foundation of the world and the energy
+which sustains it
+~
+~
+Unknown~
+Unknown~
+0 1076887556 1 0
+D1
+~
+~
+0 -1 30705
+S
+#30708
+The Hall of Councils~
+The great hall continues to the east and so do the huge archways
+leading into the halls of the Cfi, and the Affair Councils
+The same seal is engraved into the floor as in the other room, it's really
+quite prominent and impressive
+~
+~
+Unknown~
+Unknown~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 30709
+D1
+~
+~
+0 -1 30711
+D2
+~
+~
+0 -1 30710
+D3
+~
+~
+0 -1 30705
+S
+#30709
+PR Board Room~
+This is the Public Relations board room.  Long tables lined by big
+comfy chairs fill the entire room.  A small coffee machine sits in
+the corner next to a box of half-eaten donuts.  The brown worm carpet
+shows that there has been many late nights in this office.
+~
+~
+Greywolf~
+Sun Apr  2 06:02:49 2000~
+0 1076887560 1 51
+D2
+~
+~
+0 -1 30708
+S
+#30710
+Mortal Affairs Office~
+This room is the center of mortal affairs within the immortal community
+the high point of this room other then the board containing posts of the
+council, is the access to the other main mortal affairs board located in
+Mithras
+~
+~
+Unknown~
+Unknown~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 30708
+D5
+~
+~
+0 -1 30603
+S
+#30711
+Immortal Affairs Headquarters~
+This huge room contains the board and meeting hall for
+the Immortal Affairs Council, this is where the council comes to discuss
+things of relevance to Immortal wellbeings and quality
+ 
+Mortal Affairs are not nesseccary here let the big MaCs handle it
+~
+~
+Unknown~
+Unknown~
+0 1073741824 1 0
+D3
+~
+~
+0 -1 30708
+S
+#30720
+&gChamber of the Fates &Y(&r55&y)~
+Around you is a vast chamber of power. Looking out from this point you
+can see a view of almost infinite range. Stars, Galaxies and many other
+formations are taking place and can be seen from this point. A few marble
+statues are scattered around the room representing the power of those
+who work their creations from here. 
+~
+~
+Unknown~
+Unknown~
+0 1076887552 1 51
+D4
+~
+~
+0 -1 30724
+D5
+~
+~
+0 -1 30723
+S
+#30721
+&gWizards Creation Room &Y(&r52&Y)~
+A library of endless knowledge seems to surround you. Books, scrolls
+antique items and magical creations seem to levitate around on small
+desk high pillars. Tomes of great power lay open on a large table to
+your right and seem to be written in a language not able to be understood
+by mortal eyes. Powerful wizards are pictured in frames working their
+amazing powers.
+~
+~
+Kinsman~
+Mon Nov  8 05:25:21 1999~
+0 1076887552 1 51
+D4
+~
+~
+0 -1 30722
+D5
+~
+~
+0 -1 30728
+S
+#30722
+&gHall of the Lords &Y(&r53&Y)~
+An array of antique items some of which have never entered the realms of
+mortals are placed neatly around the room. Designated tables with tomes
+scrolls and other items are placed through out the Hall. Long red carpets
+cover the floors and different sigils on banners are drapped down from the
+roof representing the different lords that occupy these halls.
+~
+~
+Gayle~
+Mon May  1 11:38:00 2000~
+0 1076887552 1 51
+D0
+~
+~
+0 -1 30752
+D1
+~
+~
+0 -1 30741
+D2
+~
+~
+0 -1 30735
+D3
+~
+~
+0 -1 30743
+D4
+~
+~
+0 -1 30723
+D5
+~
+~
+0 -1 30721
+S
+#30723
+&gTitan War Grounds &Y(&r54&Y)~
+Weapons the size of small towns and seats the size of small countries lie
+scattered around these grounds. There is huge foot prints that you litterally
+climb down into around all over the place. Large ancient Tomes and some old
+funriture is also laying around. The amazing size of the objects scattered
+around would say that the beings that work here must be Titans. Unknown and
+never seen, these creatures have remained hidden upon a lifetime.
+~
+~
+Gayle~
+Thu Dec  2 00:32:58 1999~
+0 1076887552 1 51
+D0
+~
+~
+0 -1 30740
+D3
+~
+~
+0 -1 30753
+D4
+~
+~
+0 -1 30720
+D5
+~
+~
+0 -1 30722
+S
+#30724
+Continuum to the Gods &Y(&r56&Y)~
+An endless void of nothing doors seem to appear and disappear in the middle
+of nowhere. Your thoughts seem to have a HUGE amount of weight in this area
+of space for that is how these gods seem to work their creations. The thought
+or the glimpse of a picture of something inside your mind can begin to alter
+time and space as it is known to these immortal beings. The power that seems
+to eminate from this void or whatever its true name is cannot be measured and
+has not been known through the time that is known.
+~
+~
+Darkdragon~
+Wed Jun 14 12:38:31 2000~
+0 1076887552 1 51
+D0
+~
+~
+0 -1 30748
+D1
+~
+~
+0 -1 30747
+D2
+~
+~
+0 -1 30737
+D3
+~
+~
+0 -1 30746
+D4
+~
+~
+0 -1 30725
+D5
+~
+~
+0 -1 30720
+S
+#30725
+Sphere of the Head Gods &Y(&r57&Y)~
+As beautiful as the surroundings are this holy place of the gods seems to
+be of one of the most magically created you've encountered. Plant life and
+color seem to flourish in this small but enormous place and the colors to
+it seem to be boundless. Amazing craftsmanship in many forms takes place in
+this strange sphere and to most by unknown creators.
+~
+~
+Gayle~
+Mon Nov 22 10:11:45 1999~
+0 1076887552 1 51
+D0
+~
+~
+0 -1 30732
+D4
+~
+~
+0 -1 30726
+D5
+~
+~
+0 -1 30724
+S
+#30726
+Councils Meetings Hall &Y(&r58&Y)~
+A wide hall lusciosly decorated in long red carpets which cover the floors
+and long white drapes that fall from the ceiling to cover the windows to
+the outside. A table surrounded in antique chairs is seated in the centre
+of the room. Plants growing from small pits in the floor are neatly spaced
+out some of which are flowering reds, yellows and various other colors. On
+the table some important documents rolled up in scroll form lay placed in front
+of each chair. Art of what looks to be of each council member is lined along
+the walls making the decore that much more respectful and powerful.
+~
+~
+Taizu~
+Sun Feb 13 20:29:38 2000~
+0 3145728 1 51
+D0
+~
+~
+0 -1 30739
+D1
+~
+~
+0 -1 30791
+D2
+~
+~
+0 -1 30736
+D4
+~
+~
+0 -1 30754
+D5
+~
+~
+0 -1 30725
+S
+#30727
+&gThrone Room of the Hyperions &R&W&Y(&R60&W&Y)&W~
+Radiating an awesome amount of power, this room seems to be of the greatest
+power of all kind. Taking in the surroundings you see that statues of vast
+and great Immortal beings decorate it aswell as lovely rugs and a wide aray
+of art. A set of marble thrones is lined up against the far wall which
+are beautifully decorated in silk and satin cusions. Small pillars which
+burn as lights are placed throughout the wide room so that no shadows are
+left in the tightest corner. A small table covered in fruits and other food
+sits in the middle of the room. Looking out a small window that seems to be
+to your right you notice that entire Universes hover and spin just outside
+of your grasp.
+~
+~
+Gayle~
+Mon May  1 11:34:01 2000~
+0 1076887552 1 51
+D0
+~
+~
+0 -1 30751
+D1
+~
+~
+0 -1 30729
+D2
+~
+~
+0 -1 30730
+D3
+~
+~
+0 -1 30731
+D5
+~
+~
+0 -1 30754
+S
+#30728
+Empath &Y(&r51&Y)~
+A small and aspiring chamber, this is where those of the godly realms begin
+their journey into the Realms of the Immortality itself. Aspiring young being
+these beings are workers of amazing works of fate even at such a small power 
+which they are. Magical books and items float in mid-air and colors seem to
+fade in and out of exsistance as these wonderous beings work their magic.
+~
+~
+Gayle~
+Thu Dec 16 11:02:43 1999~
+0 1076887552 1 51
+D0
+~
+~
+0 -1 30744
+D4
+~
+~
+0 -1 30721
+D5
+~
+~
+0 -1 30701
+S
+#30729
+Kinsman's room~
+As you look around the room you see that it is a simple room, no fancy
+furniture or ornaments but a few well laid out pillows yet you feel that it
+has a certain relaxing feel and aura about it.
+~
+~
+Kinsman~
+Sat May 20 20:37:02 2000~
+0 1076887560 1 51
+D3
+~
+~
+0 -1 30727
+S
+#30730
+&c&r&zSil&c&wver&C&Wmoon's &z&rMrrshan Manor.&w~
+&c&w _______   
+&c&w|  &C&Wo    `               ___
+&c&w|  &B)&C&W_                  '   |       &z&rTop floor,
+&c&w|&z&r__&B)&z&r_&B(&z&r____________________ &C&W|&c&w______ Audiance chamber
+&c&w|                         &z&r\_\_    &c&w|&z&r6th landing,
+&c&w|____________________________ &z&r\&c&w___|meditations.
+&c&w|     &z&r__                  &z&r__/_/&c&w   |&z&r5th landing,
+&c&w|____&z&r|  &c&w____________________&z&r/&c&w_____|music room.
+&c&w|     &z&r\_\_            &z&r__&c&w          |&z&r4th landing, 
+&c&w|_______&z&r\&c&w____________&z&r| &c&w___________|Refreshments.
+&c&w|         &z&r__      &z&r__/_/&c&w   &C&W| &c&wo&C&W|    |&z&r3rd landing,
+&c&w|_________&z&r  |&c&w_______&z&r/&c&w_____&C&W|&c&w__&C&W|____|NoWeapons
+&c&w|       &z&r_/_/         &z&r__           &c&w|&z&r2nd landing,
+&c&w|     &z&r_/&c&w____________&z&r/ &c&w____________|WIPE YOUR FEET!
+&c&w|____&z&r/_/&c&w            &z&r\_&c&w            |&z&r1st landing,
+&c&w|  __&z&r/&c&w________________&z&r\&c&w___________|waiting area.
+&z&r|_|
+&z&r|_|
+&z&r|_|&C&W&BYou climb the scratching post to
+&z&r| |&zSil&c&wver&C&Wmoon's &z&rMrrshan Manor.&w
+  
+~
+~
+Silvermoon~
+Mon Nov 29 15:35:58 1999~
+0 1076887552 1 51
+D0
+~
+~
+0 -1 30727
+S
+#30731
+&R&W&YGorbash's &xLair&R&W~
+~
+~
+Gorbash~
+Thu Nov 11 19:38:14 1999~
+0 1076887552 1 51
+D1
+~
+~
+0 -1 30727
+> speech_prog We love dis!~
+mprestore $n 100
+~
+|
+S
+#30732
+&c&w&rWayne's Family Crypt&w~
+&c&w&zYou stand within the tomb of &rWayne&z. His family crest hangs from
+a chain above the entryway.  The walls are lined with the coffins of his
+ancesters.  The &Wcobwebs &zare sparse, floating on the almost non-existant
+breezes within the silent darkness.  No window, No candles, No warmth... it's
+a crypt alright.  Dark, damp, cold.. It chills you to the bone.
+&rWayne &zstands in the center of the room, &reyes &zglowing from behind his
+cloak, hypnotizing you with his erotic gaze.  You are drawn to him against your
+will... and better judgement.  Your life is forfeit.  You belong to him now.
+~
+~
+Gayle~
+Thu Feb 17 19:01:23 2000~
+0 1076887556 1 51
+D2
+~
+~
+0 -1 30725
+S
+#30733
+Thorn's Room~
+=======================================================================
+              ___,---.__          /'|`\          __,---___  
+           ,-'    \`    `-.____,-'  |  `-.____,-'    //    `-.    
+         ,'        |           -'\     /`-           |        `.  
+        /      ___//              `. ,'          ,  , \___      \ 
+       |    ,-'   `-.__   _         |        ,    __,-'   `-.    |
+       |   /          /\_  `   .    |    ,      _/\          \   |
+       \  |           \ \`-.___ \   |   / ___,-'/ /           |  /
+        \  \           | `._   `\\  |  //'   _,' |           /  / 
+         `-.\         /'  _ `---'' , . ``---' _  `\         /,-'  
+            ``       /     \    ,='/ \`=.    /     \       ''     
+                    |__   /|\_,--.,-.--,--._/|\   __|             
+                    /  `./  \\`\ |  |  | /,//' \,'  \             
+                   /   /     |-\-+--|--+-/-|     \   \            
+                  |   |     /'\_\_\ | /_/_/`\     |   |           
+                   \   \__, \_     `-'     _/ .__/   /           
+                    `-._,-'   `-._______,-'   `-._,-'             
+=======================================================================
+~
+~
+Thorn~
+Thu Nov 18 02:53:46 1999~
+0 -2144337908 1 58
+D0
+~
+~
+0 -1 30754
+S
+#30734
+&z&pEcho's &zCircle &c&w~
+&c&w&zA &GForest&z clearing in the &WMoonlight&z. Above you see the 
+&WMoon&z, full and bright. A Circle of Stones are in the center of the 
+clearing, a &RFi&Or&Ye P&rit &zand &OWood Altar&z share the middle of the 
+Circle. A stone knife and a &c&wSilver Cup &zwait on the altar.
+~
+~
+Taizu~
+Sat Jan 29 10:15:04 2000~
+0 3145728 1 51
+D2
+~
+~
+0 -1 30754
+S
+#30735
+Luney's room~
+~
+~
+Gayle~
+Mon May  1 11:38:00 2000~
+0 1076887556 1 51
+D0
+~
+~
+0 -1 30722
+S
+#30736
+Paphlinander's room~
+You find yourself in a virtual tropical paradise.  The palm trees 
+swaying to the gentle sound of the ukulele.  The Mynah bird sings his
+song as the trade winds blow softly through your hair.  A small spring 
+is here.  It is perfect for quenching your thirst. A papaya tree
+bears its fruit for your enjoyment.  It is indeed a paradise.  You see
+Paphlinander here almost asleep in his hammock.  He is enjoying life
+to the fullest, drinking Mai Tai's and eating manapua.
+~
+~
+Taizu~
+Wed Mar 15 11:55:04 2000~
+0 3145732 1 51
+D0
+~
+~
+0 -1 30726
+S
+#30737
+Doom's room~
+~
+~
+Unknown~
+Unknown~
+0 1076887552 1 51
+D0
+~
+~
+0 -1 30724
+S
+#30738
+an empty room~
+~
+~
+Gayle~
+Wed May 24 10:43:11 2000~
+0 3145732 1 51
+D2
+~
+~
+0 -1 30751
+S
+#30739
+&R&WWinter's &xDen.&R&W~
+You step into a cavelike room, dark, gloomy...a little wet, tell
+you the truth.  But below it all, there's a sort of hum, the kind
+you feel in your bones.  There are comfortable looking furs scattered
+around the room, but you doubt you'll get to relax much from the
+look on the face of your host.  Softly, a voice from all around you
+whispers, "Shall we begin?"
+~
+~
+Taizu~
+Sat Jan 29 10:14:50 2000~
+0 3145728 1 51
+D2
+~
+~
+0 -1 30726
+S
+#30740
+Nakita's room~
+~
+~
+Gayle~
+Thu Dec  2 00:40:20 1999~
+0 1076887552 1 51
+D2
+~
+~
+0 -1 30723
+S
+#30741
+Dragonslayer's Room~
+~
+~
+Kinsman~
+Mon Nov  8 05:25:04 1999~
+0 1076887556 1 51
+D3
+~
+~
+0 -1 30722
+S
+#30742
+&gSilvia's room~
+~
+~
+Kinsman~
+Fri Sep 24 03:25:27 1999~
+0 1076887552 1 51
+D3
+~
+~
+0 -1 30747
+S
+#30743
+Baron's Haven~
+As you step into the room your feet sink into the thick carpet that's
+covering the floor.  A fire in the fireplace along the western wall
+creates a warm glow on the wood paneling.  The leather couch that sits
+in front of the fireplace has been softened and darkened by use.  A
+small table and reading lamp are at one end of the couch, there to take
+advantage of the many books in the shelves that line the northern wall.
+Hung on the southern wall are pictures of those near and dear to Baron.
+The overall affect of this haven is one of comfort and peace.  Your soul
+is at rest here.
+~
+~
+Taizu~
+Sat Jan 29 10:18:28 2000~
+0 3145732 1 51
+D0
+~
+bookcase~
+2051 -1 30791
+D1
+~
+~
+0 -1 30722
+E
+pictures picture~
+There are several pictures lining the walls, however two stand out
+from the rest.  One is of a proud warrior posing in full glory,
+the other is of a fair lady.
+~
+E
+warrior~
+This proud warrior stands tall with a proud and defiant glint in his
+eye.  Baron knew him as Mathes, but to those of this realm he has
+a different name.
+~
+E
+lady~
+Long dark hair flows over milky white shoulders.  A soft smile plays
+on full lips and blue eyes are filled with tender affection.  It is
+said that Baron sat nearby the entire time this portrait was being
+created.  Perhaps that is why there is such a look of contentment
+on the face of this lady.  Whatever the cause, the artist has truly
+captured the essence of Taizu.
+~
+S
+#30744
+Genocide's room~
+~
+~
+Unknown~
+Unknown~
+0 1076887552 1 51
+D2
+~
+~
+0 -1 30728
+S
+#30745
+&CImmortal Post Office~
+As you enter the room the only furniture you see is a desk in the middle
+of the room.  There are letters scattered all over the table, you
+wonder how much of a reliable service this is but you are willing
+to give it a try.
+~
+~
+Kinsman~
+Mon Sep 27 03:32:18 1999~
+0 1076888576 1 51
+D3
+~
+~
+0 -1 30701
+S
+#30746
+Brulok's Pad~
+~
+~
+Unknown~
+Unknown~
+0 1076887552 1 0
+D1
+~
+~
+0 -1 30724
+S
+#30747
+Warner's Room~
+~
+~
+Darkdragon~
+Wed Jun 14 12:38:31 2000~
+0 1073741824 1 0
+D3
+~
+~
+0 -1 30724
+S
+#30748
+DarkDragon's Dark Lair~
+A small dark lair, in which DarkDragon resides.
+~
+~
+Darkdragon~
+Fri Jun 16 12:33:58 2000~
+0 1076887552 1 56
+D2
+~
+~
+0 -1 30724
+S
+#30750
+An Empty Office~
+~
+~
+Taizu~
+Sun Apr  2 14:48:18 2000~
+0 1073741828 1 0
+S
+#30751
+&c&w&BGayle's &WGarden&w~
+~
+~
+Gayle~
+Fri Jun  2 20:20:38 2000~
+0 3145732 1 51
+D0
+~
+~
+0 -1 30738
+D2
+~
+~
+0 -1 30727
+S
+#30752
+Hatred's Room~
+~
+~
+Taizu~
+Sun Apr  2 14:55:27 2000~
+0 1076887556 1 0
+D2
+~
+~
+0 -1 30722
+S
+#30753
+Scrams Playpen~
+~
+~
+Gayle~
+Mon May  1 11:37:45 2000~
+0 1076887552 1 51
+D0
+~
+~
+0 -1 30722
+D1
+~
+~
+0 -1 30723
+S
+#30754
+&gCommittee Meeting Hall &Y(&r59&Y)&W~
+If you need anything done this is the level to speak to.
+Dont bother going higher as no-one is home.
+~
+~
+Taizu~
+Sat Jan 29 10:14:58 2000~
+0 0 1 0
+D0
+~
+~
+0 -1 30734
+D2
+~
+~
+0 -1 30733
+D4
+~
+~
+0 -1 30727
+D5
+~
+~
+0 -1 30726
+S
+#30755
+An Empty Office~
+~
+~
+Taizu~
+Sun Apr  2 14:47:46 2000~
+0 1073741828 1 0
+S
+#30770
+Floating in a void~
+~
+~
+(null)~
+(null)~
+0 1073741828 1 0
+S
+#30790
+&zIn the Throne Room of Mask, in the City of Shadows&w~
+&zAs you look around, you notice you are standing in the throne room of
+Mask, the Shadowlord, Patron of Thieves. Two huge black statues of dragons
+sit to the upper right and left of the throne in the center of the room.
+As you examine the dragons you realize they are not statues, but Shadow
+Dragons. A few dim torches cast light, but more importantly shadows, all
+around the huge room. The throne that sits in the center seems to be made
+from black adamantite, and etched into it are images of the greatest thieves
+known to the world.&W
+~
+~
+Unknown~
+Unknown~
+0 3154500 1 0
+S
+#30791
+Taizu's Solace~
+The moment you enter this room your soul is filled with a deep sense of
+contentment.  Flickering flames of candles send shadows dancing on the
+walls.  You hear the soft whisper of music in the background, like the songs
+of birds on the wind.  There is a big comfy couch here - the kind you can
+sink into and not be found for days.  You fight the lure of the promise of
+comfort but you know you'll lose.  Even as you contemplate your next move
+you feel the tension leaving your body as it's replaced by peaceful
+serenity.  This is a place where you can forget all your worries.
+~
+~
+Taizu~
+Sat Jan 29 10:18:22 2000~
+0 3145732 1 51
+D2
+~
+'secret panel'~
+2051 -1 30743
+D3
+~
+~
+0 -1 30726
+S
+#30798
+Floating in a void~
+~
+~
+Unknown~
+Unknown~
+0 1073741828 1 0
+S
+#30799
+The Hall Of The Implementors~
+You are in a grand room that serves as the meeting place of the Arch
+Immortals of The Age Of The Ancients. Large comfertable chairs are drawn
+around a table that sits in the senter of the room.
+~
+~
+Gorbash~
+Wed Jan 12 18:53:29 2000~
+0 1075838976 1 59
+D2
+~
+~
+0 -1 30700
+S
+#0
+
+
+#RESETS
+O 1 30700 1 30700
+O 1 30799 1 30701
+O 1 30705 1 30702
+O 1 30704 1 30703
+O 1 30706 1 30704
+O 1 30708 1 30707
+O 1 30712 1 30711
+O 1 30702 1 30799
+O 1 30729 1 30729
+O 1 30734 1 30734
+O 1 30739 1 30739
+O 1 30730 1 30730
+O 1 30731 1 30731
+O 1 30746 1 30746
+O 1 30748 1 30748
+O 1 30742 1 30742
+O 1 30735 1 30735
+M 1 30700 1 30745
+O 1 30741 1 30741
+O 1 30753 1 30753
+O 1 11422 1 30753
+O 1 30733 1 30733
+O 1 30732 1 30732
+O 1 30740 1 30740
+O 1 30791 1 30791
+D 0 30791 2 1
+O 1 30743 1 30743
+O 1 30756 1 30743
+D 0 30743 0 1
+O 1 30736 1 30736
+O 1 30757 1 30736
+O 1 30759 1 30709
+O 1 30752 1 30752
+O 1 30747 1 30747
+O 1 30751 1 30751
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

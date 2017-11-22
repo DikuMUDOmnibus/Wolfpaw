@@ -1,0 +1,51 @@
+if [ -s $1 ]
+then	
+	/home/mud/aota/aota/aoa/log/data.cln
+else
+	echo $1 > temp.cln
+if
+	grep help temp.cln > /dev/null
+then
+	echo "Clean Help:"
+	echo "vers.............................Displays current version"
+	echo "help.............................Displays this screen"
+	echo "credits..........................Displays Clean credits"
+	echo "bugs.............................Displays known bugs" 
+	rm temp.cln
+else
+if 
+	grep vers temp.cln > /dev/null
+then
+	echo " "
+	echo "Clean-SMAUG Log Cleaning Utility"
+	echo "         Version 2.0"
+	rm temp.cln
+else
+if
+	grep credits temp.cln > /dev/null
+then
+	echo "**********************************************"
+	echo "*              Clean v2.0                    *"
+	echo "*      Wolfpaw Log Cleaning Utility          *"
+	echo "*       By: Dustin Rice  (Wyverns)           *"
+	echo "*    With help from: LSD (Ivan Gohn),        *"
+	echo "*  Kevin Heneveld, Greywolf (Dale Corse),    *"
+	echo "*             and Tim Larabee                *"
+	echo "**********************************************"
+	rm temp.cln
+else
+if 
+	grep bugs temp.cln > /dev/null
+then	
+	echo ""
+	echo "7/27/98-Clean should make its own Backlog directory, but doesn't."
+	echo "Email any other bugs to:wyverns@talon.wolfpaw.net"
+else	
+	echo "Sorry, no matches found fo $1, refer to help for options"
+	rm temp.cln
+fi
+fi
+fi
+fi
+fi
+

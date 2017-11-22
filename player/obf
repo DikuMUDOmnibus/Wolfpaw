@@ -1,0 +1,80 @@
+cd a
+grep 'Level        51' *
+cd ..
+cd b
+grep 'Level        51' *
+cd ..
+cd c
+grep 'Level        51' *
+cd ..
+cd d
+grep 'Level        51' *
+cd ..
+cd e
+grep 'Level        51' *
+cd ..
+cd f
+grep 'Level        51' *
+cd ..
+cd g
+grep 'Level        51' *
+cd ..
+cd h
+grep 'Level        51' *
+cd ..
+cd i
+grep 'Level        51' *
+cd ..
+cd j
+grep 'Level        51' *
+cd ..
+cd k
+grep 'Level        51' *
+cd ..
+cd l
+grep 'Level        51' *
+cd ..
+cd m
+grep 'Level        51' *
+cd ..
+cd n
+grep 'Level        51' *
+cd ..
+cd o
+grep 'Level        51' *
+cd ..
+cd p
+grep 'Level        51' *
+cd ..
+cd q
+grep 'Level        51' *
+cd ..
+cd r
+grep 'Level        51' *
+cd ..
+cd s
+grep 'Level        51' *
+cd ..
+cd t
+grep 'Level        51' *
+cd ..
+cd u
+grep 'Level        51' *
+cd ..
+cd v
+grep 'Level        51' *
+cd ..
+cd w
+grep 'Level        51' *
+cd ..
+cd x
+grep 'Level        51' *
+cd ..
+cd y
+grep 'Level        51' *
+cd ..
+cd z
+grep 'Level        51' *
+cd ..
+
+

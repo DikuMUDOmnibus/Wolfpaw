@@ -1,0 +1,282 @@
+Name        Pa~
+Filename	 Paladin.class~
+Class       8
+Attrprime   4
+Weapon      10312
+Guild       21430
+Skilladept  95
+Thac0       18
+Thac32      7
+Hpmin       11
+Hpmax       17
+Mana        1
+Expbase     1350
+Type	 1
+Skill 'cause light' 7 95
+Skill 'cause serious' 14 90
+Skill 'create life' 0 0
+Skill 'create symbol' 15 85
+Skill 'cure critical' 14 90
+Skill 'cure serious' 7 95
+Skill 'curse' 13 85
+Skill 'detect hidden' 8 90
+Skill 'detect invis' 8 90
+Skill 'detect magic' 8 90
+Skill 'enchant weapon' 36 85
+Skill 'exp' 0 0
+Skill 'faerie fire' 9 95
+Skill 'fireball' 15 90
+Skill 'gods wrath' 0 0
+Skill 'harm' 23 85
+Skill 'heal' 25 90
+Skill 'helical flow' 40 95
+Skill 'identify' 15 90
+Skill 'invis' 17 90
+Skill 'necromantic touch' 49 90
+Skill 'pass door' 46 95
+Skill 'poison' 8 95
+Skill 'protection' 6 95
+Skill 'recharge' 44 65
+Skill 'refresh' 3 95
+Skill 'remove curse' 12 95
+Skill 'remove trap' 15 70
+Skill 'resilience' 40 95
+Skill 'restoration' 30 95
+Skill 'sanctuary' 37 95
+Skill 'unravel defense' 23 90
+Skill 'uplift' 30 65
+Skill 'weaken' 9 80
+Skill 'Storm of Vengence' 0 95
+Skill 'aid' 6 99
+Skill 'demonize' 30 95
+Skill 'disarm' 25 90
+Skill 'dodge' 2 80
+Skill 'dual wield' 12 95
+Skill 'fourth attack' 25 55
+Skill 'hide' 32 80
+Skill 'kick' 2 90
+Skill 'mount' 1 95
+Skill 'parry' 10 70
+Skill 'punch' 5 80
+Skill 'purify' 30 95
+Skill 'radiance' 50 95
+Skill 'search' 14 85
+Skill 'second attack' 3 80
+Skill 'sneak' 32 80
+Skill 'stun' 35 60
+Skill 'third attack' 20 75
+Skill 'bludgeons' 1 75
+Skill 'flexible arms' 1 95
+Skill 'long blades' 1 45
+Skill 'missile weapons' 1 80
+Skill 'pugilism' 1 90
+Skill 'short blades' 1 85
+Skill 'talonous arms' 1 40
+Skill 'arewyndel' 1 95
+Skill 'brownie' 1 95
+Skill 'centaur' 1 95
+Skill 'common' 1 99
+Skill 'cyclops' 1 95
+Skill 'draconian' 1 95
+Skill 'drider' 1 95
+Skill 'drowish' 1 95
+Skill 'dwarven' 1 99
+Skill 'elvish' 1 99
+Skill 'gith' 1 99
+Skill 'goblin' 1 99
+Skill 'halfling' 1 99
+Skill 'leprachaun' 1 95
+Skill 'minotaur' 1 95
+Skill 'mrrshan' 1 95
+Skill 'ogre' 1 99
+Skill 'orcish' 1 99
+Skill 'pixie' 1 99
+Skill 'satyr' 1 95
+Skill 'trollese' 1 99
+Skill 'vampiric' 1 95
+Skill 'wolfish' 1 95
+Skill 'wraith' 1 95
+Title
+Man~
+Woman~
+Title
+Young Paladin~
+Young Paladin~
+Title
+Understudy of Magic~
+Understudy of Magic~
+Title
+Valet~
+Valet~
+Title
+Disciple~
+Disciple~
+Title
+Observist~
+Observist~
+Title
+Surveyor~
+Surveyess~
+Title
+Gazer~
+Gazer~
+Title
+Entrancer~
+Entrancer~
+Title
+Forboder~
+Forbodess~
+Title
+Medium of Wizardry~
+Medium of Wizardry~
+Title
+Seer~
+Seeress~
+Title
+Clairvoyant~
+Clairvoyantress~
+Title
+Cryptic~
+Cryptic~
+Title
+Spiritualist~
+Spiritualist~
+Title
+Mystic~
+Mystic~
+Title
+Oracle~
+Oracle~
+Title
+Sibyl~
+Sibyl~
+Title
+Magus~
+Magus~
+Title
+Veiler~
+Veiless~
+Title
+Warlock~
+Witch~
+Title
+Magician~
+Magician~
+Title
+Necromancer~
+Necromacess~
+Title
+Palmist~
+Palmist~
+Title
+Diviner~
+Diviness~
+Title
+Spellbinder~
+Spellbindress~
+Title
+Psychic~
+Psychic~
+Title
+Alchemist~
+Alchemistress~
+Title
+Bewitched~
+Bewitched~
+Title
+Honourable~
+Honourable~
+Title
+Loyal~
+Loyal~
+Title
+Prophet~
+Prophess~
+Title
+Confident~
+Confident~
+Title
+Beholder~
+Beholdress~
+Title
+Chimeric~
+Chimericress~
+Title
+Missionary~
+Missionary~
+Title
+Revivalist~
+Revivalist~
+Title
+Superstitious~
+Superstitious~
+Title
+Forecaster~
+Forecastress~
+Title
+Predictor~
+Predictress~
+Title
+Communicator~
+Communicatress~
+Title
+Medicine Man~
+Medicine Woman~
+Title
+Conjurer~
+Conjuress~
+Title
+Shaman~
+Shamaness~
+Title
+Sorcerer~
+Sorceress~
+Title
+Enchanter~
+Enchantress~
+Title
+Hypnotist~
+Hypnotist~
+Title
+Enticer~
+Enticeress~
+Title
+Witch Doctor~
+Witch Doctor~
+Title
+Paladin~
+Paladin~
+Title
+Avatar~
+Avatar~
+Title
+Acolyte~
+Acolyte~
+Title
+Neophyte~
+Neophyte~
+Title
+Creator~
+Creator~
+Title
+Savior~
+Savior~
+Title
+Demi God~
+Demi Goddess~
+Title
+Immortal~
+Immortal~
+Title
+Lesser God~
+Lesser Goddess~
+Title
+God~
+Goddess~
+Title
+Greater God~
+Greater Goddess~
+Title
+(null)~
+(null)~
+End

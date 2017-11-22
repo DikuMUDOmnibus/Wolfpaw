@@ -1,0 +1,44 @@
+#SYSTEM
+Highplayers    47
+Highplayertime Tue Jun  8 20:21:22 1999~
+Nameresolving  1
+Waitforauth    0
+Game_Wizlocked 0
+Rent_Ratio     0
+Max_Hp	     1500
+Max_Mana       2500
+Maxaward	     500
+SegVio 	     0
+WebServ	     1
+ConnectSound   (null)~
+EnterSound     (null)~
+Readallmail    1
+Readmailfree   1
+Writemailfree  1
+Takeothersmail 56
+IMCMailVnum    0
+Muse           59
+Think          57
+Build          51
+Log            51
+Protoflag      56
+Overridepriv   56
+Msetplayer     56
+Stunplrvsplr   65
+Stunregular    15
+Damplrvsplr    100
+Damplrvsmob    100
+Dammobvsplr    100
+Dammobvsmob    100
+Forcepc        56
+Guildoverseer  ~
+Guildadvisor   ~
+PKChamp	     Iczer~
+BootTime	     962687916
+MaxPlrsBoot    25
+Logins	     101
+Saveflags      2557
+Savefreq       20
+End
+
+#END

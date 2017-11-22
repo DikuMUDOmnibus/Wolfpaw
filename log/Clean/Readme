@@ -1,0 +1,40 @@
+**************************************************************************
+*				     CLEAN				 * 
+*			SMAUG MUD Log Cleaning Utility			 *
+*				  Version 2.0				 *
+**************************************************************************
+
+------------Background Info------------
+Hello there, if you are reading this, I'll truely be amazed seeing as I
+usually don't read ReadMe files either. Anyway I made this cause I got
+sick of deleting all the log files on the SMAUG MUD I help run.  This
+script works rather well, however it still has some bugs.  Some of you who
+know a lot about shell scripts will probably see some of what I did and
+ask "what the hell was he thinking?!?".  Well I do a lot of things in a
+round-a-bout way, so if you know how to make it more efficient, just drop
+me a line please, and I'll include you in the credits. 
+
+
+------------About the Script------------
+Exactly what does Clean do? Well thats easy.. what it does is when run it
+lists all of your log files, and omits to most recent(one the MUD is
+currently writing to if it's up).  Then it puts all but the most recent
+log file into a file, compresses that file, names it today's date, and
+moves it to a Backlog directory. Also, the data.cln file is basically the
+clean script, I did it that way so I could give clean an argument and have
+it do stuff(This is one of those things I did in a round-a-bout way as
+mentioned above). But please keep clean with data.cln. Also this script is
+absulutey free! And if you know any other SMAUG MUDs, give them this
+script freely.  I say only SMAUG 'cause I have yet to try it on any other.
+
+
+------------Installation Notes------------
+Only one thing to remember while installing, just put clean and data.cln
+in the log directory and thats it.
+
+
+------------Final Note------------
+Again, if you have any ideas how to improve clean, please email them to
+me, also if you have any further questions, also email me. My address is
+wyverns@talon.wolfpaw.net
+

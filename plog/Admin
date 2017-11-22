@@ -1,0 +1,34 @@
+Fri Oct 20 06:21:12 2000 [25518]: adv self 4 50
+Fri Oct 20 06:21:18 2000 [25518]: adv self 1 60
+Fri Oct 20 06:21:20 2000 [25518]: save
+Fri Oct 20 06:21:21 2000 [25518]: who
+Fri Oct 20 06:21:31 2000 [25518]: hedit nmotd
+Fri Oct 20 06:22:03 2000 [25518]: hset save
+Fri Oct 20 06:22:05 2000 [25518]: help nmotd
+Fri Oct 20 06:22:14 2000 [25518]: help _DIEMSG_
+Fri Oct 20 06:22:24 2000 [25518]: hedit _DIEMSG_
+Fri Oct 20 06:22:49 2000 [25518]: hset save
+Fri Oct 20 06:22:52 2000 [25518]: hedit motd
+Fri Oct 20 06:23:10 2000 [25518]: help motd
+Fri Oct 20 06:23:13 2000 [25518]: hset save
+Fri Oct 20 06:23:15 2000 [25518]: hedit imotd
+Fri Oct 20 06:23:22 2000 [25518]: hset save
+Fri Oct 20 06:23:27 2000 [25518]: help imotd
+Fri Oct 20 06:23:30 2000 [25518]: help amotd
+Fri Oct 20 06:23:31 2000 [25518]: ls
+Fri Oct 20 06:23:32 2000 [25518]: l
+Fri Oct 20 06:23:34 2000 [25518]: who
+Fri Oct 20 06:23:47 2000 [25518]: wizl
+Fri Oct 20 06:23:50 2000 [25518]: makewiz
+Fri Oct 20 06:23:51 2000 [25518]: wizl
+Fri Oct 20 06:23:54 2000 [25518]: save
+Fri Oct 20 06:23:54 2000 [25518]: l
+Fri Oct 20 06:24:14 2000 [25518]: goto 30700
+Fri Oct 20 06:24:14 2000 [30700]: l
+Fri Oct 20 06:24:15 2000 [30700]: ex
+Fri Oct 20 06:24:21 2000 [30700]: d
+Fri Oct 20 06:24:23 2000 [30704]: note list
+Fri Oct 20 06:24:24 2000 [30704]: u
+Fri Oct 20 06:24:25 2000 [30700]: who
+Fri Oct 20 06:24:26 2000 [30700]: save
+Fri Oct 20 06:24:27 2000 [30700]: quit

@@ -1,0 +1,52 @@
+#! /bin/csh -f
+
+# Set the port number.
+set port = 10000
+if ( "$1" != "" ) set port="$1"
+
+if ( "$2" != "" ) ../source/betasrc/util/system_boot_who
+if ( "$2" == "" ) ../source/betasrc/util/boot_who
+../source/betasrc/util/boot_time
+
+# Change to area directory.
+cd ../area
+
+# Set limits.
+nohup
+nice
+limit stack 1024k
+limit coredumpsize unlimited
+
+if ( -e shutdown.txt ) rm -f shutdown.txt
+
+    # If you want to have logs in a different directory,
+    #   change the 'set logfile' line to reflect the directory name.
+    set index = 1000
+    while ( 1 )
+	set logfile = ../log/$index.log
+	if ( ! -e $logfile ) break
+	@ index++
+    end
+
+    # Record starting time
+    date > $logfile
+    date > ../area/boot.txt
+
+    # Record initial charges
+    # charges >> $logfile
+
+    # Run the mud. - Pick One
+    # trace it (severe debugging time..)
+    #strace ../bin/Wolfpaw4 $port >&! $logfile
+    ../bin/Wolfpaw4 $port >&! $logfile
+
+    # Record ending charges
+    # charges >> $logfile
+
+    # Restart, giving old connections a chance to die.
+    if ( -e shutdown.txt ) then
+	rm -f shutdown.txt
+	exit 0
+    endif
+
+    ../system/start.pl

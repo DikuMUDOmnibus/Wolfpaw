@@ -1,0 +1,465 @@
+#AREA   The Cursed Lands~
+
+
+
+#VERSION 1 AV-1-TXT-ZC~
+
+#AUTHOR Ozymandias~
+
+#RANGES
+1 50 1 50
+$
+
+#FLAGS
+64 67 0 0
+
+#CLUB None~
+
+#ECONOMY 0 31250100
+
+#MOBILES
+#21700
+locker attendant~
+the Locker Attendant~
+The Cursedlands Locker Attendant stands here handing out keys.
+~
+~
+16387 0 0 S 0 0
+67 0 0 30000d1+1 100d100+1000
+0 0
+8 8 0
+#21701
+Baker of the land~
+Baker~
+A baker stands here ready to take your order
+~
+A baker tall in stature waits here for the next customer.          ~
+134217731 0 0 S 0 0
+1 0 0 100d100+0 0d0+0
+0 0
+8 8 1
+#21702
+Smith~
+Smith~
+A skinny and tall man waits rests here with a container in his hands
+~
+A life that is well lived some say. Waking up and selling containers is what he does, nothing more, nothing less.          ~
+134217731 0 0 S 0 0
+1 0 0 1d1+2999 0d0+0
+0 0
+8 8 1
+#21703
+Cursed Healer~
+Healer~
+The Healer of the Cursed lands waits for your biddings
+~
+~
+3 128 0 C 0 0
+65 0 0 1d1+29999 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 15
+67 65 0 1048672 1048673 0 319 526343
+#21704
+Citizen of the land~
+Citizen of the land~
+A citizen walks here, sadly.
+~
+This plain man waits and wonders as the day goes by. Will he ever get out of this dredded place called Cursed Lands?          ~
+65 0 0 C 0 0
+1 0 100 1d1+499 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 0 39 0 0 0 48 2
+#21705
+Trainer of the land~
+Cursed Trainer~
+The trainer of the land stands here mocking you
+~
+A man with the build of a giant stands here. He awaits you to ask him something. Too big you think he is, you soon will grow.          ~
+1027 128 0 S 0 0
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#21706
+Blacky~
+Blacky~
+A blacksmith waits here for a sword to hammer
+~
+~
+134217793 0 0 S 0 0
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#0
+
+
+#OBJECTS
+#21700
+bleh~
+a newly created bleh~
+Some god dropped a newly created bleh here.~
+~
+13 0 0 0 0 0 0 0 0 136728144 0
+0 0 0 0
+1 0 0
+#21701
+sewage gutter~
+Sewage Gutter~
+A gutter from the ground emerges here.~
+~
+25 0 0 0 0 0 0 0 0 0 0
+1000000 1000000 0 0
+1 0 0
+#21702
+bread rotten~
+Rotten Bread~
+A piece of rotten bread rests here~
+~
+19 0 16385 0 0 0 0 0 0 0 0
+10 0 0 0
+1 150 15
+#21703
+cabbage broken~
+Broken Cabbage~
+A bunch of broken cabbage has fallen here~
+~
+19 0 1 0 0 0 0 0 0 0 0
+20 0 0 0
+1 230 23
+#21704
+craked pot~
+Cracked Pot~
+A pot with a crack down the side rests here~
+~
+15 0 1 0 0 0 0 0 0 0 0
+400 0 0 0 100 0
+1 350 35
+#21705
+shoe empty~
+Empty Shoe~
+A shoe rests here with a horrible odor coming from the openings~
+~
+15 0 1 0 0 0 0 0 0 0 0
+90 0 0 0 100 0
+1 200 20
+#0
+
+
+#ROOMS
+#21700
+Cursed Lands~
+You have done it now. You are in the area of Cursed Lands. This 
+is the area for all of those who are the outcasts of Mithras.
+You look into the horizon and see the vast land ahead of you. The
+feeling of evil and death is in the air. You shiver for a second 
+and then realize it. This is your new home.
+~
+~
+0 4 1 0
+D0
+You see a dark pathway
+~
+~
+0 -1 21701
+D4
+~
+~
+0 -1 21712
+S
+#21701
+Dark Pathway~
+You continue north and walk down the street. You look and see many
+things in the area. It is all somewhat a blur because of the darkness
+of the area. Looking ahead you see a few shadowy forms and that is
+all. Thinking that this is the end of it all, you continue to walk
+on.
+~
+~
+0 1 1 0
+D0
+You see a four way street
+~
+~
+0 -1 21702
+D2
+You see where the damned are sent to.
+~
+~
+0 -1 21700
+S
+#21702
+Pathway~
+As you continue walking, you come to a four way intersection shaped
+like a crucifix. There are exits in all of the cardinal directions.
+The road is destroyed with cracks and everything else there is to
+break down the build of a road. The streets are narrow and often
+hard to travel. The moon gleams with a dark aura.
+~
+~
+0 5 1 0
+D0
+You see the northern part of the crucifix
+~
+~
+0 -1 21705
+D1
+You see a container store
+~
+~
+0 -1 21704
+D2
+You see a dark pathway
+~
+~
+0 -1 21701
+D3
+You see and smell a bakery
+~
+~
+0 -1 21703
+S
+#21703
+Bakery of the Cursed lands~
+Umm. The smell of freshly baked bread is something that all people
+like to smell. Too bad you can't do that! You look into the Baker's
+oven and see only cold, rotten food. You are very hungry or are 
+getting food for later. The food looks alright to eat but do you 
+want to risk it? Well you are in Cursed lands.  .  .
+~
+~
+0 1156 1 0
+D1
+You see a four way street
+~
+~
+0 -1 21702
+S
+#21704
+Boxes,Containers,and more Boxes.~
+You say you need a container. Well you got yourself a container.
+This is a state of the art container store for this run down land.
+You see many of the best containers waiting on the ranks in the room.
+You make your move and go for a steal on the container but are stopped
+as the storekeeper looks at you with a harsh stare.
+~
+~
+0 1156 1 0
+D3
+You see a four way street
+~
+~
+0 -1 21702
+S
+#21705
+North Crucifix~
+As you keep walking along this street you see the people of the 
+town. They are walking with no spring in their step and seem very
+dull and gloomy. You want to leave and look back. You see that 
+there is no exit out of what you have got in to. So just like the
+other people, you continue to walk in a gloomy manner.
+~
+~
+0 1 1 0
+D0
+You see the trainer
+~
+~
+0 -1 21707
+D1
+The Woods approach
+~
+~
+0 -1 21706
+D2
+You see Crucifix Street
+~
+~
+0 -1 21702
+S
+#21706
+Approaching a Dark Woods~
+The trail gets considerable darker. The area that you are in now
+appears to look like a giant wooded field. You here hoots and calls
+of the animals in the area. The woods seem to have a pulse toward
+the middle of them. You continue along the trail and wait for signs
+of life. Will you find them soon.  .  .
+~
+~
+0 0 1 0
+D1
+The woods grows darker considerably
+~
+~
+0 -1 21708
+D3
+The North Crucifix waits
+~
+~
+0 -1 21705
+S
+#21707
+The Cursed Trainer~
+You have reached the trainer of the land. He stands here with a
+gleem in his eye and a look of terror strikes in your heart. You
+want to leave but know you have to stay in order to become stronger
+through practice. He laughs at you mercilessly and makes your 
+puny fighting styles and muscles mini. He is the ultimate fighter
+and someone you should learn from.
+~
+~
+0 1164 1 0
+D2
+~
+~
+0 -1 21705
+D3
+Blacky is waiting
+~
+~
+0 -1 21710
+S
+#21708
+In the Dark Woods~
+Deeper in the woods you go. The light here is extremely dim. You 
+have a open your eyes very WIDE in order to find some sort of light.
+You here some noises farther along the trail. They are becoming 
+louder as you move. You here a pulse and think what it is.
+~
+~
+0 1 1 0
+D2
+The trail comes to a brief halt
+~
+~
+0 -1 21709
+D3
+The woods start seems farther away
+~
+~
+0 -1 21706
+S
+#21709
+The Trail comes to an end~
+The trail stops here. Basically you have no where to go. There is a
+gate to the west of you leading into the unknown. Looking around
+you see that it is dark and you can't find your way back. Continue
+into the darkness a voice says inside of you. Do you listen?
+~
+~
+0 1 1 0
+D0
+The way out waits for you
+~
+~
+0 -1 21708
+D2
+~
+~
+0 -1 5027
+D3
+The smell of death lurks
+~
+gate 21709~
+3 -1 21711
+S
+#21710
+Blacky the Blacksmith~
+The blacksmith stands here under a hot area. He waits with sword in
+hand pounding it to try and make it restored. He needs and wants to
+have your eq to repair. He tries to get the eq fixed and a somewhat
+reasonable price. He waits for the eq.
+~
+~
+0 1164 1 0
+D1
+~
+~
+0 -1 21707
+S
+#21711
+DeathKeep~
+The area is filled with corpses and many other items. There are
+monsters and demons flying around the area and making you scared. 
+With your sword in hand, you look ahead. Lifting up your chin, you
+make your way into the darkness.
+~
+~
+0 1 1 0
+D1
+The only way out is gone
+~
+gate 21711~
+3 -1 21709
+D2
+The steps of stone wait for your feet
+~
+~
+0 -1 21712
+S
+#21712
+Stone steps~
+The steps of knowledge you think. HaHa! More like the steps of death.
+Ahead above you is the steps of stone. They await your feet to walk
+upon them. They seem to lead into another area. You are not quite
+sure where, so you think about going on.
+~
+~
+0 0 1 0
+D0
+The start of DeathKeep
+~
+~
+0 -1 21711
+D5
+~
+~
+0 -1 21700
+S
+#0
+
+
+#RESETS
+M 1 21701 1 21703
+G 1 21703 1
+G 1 21702 1
+M 1 21702 1 21704
+G 1 21704 1
+G 1 21705 1
+M 1 21705 1 21707
+M 1 21706 1 21710
+M 1 21704 1 21706
+M 1 21704 2 21705
+M 1 21704 3 21708
+M 1 21704 4 21709
+D 0 21709 3 1
+O 1 21701 1 21702
+M 1 21703 1 21700
+M 1 21700 1 21700
+S
+
+
+#SHOPS
+ 21701    0  0  0  0  0   120  90         0 23    ; Baker
+ 21702    0  0  0  0  0   120  90         0 23    ; Smith
+0
+
+
+#REPAIRS
+ 21702    0  0  0  0         100   1         0 23    ; Smith
+ 21706    9  5  1  0          50   1         0 23    ; Blacky
+0
+
+
+#SPECIALS
+M  21703 spec_cast_adept
+M  21705 spec_cast_mage
+S
+
+
+#$

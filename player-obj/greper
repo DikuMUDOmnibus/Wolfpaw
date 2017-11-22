@@ -1,0 +1,89 @@
+#!/bin/sh
+# Player File Grepping Script --GW
+
+echo -n "Enter String to GREP Pfiles For: "
+read STRING
+echo "Decompressing Player Files"
+cd ..
+cd player-obj
+echo "Grepping...."
+cd a
+grep $STRING * > ../grepper.log
+cd ..
+cd b
+grep $STRING * >> ../grepper.log
+cd ..
+cd c
+grep $STRING * >> ../grepper.log
+cd ..
+cd d
+grep $STRING * >> ../grepper.log
+cd ..
+cd e
+grep $STRING * >> ../grepper.log
+cd ..
+cd f
+grep $STRING * >> ../grepper.log
+cd ..
+cd g
+grep $STRING * >> ../grepper.log
+cd ..
+cd h
+grep $STRING * >> ../grepper.log
+cd ..
+cd i
+grep $STRING * >> ../grepper.log
+cd ..
+cd j
+grep $STRING * >> ../grepper.log
+cd ..
+cd k
+grep $STRING * >> ../grepper.log
+cd ..
+cd l
+grep $STRING * >> ../grepper.log
+cd ..
+cd m
+grep $STRING * >> ../grepper.log
+cd ..
+cd n
+grep $STRING * >> ../grepper.log
+cd ..
+cd o
+grep $STRING * >> ../grepper.log
+cd ..
+cd p
+grep $STRING * >> ../grepper.log
+cd ..
+cd q
+grep $STRING * >> ../grepper.log
+cd ..
+cd r
+grep $STRING * >> ../grepper.log
+cd ..
+cd s
+grep $STRING * >> ../grepper.log
+cd ..
+cd t
+grep $STRING * >> ../grepper.log
+cd ..
+cd u
+grep $STRING * >> ../grepper.log
+cd ..
+cd v
+grep $STRING * >> ../grepper.log
+cd ..
+cd w
+grep $STRING * >> ../grepper.log
+cd ..
+cd x
+grep $STRING * >> ../grepper.log
+cd ..
+cd y
+grep $STRING * >> ../grepper.log
+cd ..
+cd z
+grep $STRING * >> ../grepper.log
+cd ..
+echo "Done"
+

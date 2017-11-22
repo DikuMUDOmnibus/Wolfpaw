@@ -1,0 +1,1176 @@
+#AREA   The Lawns of Mithras~
+
+
+
+#VERSION 2 AV-2-TXT-ZC~
+
+#MAPFILE None~
+
+#AUTHOR Greywolf~
+
+#RANGES
+1 67 1 67
+$
+
+#RESETMSG A light wind breezes gently past.~
+
+#FLAGS
+65600 1 0 0
+
+#CLUB None~
+
+#ECONOMY 0 30265984
+
+#MOBILES
+#7800
+a deer~
+a deer~
+A deer is here, staring back at you.
+~
+The deer looks angered at your intrusion.  He butts his head against you, 
+albeit ineffectively.
+~
+Unknown~
+Unknown~
+193 0 0 S 0 0
+6 14 4 6d6+66 1d4+4
+2 0
+8 8 1
+#7801
+a fox~
+the brown fox~
+A brown fox is here, looking for some rabbits to chew up.
+~
+It is a large fox with beautiful, red-brown fur and a long, thick brush.
+~
+Unknown~
+Unknown~
+65 0 -50 S 0 0
+6 18 6 1d4+18 1d6+0
+0 0
+8 8 0
+#7802
+a rabbit~
+the cute rabbit~
+A cute rabbit is here.
+~
+It is a small, furry creature with long ears and big feet.
+~
+Unknown~
+Unknown~
+65 0 0 S 0 0
+6 20 6 1d4+1 1d4+0
+0 0
+8 8 0
+#7803
+help mob~
+The Tree Fairy~
+A prancing, dancing fairy weaves in and out passed you
+~
+~
+Unknown~
+Unknown~
+1073741827 4194304 0 S 0 0
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+> speech_prog 'advise' 100~
+say My dear child!  How did you get into such a tangle?
+emote waves her hand in front of you, and the plants fall away.
+say There you go, I'll move you away from here so it wont happen again.
+mptrans $n 7836
+~
+|
+#0
+
+
+#OBJECTS
+#0
+
+
+#ROOMS
+#7800
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Silvermoon~
+Mon Jul  3 22:56:33 2000~
+0 0 1 0
+D0
+~
+~
+0 -1 7801
+D1
+~
+~
+0 -1 7831
+D2
+~
+~
+0 -1 7824
+D3
+~
+~
+0 -1 7832
+S
+#7801
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 300
+D1
+~
+~
+0 -1 7802
+D2
+~
+~
+0 -1 7800
+D3
+~
+~
+0 -1 7823
+S
+#7802
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 7803
+D2
+~
+~
+0 -1 7831
+D3
+~
+~
+0 -1 7801
+S
+#7803
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 7823
+D2
+~
+~
+0 -1 7804
+S
+#7804
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7803
+D1
+~
+~
+0 -1 7831
+D2
+~
+~
+0 -1 7805
+D3
+~
+~
+0 -1 7832
+S
+#7805
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7804
+D2
+~
+~
+0 -1 7806
+D3
+~
+~
+0 -1 7830
+S
+#7806
+An intersection in the Lawn~
+Dirt Paths cross in all directions here, from the traders who take
+this route to get from other cities and lands to Mithras. To the
+East seems to be the safest route for them to take unharmed with
+thier goods ment for the Citizens of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7805
+D1
+~
+~
+0 -1 7841
+D2
+~
+~
+0 -1 7807
+D3
+~
+~
+0 -1 7810
+S
+#7807
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7806
+D2
+~
+~
+0 -1 7808
+D3
+~
+~
+0 -1 7829
+S
+#7808
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras. A small side path leads off to the east.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7807
+D1
+To the east is a break in the path, leading away from Mithras.
+~
+~
+0 -1 11200
+D2
+~
+~
+0 -1 7809
+D3
+~
+~
+0 -1 7828
+S
+#7809
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7808
+D3
+~
+~
+0 -1 7811
+D5
+~
+~
+0 -1 23300
+S
+#7810
+Beyond the East Gates of Mithras~
+Just ahead stand the towering gates of Mithras, the feeling here seems
+to be pure awe, as the Gates of Pure Platinum tower overhead. Just
+ahead are a set of stone steps leading to the gate, beyond here the
+forest of Mithras begins, thou may want to take care beyond these
+gates, for beyond them is the unknown.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7830
+D1
+~
+~
+0 -1 7806
+D2
+~
+~
+0 -1 7829
+D3
+~
+~
+0 -1 30608
+S
+#7811
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7828
+D1
+~
+~
+0 -1 7809
+D3
+~
+~
+0 -1 7812
+S
+#7812
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7825
+D1
+~
+~
+0 -1 7811
+D2
+There is an opening in the path to the south.
+~
+~
+0 -1 601
+D3
+~
+~
+0 -1 7814
+S
+#7813
+Beyond the South Gates of Mithras~
+Just ahead stand the towering gates of Mithras, the feeling here seems
+to be pure awe, as the Gates of Pure Platinum tower overhead. Just
+ahead are a set of stone steps leading to the gate, beyond here the
+forest of Mithras begins, thou may want to take care beyond these
+gates, for beyond them is the unknown.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 30655
+D1
+~
+~
+0 -1 7829
+D2
+~
+~
+0 -1 7825
+D3
+~
+~
+0 -1 7826
+S
+#7814
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7827
+D1
+~
+~
+0 -1 7812
+D3
+~
+~
+0 -1 7815
+S
+#7815
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7816
+D1
+~
+~
+0 -1 7814
+S
+#7816
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7817
+D1
+~
+~
+0 -1 7827
+D2
+~
+~
+0 -1 7815
+S
+#7817
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7818
+D1
+~
+~
+0 -1 7826
+D2
+~
+~
+0 -1 7816
+S
+#7818
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7820
+D1
+~
+~
+0 -1 7819
+D2
+~
+~
+0 -1 7817
+D3
+~
+~
+0 -1 6000
+S
+#7819
+Beyond the West Gates of Mithras~
+Just ahead stand the towering gates of Mithras, the feeling here seems
+to be pure awe, as the Gates of Pure Platinum tower overhead. Just
+ahead are a set of stone steps leading to the gate, beyond here the
+forest of Mithras begins, thou may want to take care beyond these
+gates, for beyond them is the unknown.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7833
+D1
+~
+~
+6 -1 30617
+D2
+~
+~
+0 -1 7826
+D3
+~
+~
+0 -1 7818
+S
+#7820
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7821
+D1
+~
+~
+0 -1 7833
+D2
+~
+~
+0 -1 7818
+S
+#7821
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7822
+D1
+~
+~
+0 -1 7832
+D2
+~
+~
+0 -1 7820
+S
+#7822
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 7823
+D2
+~
+~
+0 -1 7821
+S
+#7823
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D1
+~
+~
+0 -1 7801
+D2
+~
+~
+0 -1 7832
+D3
+~
+~
+0 -1 7822
+S
+#7824
+Beyond the North Gates of Mithras~
+Just ahead stand the towering gates of Mithras, the feeling here seems
+to be pure awe, as the Gates of Pure Platinum tower overhead. Just
+ahead are a set of stone steps leading to the gate, beyond here the
+forest of Mithras begins, thou may want to take care beyond these
+gates, for beyond them is the unknown.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7800
+D1
+~
+~
+0 -1 7830
+D2
+~
+~
+0 -1 30621
+D3
+~
+~
+0 -1 7833
+S
+#7825
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7813
+D1
+~
+~
+0 -1 7828
+D2
+~
+~
+0 -1 7812
+D3
+~
+~
+0 -1 7827
+S
+#7826
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7819
+D1
+~
+~
+0 -1 7813
+D2
+~
+~
+0 -1 7827
+D3
+~
+~
+0 -1 7817
+S
+#7827
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7826
+D1
+~
+~
+0 -1 7825
+D2
+~
+~
+0 -1 7814
+D3
+~
+~
+0 -1 7816
+S
+#7828
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Silvermoon~
+Mon Jul  3 22:49:12 2000~
+0 0 1 0
+D0
+~
+~
+0 -1 7829
+D1
+~
+~
+0 -1 7808
+D2
+~
+~
+0 -1 7811
+D3
+~
+~
+0 -1 7825
+S
+#7829
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7810
+D1
+~
+~
+0 -1 7807
+D2
+~
+~
+0 -1 7828
+D3
+~
+~
+0 -1 7813
+S
+#7830
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7831
+D1
+~
+~
+0 -1 7805
+D2
+~
+~
+0 -1 7810
+D3
+~
+~
+0 -1 7824
+S
+#7831
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7802
+D1
+~
+~
+0 -1 7804
+D2
+~
+~
+0 -1 7830
+D3
+~
+~
+0 -1 7800
+S
+#7832
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7823
+D1
+~
+~
+0 -1 7800
+D2
+~
+~
+0 -1 7833
+D3
+~
+~
+0 -1 7821
+S
+#7833
+Path through the Light Brush~
+Green grass covers the ground here, it seems unaffected by your foot
+steps, as though it had never been touched. Wild flowers grow ramptant
+all around along with the brush that grows wild just beyond the lawns
+of Mithras.
+~
+~
+Unknown~
+Unknown~
+0 0 1 0
+D0
+~
+~
+0 -1 7832
+D1
+~
+~
+0 -1 7824
+D2
+~
+~
+0 -1 7819
+D3
+~
+~
+0 -1 7820
+S
+#7834
+Part of an overgrown path~
+You stumble out of the Mithras Lawns onto an old offbeaten path.  The
+ground before you looks as if it hasnt been disturbed for a VERY long
+time.
+~
+~
+Unknown~
+Unknown~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 7815
+D2
+~
+~
+0 -1 7835
+S
+#7835
+Stuck in the bushes~
+You have become entangled in the overgrown bushes!  Help!  What are you
+to do now?  Do you fight on, or do you push back towards civilisation?
+WAIT! If you are stuck, how do you propose to be let out?
+Hint: Try asking for 'advise'
+~
+~
+Unknown~
+Unknown~
+0 1075850244 1 0
+> rand_prog 1~
+mpecho A whispery voice comes to your head...
+mpecho It says 'ask for help, dear child, ask for help...'
+~
+> rand_prog 1~
+mpecho The voice tells you 'ask the fairy for advise...'
+~
+|
+S
+#7836
+Hacking the path away~
+Bushes and tall weeds have overgrown the path, making walking difficult.
+You must hack your way along, it is exhausting work and many who have tried to 
+pass this way have given up.
+But surely you are made of sterner stff than most, Fair Adventurer!
+~
+~
+Gayle~
+Thu Aug 26 11:08:32 1999~
+0 1073741828 1 0
+D1
+~
+~
+0 -1 318
+D3
+~
+~
+0 -1 7837
+S
+#7837
+Stepping into the Unknown~
+So you hacked your way through and are now inside the caverns...
+~
+~
+Unknown~
+Unknown~
+0 1073741828 1 0
+D1
+~
+~
+0 -1 7836
+D3
+~
+~
+0 -1 7838
+S
+#7838
+The Unknown~
+You have discovered a place covered in dank weeds and smelly air.  Ahead
+of you is the great unknown...What can be down there?
+~
+~
+Unknown~
+Unknown~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 7837
+D2
+~
+~
+0 -1 7839
+S
+#7839
+The Unknown, continued~
+The light fades amd gloom fully descends upon you as you
+venture further into the great unknown.  Darkness was always feared by 
+those of a primitive mind, and with good reason!  Here every sound and shadow 
+provokes a feeling of dread and unhapiness.
+~
+~
+Unknown~
+Unknown~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 7838
+D2
+~
+~
+0 -1 7840
+S
+#7840
+Here it is!~
+~
+~
+Unknown~
+Unknown~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 7839
+D1
+~
+~
+0 -1 900
+S
+#7841
+The Mithras Crossroads~
+The road crosses four ways here, and a rope hangs in the center of the
+crossroads. Afoot is well worn dirt paths, carved into the earth by the
+many warriors who have travelled on these paths.
+~
+~
+Gayle~
+Wed Jan 12 23:44:54 2000~
+0 0 1 0
+D0
+~
+~
+0 -1 26937
+D1
+~
+~
+0 -1 8904
+D2
+~
+~
+0 -1 5261
+D3
+~
+~
+0 -1 7806
+D4
+~
+~
+0 -1 30001
+D5
+~
+~
+0 -1 25501
+S
+#0
+
+
+#RESETS
+M 1 7801 3 7820
+M 1 7800 4 7821
+M 1 7800 4 7823
+M 1 7801 3 7824
+M 1 7802 1 7827
+M 1 7801 3 7831
+M 1 7800 4 7832
+M 1 7800 4 7833
+M 1 7803 1 7835
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  7803 spec_cast_adept
+S
+
+
+#$

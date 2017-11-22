@@ -1,0 +1,46 @@
+#DEITY
+Filename		../deity/pelenil~
+Name		Pelenil~
+Description	Pelenil strives for the happiness of all.  He believe for this
+to occur, evil must be stricken from the World.  His followers
+are devoted to helping all those who are in the light, and
+converting those who are not.
+ 
+~
+Alignment		350
+Worshippers	0
+Flee		-10
+Flee_npcrace	-10
+Flee_npcfoe	-10
+Kill		15
+Kill_npcrace	15
+Kill_npcfoe	15
+Kill_magic	15
+Sac		15
+Bury_corpse	10
+Aid_spell		20
+Aid		20
+Steal		-10
+Backstab		-10
+Die		-30
+Die_npcrace	-30
+Die_npcfoe	-30
+Spell_aid		0
+Dig_corpse	-10
+Scorpse		0
+Savatar		-350
+Sdeityobj		-350
+recall		0
+Race		-1
+Class		-1
+Element		0
+Sex		1
+Avatar		0
+Deityobj		0
+Affected		0
+Npcrace		0
+Npcfoe		0
+Suscept		0
+End
+
+#END

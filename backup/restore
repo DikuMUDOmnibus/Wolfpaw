@@ -1,0 +1,80 @@
+cd a
+cp * ~/aoa/player/a
+cd ..
+cd b
+cp * ~/aoa/player/b
+cd ..
+cd c
+cp * ~/aoa/player/c
+cd ..
+cd d
+cp * ~/aoa/player/d
+cd ..
+cd e
+cp * ~/aoa/player/e
+cd ..
+cd f
+cp * ~/aoa/player/f
+cd ..
+cd g
+cp * ~/aoa/player/g
+cd ..
+cd h
+cp * ~/aoa/player/h
+cd ..
+cd i
+cp * ~/aoa/player/i
+cd ..
+cd j
+cp * ~/aoa/player/j
+cd ..
+cd k
+cp * ~/aoa/player/k
+cd ..
+cd l
+cp * ~/aoa/player/l
+cd ..
+cd m
+cp * ~/aoa/player/m
+cd ..
+cd n
+cp * ~/aoa/player/n
+cd ..
+cd o
+cp * ~/aoa/player/o
+cd ..
+cd p
+cp * ~/aoa/player/p
+cd ..
+cd q
+cp * ~/aoa/player/q
+cd ..
+cd r
+cp * ~/aoa/player/r
+cd ..
+cd s
+cp * ~/aoa/player/s
+cd ..
+cd t
+cp * ~/aoa/player/t
+cd ..
+cd u
+cp * ~/aoa/player/u
+cd ..
+cd v
+cp * ~/aoa/player/v
+cd ..
+cd w
+cp * ~/aoa/player/w
+cd ..
+cd x
+cp * ~/aoa/player/x
+cd ..
+cd y
+cp * ~/aoa/player/y
+cd ..
+cd z
+cp * ~/aoa/player/z
+cd ..
+cd ~
+
